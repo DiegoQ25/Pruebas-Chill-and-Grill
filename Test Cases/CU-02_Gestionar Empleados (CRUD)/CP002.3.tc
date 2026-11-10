@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alta fallida (Usuario vacío)</description>
+   <name>CP002.3</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d566dd9-c757-42e9-b170-c6f6643cf8d8</testCaseGuid>
+</TestCaseEntity>

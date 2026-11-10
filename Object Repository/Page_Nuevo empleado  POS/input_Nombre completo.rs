@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nombre completo</name>
+   <tag></tag>
+   <elementGuidId>07c8ca55-73ad-41aa-a4f0-65a79749cdff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'nombre_completo' and @name = 'nombre_completo' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'nombre_completo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nombre_completo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Nombre completo&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>82443ec2-46af-42b7-bf8c-2f8a62f8659c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nombre_completo</value>
+      <webElementGuid>d118f40d-1d96-4b82-abc6-aa7ddceecd3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>nombre_completo</value>
+      <webElementGuid>d134abf9-11ef-46a0-8e91-e05a96c08f3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>24bea03b-8450-42a6-aaca-21965bcd1839</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>100</value>
+      <webElementGuid>8b537063-d31a-47f4-8145-370b0842687a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
+      <webElementGuid>ff04e9ec-6ff3-47ef-bb35-bbcf39890654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d8167e2606b9b9f05411d82a013f8b6a</value>
+      <webElementGuid>f357cc46-fd64-43d2-92fe-3708e987f1d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'nombre_completo']</value>
+      <webElementGuid>37805797-e42a-43b6-87f4-31094c255db6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'nombre_completo']</value>
+      <webElementGuid>450bd2b4-3fd5-4fd5-8c74-be32a531d097</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'nombre_completo' and @name = 'nombre_completo' and @type = 'text']</value>
+      <webElementGuid>38e7b5e8-c42a-4594-85f0-8ac7470a51eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
