@@ -13,6 +13,14 @@
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 4)]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/platillos' and (text() = '
+                    Catálogo del Menú
+                ' or . = '
+                    Catálogo del Menú
+                ')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>20ab7e67-9f96-49d6-bd0b-58540081d14c</webElementGuid>
+      <webElementGuid>ec5bbaf1-7861-4466-8fa5-e7bea1d8b689</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/platillos</value>
-      <webElementGuid>b38d19c2-20f1-4479-9627-6768b7e31a5d</webElementGuid>
+      <webElementGuid>95791dd2-fb65-4235-8acb-e77d7c50c0d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
-      <webElementGuid>d57d98a3-4314-4045-89ba-e4c0b3d8e406</webElementGuid>
+      <webElementGuid>31eab7bf-1fc4-428e-b135-a057f352070b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +63,7 @@
       <value>
                     Catálogo del Menú
                 </value>
-      <webElementGuid>215272d2-7d24-4330-a639-4de49085e5f9</webElementGuid>
+      <webElementGuid>7af771ee-2a4b-4f02-bcef-ff967b676c77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-feb7d6e07c92bbedbafc1f06947d066f</value>
-      <webElementGuid>2d87edb9-303a-4007-860c-38f52d5f028c</webElementGuid>
+      <webElementGuid>d973bf7a-f228-43d9-9c63-784717d25686</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 4)]</value>
-      <webElementGuid>ac821f31-059f-4581-970c-412f21f9dc6b</webElementGuid>
+      <webElementGuid>10c36444-d896-4537-a502-2259035e8024</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 4)]</value>
-      <webElementGuid>1fb3e3f3-ca57-4574-bac7-3ef1201605bc</webElementGuid>
+      <webElementGuid>b6918244-c501-45a5-846b-d928ace1e17e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +99,6 @@
                 ' or . = '
                     Catálogo del Menú
                 ')]</value>
-      <webElementGuid>b9f2dc13-d1db-497e-8d21-46215750b34c</webElementGuid>
+      <webElementGuid>5c559d04-8f12-4b93-9e9d-3c490366c2f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

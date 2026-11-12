@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Descripcin (opcional)</name>
+   <tag></tag>
+   <elementGuidId>afa5fe63-aa21-4e86-9a33-e8efd35eddd0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#descripcion</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'descripcion']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Descripción (opcional)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>a1327cc7-39de-4b46-bed5-31c4c7ff4663</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>descripcion</value>
+      <webElementGuid>fc1b585a-4b19-45db-9c5f-5218ca8d020d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>descripcion</value>
+      <webElementGuid>53e46807-4f7d-4af2-af84-a858d81beb9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>5b531c22-4065-40e8-9997-ed4fc6a40884</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>1000</value>
+      <webElementGuid>20ff11e9-7f04-4c02-9aca-4315977cb227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
+      <webElementGuid>90b59cff-f04a-44a6-bef0-3ee590f1ec8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-916e1832d6bbe8de7eb775591185503f</value>
+      <webElementGuid>7b2a6b8c-b5eb-4827-8027-16de6322bd60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'descripcion']</value>
+      <webElementGuid>565803b4-ba80-411c-9225-85bfa509cec2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'descripcion']</value>
+      <webElementGuid>719cdad7-7c80-4903-b032-d38bf6219e14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'descripcion' and @name = 'descripcion']</value>
+      <webElementGuid>831da2ed-72e7-4696-a6b1-dc38db3d5e39</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

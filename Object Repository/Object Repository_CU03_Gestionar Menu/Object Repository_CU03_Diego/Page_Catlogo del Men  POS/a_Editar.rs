@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr.border-b:nth-child(6) a.rounded-md</value>
+         <value>tr.border-b:nth-child(5) a.rounded-md</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 6)]//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 5)]//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/platillos/5/editar' and (text() = '
+                                    Editar
+                                ' or . = '
+                                    Editar
+                                ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;6 Refresco de Cola Bebidas $20.00 Activo Editar → Inactivo → Agotado&quot;i] >> internal:role=link</value>
+         <value>internal:role=row[name=&quot;5 Agua de Horchata Entradas y Botanas $25.00 Activo Editar → Inactivo → Agotado&quot;i] >> internal:role=link</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +37,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0cdb5457-504b-4dec-b6c0-abc6dcf40e56</webElementGuid>
+      <webElementGuid>b32f12e7-5890-492d-8177-9f85fe850fe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://grill-and-chill-production-1766.up.railway.app/admin/platillos/6/editar</value>
-      <webElementGuid>36af7ee3-4f90-4ff5-8612-262f6777bae8</webElementGuid>
+      <value>https://grill-and-chill-production-1766.up.railway.app/admin/platillos/5/editar</value>
+      <webElementGuid>fbed55bd-24fe-418c-aaaa-c134c4444828</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-md border border-slate-300 px-2.5 py-1 text-xs font-bold text-slate-700 hover:bg-slate-50</value>
-      <webElementGuid>186a4e85-798a-43cb-9cb9-f5af2f8e2e0a</webElementGuid>
+      <webElementGuid>14074ef7-4a39-4ec0-9775-8dcedfb2974c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,31 +63,51 @@
       <value>
                                     Editar
                                 </value>
-      <webElementGuid>b5598d8e-622b-4be2-a934-2cd38b2edb1e</webElementGuid>
+      <webElementGuid>6a4a4c97-ad64-4fc0-863c-948598008471</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-582abc2e75578819d242091ecd83c691</value>
-      <webElementGuid>a3cdeaa1-494e-46a3-be56-3cf367f0f6f5</webElementGuid>
+      <value>md5.v1-0005e053fc72f8a3d13bb5dc02239346</value>
+      <webElementGuid>7f49c4cd-3c70-4f48-9b90-f91ef053c549</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 6)]//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>aeae180f-7035-4f78-b02c-24499b36d2a9</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 5)]//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>3a7dcf6a-dfd9-44a9-ad77-8b021656e3f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 5)]//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>61d6e5f0-9316-4fe7-b3b0-0f5d8b439706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/platillos/5/editar' and (text() = '
+                                    Editar
+                                ' or . = '
+                                    Editar
+                                ')]</value>
+      <webElementGuid>3ac6226d-c761-4ffd-86ad-fc1aca994a62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 6)]//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>85e9b879-5658-4257-878e-413b49c57578</webElementGuid>
+      <webElementGuid>cdd6e962-8725-437b-9506-762d059f52f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +119,6 @@
                                 ' or . = '
                                     Editar
                                 ')]</value>
-      <webElementGuid>5c847f66-8391-4ac6-bce2-ddccfcf6bd58</webElementGuid>
+      <webElementGuid>801a57d4-d15e-4b8c-a09b-d086b4b4f871</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
