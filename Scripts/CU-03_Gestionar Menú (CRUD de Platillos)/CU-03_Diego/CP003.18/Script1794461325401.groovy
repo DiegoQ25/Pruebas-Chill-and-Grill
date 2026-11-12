@@ -28,14 +28,15 @@ WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repos
 WebUI.setEncryptedText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
     '/5S6MFFLcE4mlsixtc6/Tg==')
 
-WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/button_Iniciar Sesin'))
+WebUI.sendKeys(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Reportes Generales  POS/a_Catlogo del Men'))
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Catlogo del Men  POS/a_Editar'))
 
 WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/input_Precio de venta'), 
-    '40.00')
+    '0')
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/button_Guardar cambios'))
 
