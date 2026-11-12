@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//*[@id = 'hasta']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'hasta' and @name = 'hasta' and @type = 'date']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>88cc7cd0-e15c-4d96-addd-53813b253278</webElementGuid>
+      <webElementGuid>5d699806-07c6-4a57-b4c7-d3539fae170b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hasta</value>
-      <webElementGuid>c1d6c827-f305-444b-b895-5bae8f73e4ca</webElementGuid>
+      <webElementGuid>b1649229-a83b-4fcd-8298-4235b0bf1fe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>hasta</value>
-      <webElementGuid>8f76145b-3509-492e-9e60-96e9f4dea69c</webElementGuid>
+      <webElementGuid>2e3d9b36-3281-44b5-8b7c-5ec760b922de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>a199d1a1-2e64-4808-a4ee-0bca30b63da9</webElementGuid>
+      <webElementGuid>691bcbac-bbb7-4f63-b411-c8302a4144a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
-      <webElementGuid>11300b1e-2f8d-4161-9dcb-cf4c51e2f4aa</webElementGuid>
+      <webElementGuid>0ca9a19b-1a62-476f-997b-7f9b8a05674c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9070b6ccd480ce7c7bee7585df6aa0d5</value>
-      <webElementGuid>aea4d679-d0e9-4e60-852c-e8ad712e8598</webElementGuid>
+      <webElementGuid>6ccd18b3-6df3-48bb-9b41-b3d15587854e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'hasta']</value>
-      <webElementGuid>ce26c1bd-f865-47eb-a164-cb558cc24794</webElementGuid>
+      <webElementGuid>90490b57-a37e-4e3f-89e4-da4b1d22e033</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'hasta']</value>
-      <webElementGuid>f1edba87-a6fd-47a6-a43e-674bf433cf1a</webElementGuid>
+      <webElementGuid>a51a14c4-cd2b-46ec-b332-f8e6b248ccfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'hasta' and @name = 'hasta' and @type = 'date']</value>
-      <webElementGuid>baa46f66-88af-4c2a-a18b-f4b0a7e1ce72</webElementGuid>
+      <webElementGuid>c8b88bf9-3fff-456c-a28f-6a68c12fabcb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

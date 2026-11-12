@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a2fabb6a-8a50-4f9a-af78-7cb9e15b6d72</webElementGuid>
+      <webElementGuid>f2356311-3140-4185-9b0c-7cf68bd221f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>18a3a61c-2181-4290-a5b6-ce125d527a03</webElementGuid>
+      <webElementGuid>e0321f56-88e8-45ae-b1b0-ddb6872dfda9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-carbon-hondo px-4 py-2 text-sm font-bold text-white</value>
-      <webElementGuid>dd9ab6f0-2ea4-46f2-8cb3-5daa730d1d0a</webElementGuid>
+      <webElementGuid>4683250e-c404-4561-b804-ec2c596140b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Filtrar</value>
-      <webElementGuid>45a9a03c-5eb7-4ee7-9761-961bc6cebd32</webElementGuid>
+      <webElementGuid>aaf3de35-0106-475b-9bd2-a8b8cddd8f04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-3b13ce359022e876669f7ee78b8ea119</value>
-      <webElementGuid>8b7600c7-2a8e-4167-a82a-083ba7948a8f</webElementGuid>
+      <webElementGuid>b1a80d12-2499-40d5-8599-4aeb12c59257</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>faf66b4d-d3df-451c-99df-73c5b273dc6d</webElementGuid>
+      <webElementGuid>638463b1-daf6-41c4-a3b2-8c1a88dfe643</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>1867e9ed-bcdb-4d93-8c34-f3ac27555cdc</webElementGuid>
+      <webElementGuid>3709997e-155d-4061-80e1-33a77ea6d7ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Filtrar' or . = 'Filtrar')]</value>
-      <webElementGuid>ec22d187-2bca-43b5-bd06-751ed47440b4</webElementGuid>
+      <webElementGuid>acd3ff6b-ab13-47f2-9157-55893ae2c67d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

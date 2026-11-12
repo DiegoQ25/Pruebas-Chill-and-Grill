@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//*[@id = 'desde']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'desde' and @name = 'desde' and @type = 'date']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eefbafb4-fae1-4fe3-88ba-aac7702d7fa7</webElementGuid>
+      <webElementGuid>07bf8d22-a3b8-4955-bf06-26f954e5f223</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>desde</value>
-      <webElementGuid>3b35b520-5f3c-4ad7-9b13-f074ded41c39</webElementGuid>
+      <webElementGuid>eb485615-e1b8-4b20-8763-f4023a9fbba2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>desde</value>
-      <webElementGuid>339cda66-275d-4f5f-9058-a67e1d4c6870</webElementGuid>
+      <webElementGuid>b3076b9f-49a9-4e12-a7c3-8838cc229531</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>d9ea9cbf-2529-46c0-b338-005ac982d72f</webElementGuid>
+      <webElementGuid>b23c6dbf-93b2-4166-8674-9544d024f4f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
-      <webElementGuid>7568ff9e-507a-47f4-9e59-2ed0f6d29d4c</webElementGuid>
+      <webElementGuid>16521a10-ce71-4782-9362-ac0b9dac440d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-81b9200c50bb0d4eedeb6aedcf2d27e5</value>
-      <webElementGuid>5c9fcbcb-d952-4ac1-a5a8-84eeedc8cbae</webElementGuid>
+      <webElementGuid>f34bb050-546f-4fba-adf0-ca713d00824d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'desde']</value>
-      <webElementGuid>beff2d58-f09c-4da2-86f2-a157a376abe8</webElementGuid>
+      <webElementGuid>73034c06-1bca-45e4-8133-b4aab28ea9c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'desde']</value>
-      <webElementGuid>11c85945-1279-41c6-8ba5-67892f420aad</webElementGuid>
+      <webElementGuid>fa4b4016-ed1a-4909-8c23-e0be1ddda493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'desde' and @name = 'desde' and @type = 'date']</value>
-      <webElementGuid>f2ea6ff2-4633-4224-9df3-a66091342003</webElementGuid>
+      <webElementGuid>02ab5390-007b-43f5-91ee-f9a1d5872664</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
