@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//*[@name = 'motivo']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'motivo' and @type = 'text' and @placeholder = 'Mesero tiro la comida']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7cafea02-2971-4a65-9865-04bf44c6a0dd</webElementGuid>
+      <webElementGuid>a61e4fb7-cdb5-4ce3-a90e-e4d8a143a34b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>name</name>
       <type>Main</type>
       <value>motivo</value>
-      <webElementGuid>7f92540a-81bb-47ef-af20-3414afefce06</webElementGuid>
+      <webElementGuid>b4fb6701-0a0e-4914-831c-026f445566cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>x-model</name>
       <type>Main</type>
       <value>motivo</value>
-      <webElementGuid>a226c176-dfff-46f1-9cc9-26db90772c6d</webElementGuid>
+      <webElementGuid>ca6250e3-3bcb-4b02-a951-d7fe6c042489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>84c2f717-924e-4049-9465-25dfee37fbc9</webElementGuid>
+      <webElementGuid>014f7a1d-f2f0-4848-bf52-35839b5d5920</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>255</value>
-      <webElementGuid>79fac039-c0e4-4a0a-8b3c-411d195363cd</webElementGuid>
+      <webElementGuid>04131a77-3b0f-4058-b9a6-1a981c0d0ede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Mesero tiro la comida</value>
-      <webElementGuid>6b623032-ce60-4208-9f41-e4d1b92f69cb</webElementGuid>
+      <webElementGuid>5c4e0ce7-2772-4b41-93de-d689c30badd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-5 w-full rounded-lg border border-slate-300 px-4 py-2.5</value>
-      <webElementGuid>e079ac08-8d68-4f33-9950-a88bafa3d024</webElementGuid>
+      <webElementGuid>6ef1cfba-26ec-4902-b859-f627d4880301</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-ae1274a9dde0e4f676cd271cd6f78808</value>
-      <webElementGuid>8a59ef01-0ec8-4d6f-b22a-502951292e04</webElementGuid>
+      <webElementGuid>398bb2c5-0506-44f9-9107-eb091dc959b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@name = 'motivo']</value>
-      <webElementGuid>7a5da54b-9f3d-40cf-bc68-ade842a3159b</webElementGuid>
+      <webElementGuid>8bf4e37e-6933-4210-9184-1f057b4a497f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@name = 'motivo']</value>
-      <webElementGuid>b195a710-4b48-4f58-9c3f-8d731cc41523</webElementGuid>
+      <webElementGuid>987eb4e0-37c5-4ab4-a052-bffbbbcc9f80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'motivo' and @type = 'text' and @placeholder = 'Mesero tiro la comida']</value>
-      <webElementGuid>f90f16ca-47cb-4ce5-b256-c45fb72a2371</webElementGuid>
+      <webElementGuid>3aca0ca7-9d7a-47bd-9e97-7677ef84920d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

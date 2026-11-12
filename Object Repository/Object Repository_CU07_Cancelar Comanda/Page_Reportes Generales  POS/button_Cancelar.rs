@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>89f27b6b-6ca7-4aca-8eee-9f44f02c3586</webElementGuid>
+      <webElementGuid>6ec55e76-6d8b-45ee-9f01-9ea28a3687cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>086bb0e3-c609-4c1c-8f1a-029208107250</webElementGuid>
+      <webElementGuid>0643ac37-6487-4734-b3ff-088220495c1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>dusk</name>
       <type>Main</type>
       <value>cancelar-orden-30</value>
-      <webElementGuid>5ffb236f-d7eb-4676-8d71-6f4cc792efa8</webElementGuid>
+      <webElementGuid>bdc4bde6-84f2-4b87-a8e4-08d99940eb65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>cancelando = 30; motivo = ''</value>
-      <webElementGuid>77439cd6-cb51-4813-833c-aa0a89e13498</webElementGuid>
+      <webElementGuid>894d0dbd-dff4-48e5-9709-37fa2802ad67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-md border border-red-300 px-2.5 py-1 text-xs font-bold text-red-600 hover:bg-red-50</value>
-      <webElementGuid>34df0cfb-18b2-4e01-92a1-881cfcbfeef2</webElementGuid>
+      <webElementGuid>9557aea4-498e-4c0a-b1cb-ad8b1f8356b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <value>
                                         Cancelar
                                     </value>
-      <webElementGuid>5a8a6d92-59f6-4765-afb6-c3822d60151f</webElementGuid>
+      <webElementGuid>ee7ce17c-1807-418d-95ce-b281f44c16fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-afdce01e4a869470aba3881bf23719dd</value>
-      <webElementGuid>66210c34-3126-4bb7-a9be-018d9775367e</webElementGuid>
+      <webElementGuid>39a5f708-d15a-4668-98cc-df17269edaec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>6769790b-8f20-4da3-8395-93a4be7252c3</webElementGuid>
+      <webElementGuid>7835323d-8fff-4800-83e1-80a3ff3436f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>ee27360f-c82b-47a5-89a1-1e52f9909795</webElementGuid>
+      <webElementGuid>aaf655cc-9726-4dd7-9ceb-01feeb8d2d3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
                                     ' or . = '
                                         Cancelar
                                     ')]</value>
-      <webElementGuid>099cfd6d-64d8-444a-9a20-3b4b25ef0deb</webElementGuid>
+      <webElementGuid>6bbd6118-5829-4c11-ae13-919453a31762</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
