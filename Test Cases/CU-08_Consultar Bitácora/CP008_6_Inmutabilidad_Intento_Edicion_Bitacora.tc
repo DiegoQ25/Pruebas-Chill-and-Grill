@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP008_6_Inmutabilidad_Intento_Edicion_Bitacora</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Carrillo González Pedro Maximiliano</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Carrillo González Pedro Maximiliano</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>51a0a0ae-92e2-47f9-9e4e-0627a8394df8</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>51a0a0ae-92e2-47f9-9e4e-0627a8394df8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5de8f57-45e5-4029-8e50-3a2c4446c2e9</testCaseGuid>
+</TestCaseEntity>
