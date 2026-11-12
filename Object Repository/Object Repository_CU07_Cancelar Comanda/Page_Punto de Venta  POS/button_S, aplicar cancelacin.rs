@@ -13,6 +13,14 @@
          <key>XPATH</key>
          <value>//*[(name() = 'div') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (name() = 'button') and (position() = 1)]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '
+                                Sí, aplicar cancelación
+                            ' or . = '
+                                Sí, aplicar cancelación
+                            ')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>93236fc2-b8e8-4b96-b6c0-01ae58271443</webElementGuid>
+      <webElementGuid>682c2d62-27c3-48f2-8012-5fe616751784</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>78d38ad6-0593-43b2-b419-42dc6f98f70f</webElementGuid>
+      <webElementGuid>d9c97c4d-f34d-4ebc-b851-9b2eada41679</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>confirmarCancelacion()</value>
-      <webElementGuid>b708a8f5-117e-4465-8408-e60f0f205e6b</webElementGuid>
+      <webElementGuid>70656188-5811-4701-8b4b-34270c182cca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-red-600 px-3 py-2 text-sm font-bold text-white hover:bg-red-700</value>
-      <webElementGuid>2caafde1-2ab2-4252-808a-37d61d056409</webElementGuid>
+      <webElementGuid>bf75d807-490a-4f14-be88-b54fed555a4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +71,7 @@
       <value>
                                 Sí, aplicar cancelación
                             </value>
-      <webElementGuid>5b21d02a-f1ab-47dd-84ea-e950c737b55e</webElementGuid>
+      <webElementGuid>4a63652e-40c2-443d-aa40-506bf3d2a95c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +79,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-97aaa8ddc82343089d795bb228979e9f</value>
-      <webElementGuid>66b21139-9dfe-4dd9-86d9-8ed0033482dc</webElementGuid>
+      <webElementGuid>bc302f0a-30da-48d4-8346-c1f0366e0207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[(name() = 'div') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (name() = 'button') and (position() = 1)]</value>
-      <webElementGuid>56111fcf-9277-4c6e-b9a4-03c64096a004</webElementGuid>
+      <webElementGuid>07ee09dd-bb25-41e5-8efb-c7dc5fad82b7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[(name() = 'div') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (name() = 'button') and (position() = 1)]</value>
-      <webElementGuid>f72e1f17-024d-470f-899a-748b5618c469</webElementGuid>
+      <webElementGuid>896211ef-6ce7-4705-bed5-23080c2f7ebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +107,6 @@
                             ' or . = '
                                 Sí, aplicar cancelación
                             ')]</value>
-      <webElementGuid>6ba1c70c-d8e3-4daa-9245-986f6df0c72c</webElementGuid>
+      <webElementGuid>97c278e6-7f5f-4dd1-91f7-3538ada4550b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
