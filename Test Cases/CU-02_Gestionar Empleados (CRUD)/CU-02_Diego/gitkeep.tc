@@ -3,29 +3,7 @@
    <description></description>
    <name>gitkeep</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>TESTOPS</productName>
-      <properties>
-         <entry>
-            <key>createdByName</key>
-            <value>Echeverria Quijano Diego Yael</value>
-         </entry>
-         <entry>
-            <key>lastModifiedByName</key>
-            <value>Echeverria Quijano Diego Yael</value>
-         </entry>
-         <entry>
-            <key>createdByUuid</key>
-            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
-         </entry>
-         <entry>
-            <key>lastModifiedByUuid</key>
-            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>23a73833-12f3-4733-bb09-8475295e846f</testCaseGuid>
+   <testCaseGuid>4b797fe3-135c-460a-933a-7139b49b5e7a</testCaseGuid>
 </TestCaseEntity>
