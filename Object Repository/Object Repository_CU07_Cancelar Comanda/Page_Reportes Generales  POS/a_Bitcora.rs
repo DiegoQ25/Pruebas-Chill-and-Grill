@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Bitcora</name>
+   <tag></tag>
+   <elementGuidId>645aee75-c70f-468c-9e5e-daaf368438fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.font-semibold.transition:nth-child(7)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 7)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Bitácora&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dc9129d5-44b3-430f-b4d6-d26f5c4d363c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://grill-and-chill-production-1766.up.railway.app/admin/bitacora</value>
+      <webElementGuid>8d9875a3-d891-43aa-8ec9-05fe318b5964</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
+      <webElementGuid>b04b3622-2f1a-4a08-9ae8-c63a0436b50e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Bitácora
+                </value>
+      <webElementGuid>e4c66781-b16c-4da1-ab22-82e660991cc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-756fdedec90f2629761a46a73517cd56</value>
+      <webElementGuid>96994e2b-95a3-4f7b-8bbc-8f747a1bc60a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 7)]</value>
+      <webElementGuid>46ca332a-39f8-4f4f-bc71-0acd7e7e84df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 7)]</value>
+      <webElementGuid>6c8f6911-bc1f-474b-9693-3702efd9630c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/bitacora' and (text() = '
+                    Bitácora
+                ' or . = '
+                    Bitácora
+                ')]</value>
+      <webElementGuid>dfb91dbe-c5ae-498f-b64f-a2ec3617a583</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
