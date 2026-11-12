@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancelar</name>
+   <tag></tag>
+   <elementGuidId>0c27fe9c-148c-4c3f-b2f9-efe23fc90894</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Cancelar&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6bb224f6-b541-4164-b5ae-c80ea53ee1e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1814bf42-c28b-41a7-b9e7-c0b077d50b9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dusk</name>
+      <type>Main</type>
+      <value>cancelar-orden-28</value>
+      <webElementGuid>7f5cc6e0-6c1c-4ad1-afb0-05cb330ff98f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@click</name>
+      <type>Main</type>
+      <value>cancelando = 28; motivo = ''</value>
+      <webElementGuid>d0cdc828-9033-40e9-a3a8-c214e9408411</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rounded-md border border-red-300 px-2.5 py-1 text-xs font-bold text-red-600 hover:bg-red-50</value>
+      <webElementGuid>b872120a-172c-4040-a682-36b2502a8ce5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                        Cancelar
+                                    </value>
+      <webElementGuid>59ff8b8b-c7fa-48e5-9b4e-5606394cf3a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-71f8a8fedf9c2dc5193275dfde8d7c8a</value>
+      <webElementGuid>c34f96e1-1e3b-4cb9-8820-85b580c10620</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>eb3fd80f-5080-4541-82b9-3a86ab126db4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>b98ddbb0-255c-4dd9-8749-e9b1142dbad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+                                        Cancelar
+                                    ' or . = '
+                                        Cancelar
+                                    ')]</value>
+      <webElementGuid>1108f82a-7dec-4a6c-bbb3-f6a5393f4d45</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
