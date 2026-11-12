@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP008_1_Lectura_Exitosa_Bitacora</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Carrillo González Pedro Maximiliano</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Carrillo González Pedro Maximiliano</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>51a0a0ae-92e2-47f9-9e4e-0627a8394df8</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>51a0a0ae-92e2-47f9-9e4e-0627a8394df8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53ca1c9e-5a07-4521-8bb9-c14492241de3</testCaseGuid>
+</TestCaseEntity>
