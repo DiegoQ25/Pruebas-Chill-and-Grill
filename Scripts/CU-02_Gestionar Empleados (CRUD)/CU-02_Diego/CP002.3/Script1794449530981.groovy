@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(null)
 
-WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
+WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
 
 WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Usuario ID'), 
     'admin')
@@ -35,18 +35,13 @@ WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Re
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Gestin de Empleados  POS/a_Nuevo empleado'))
 
 WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Nombre completo'), 
-    'Selena Quintanilla')
-
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Usuario'), 
-    'SelenaQ')
+    'Francisco Alvarado')
 
 WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Contrasea'), 
-    'dGiN0va5NxZiMnBqBt4NIg==')
+    'TvnWOKGp+ZgqNXkfliPE6g==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Confirmar contrasea'), 
-    'dGiN0va5NxZiMnBqBt4NIg==')
+    'TvnWOKGp+ZgqNXkfliPE6g==')
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/button_Registrar empleado'))
-
-WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Gestin de Empleados  POS/button_Cerrar Sesin'))
 

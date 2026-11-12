@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alta fallida (Todos los campos vacíos)</description>
+   <name>CP002.6</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Echeverria Quijano Diego Yael</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Echeverria Quijano Diego Yael</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd449728-9a6d-45bc-9449-33ecb38dce7f</testCaseGuid>
+</TestCaseEntity>

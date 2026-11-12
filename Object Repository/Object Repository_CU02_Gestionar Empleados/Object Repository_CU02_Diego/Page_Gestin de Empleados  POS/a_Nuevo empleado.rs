@@ -6,6 +6,14 @@
    <elementGuidId>57268804-56fa-4663-9a38-85c0e7b6752d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/usuarios/nuevo' and (text() = '
+            + Nuevo empleado
+        ' or . = '
+            + Nuevo empleado
+        ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
       </entry>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>89a0fe62-2d2b-4d9e-9b35-6548d6d34b58</webElementGuid>
+      <webElementGuid>0de14781-b215-4740-9bc4-50ec9b228fa5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/usuarios/nuevo</value>
-      <webElementGuid>1de6bd16-fa81-4c66-b57c-38f808629d4d</webElementGuid>
+      <webElementGuid>85469ec0-a17b-4fb2-9cdb-0cdf389cee4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-fuego px-4 py-2.5 font-bold text-white transition hover:bg-parrilla</value>
-      <webElementGuid>28cc720d-1536-4754-bc45-ae6b32439f50</webElementGuid>
+      <webElementGuid>f08154dd-86f3-42b1-b59c-e40e6dc10959</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +63,7 @@
       <value>
             + Nuevo empleado
         </value>
-      <webElementGuid>858fa029-f50a-4b92-ab76-65823af9e1cb</webElementGuid>
+      <webElementGuid>57aa2d78-d035-41c4-8539-17f45661f9af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9c5bf47f5b36736ce834af5d8179eb31</value>
-      <webElementGuid>4076bdd6-e619-459c-ac93-e7d30a05322a</webElementGuid>
+      <webElementGuid>d270e806-9578-4bb8-ad7b-648970a16859</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>9d5bb5c0-0cb4-4fed-af3f-82462cf4f44f</webElementGuid>
+      <webElementGuid>9b29517b-1bae-41d8-b530-d88d2d925691</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>161f0050-7c2c-461f-b13a-7ba408c6b474</webElementGuid>
+      <webElementGuid>f5c02f94-8faf-41d8-a560-7d25531d9705</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +99,6 @@
         ' or . = '
             + Nuevo empleado
         ')]</value>
-      <webElementGuid>4f848657-45af-4b37-b359-58632af20b55</webElementGuid>
+      <webElementGuid>ad209bf0-3bdc-4648-9a5f-02b6b05cb11b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

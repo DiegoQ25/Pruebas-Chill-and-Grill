@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alta fallida (Usuario duplicado)</description>
+   <name>CP002.7</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Echeverria Quijano Diego Yael</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Echeverria Quijano Diego Yael</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4f1833c5-44b0-4ebb-b0e4-e977087eb7e0</testCaseGuid>
+</TestCaseEntity>

@@ -6,6 +6,10 @@
    <elementGuidId>1c88279a-9a54-4ae7-ab76-b4b7ee68a80c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'nombre_completo' and @name = 'nombre_completo' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id = 'nombre_completo']</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e73bf54f-271f-47ea-8873-a5f46238b7b2</webElementGuid>
+      <webElementGuid>6a6b2d9c-60ed-44d7-87fc-d1a6d7a2e073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nombre_completo</value>
-      <webElementGuid>74878c50-33e2-41f8-8f50-3a6e20dd108a</webElementGuid>
+      <webElementGuid>be8cf887-eed1-4d46-88b6-c0f2962fc8d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>nombre_completo</value>
-      <webElementGuid>37299f3a-269e-49b6-8113-554e56c781d1</webElementGuid>
+      <webElementGuid>51c54684-a3f5-4317-8020-8f03be1f6b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>92956dbc-5579-4286-9b90-03622f275894</webElementGuid>
+      <webElementGuid>7a8962ed-4030-4711-b88f-d40086fa87b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>914d21cb-c517-4182-bde9-18c1df2ce525</webElementGuid>
+      <webElementGuid>a068c45d-b601-4bd1-813d-7186b8cc3fbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>3a3e4341-73e8-4b5a-b576-e33b2773c87d</webElementGuid>
+      <webElementGuid>5cfa8d1b-1860-49e4-a2a3-bbaf8124c9b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-d8167e2606b9b9f05411d82a013f8b6a</value>
-      <webElementGuid>bdaf3150-766e-4f6a-bb52-1ff5e2c41b4c</webElementGuid>
+      <webElementGuid>027f9083-b70d-4610-b98b-8b6f1eca9634</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'nombre_completo']</value>
-      <webElementGuid>0ce4ac48-9f18-4405-abd7-8f9679e7bfe5</webElementGuid>
+      <webElementGuid>0470fe45-bc51-428b-b4eb-96085db22bba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'nombre_completo']</value>
-      <webElementGuid>d6d2c8f0-f973-46a9-9e2d-bd7d6724c55b</webElementGuid>
+      <webElementGuid>759c3d6d-69b4-4aec-9e2d-2c698907f15a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'nombre_completo' and @name = 'nombre_completo' and @type = 'text']</value>
-      <webElementGuid>5f71e389-db24-48a5-8c2d-95a05d45b246</webElementGuid>
+      <webElementGuid>5d31bb61-ce29-46ed-913b-f1a37731826e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

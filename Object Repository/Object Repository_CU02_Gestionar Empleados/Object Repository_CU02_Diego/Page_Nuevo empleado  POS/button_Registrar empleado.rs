@@ -6,6 +6,14 @@
    <elementGuidId>640c3a02-7df0-4706-a770-1ef30ea0b8d3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = '
+                Registrar empleado
+            ' or . = '
+                Registrar empleado
+            ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
       </entry>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>24ea6c70-11a4-4c7f-8582-279e8ab23f32</webElementGuid>
+      <webElementGuid>ed10a358-6425-496e-bb9b-b897c2805775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>8ba8a287-7af6-4fbb-bc0b-8f78fed03bee</webElementGuid>
+      <webElementGuid>7b2e4654-c198-45ed-804f-0427ebca6b67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-fuego px-5 py-2.5 font-bold text-white transition hover:bg-parrilla</value>
-      <webElementGuid>0c603b32-7798-4dd4-be69-d743d32b9699</webElementGuid>
+      <webElementGuid>80c54552-b1cd-4488-9d98-51b4eec8103c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +63,7 @@
       <value>
                 Registrar empleado
             </value>
-      <webElementGuid>cde228e2-2940-43fd-bf1a-17143323148b</webElementGuid>
+      <webElementGuid>e57329e6-5842-4fe6-b5a7-d3f884bdc611</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-3b13ce359022e876669f7ee78b8ea119</value>
-      <webElementGuid>0b1c5585-b699-4635-abf2-7cc8f02e1802</webElementGuid>
+      <webElementGuid>df9d62ba-3e92-418a-8e7f-dfd351fb4912</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>fc457512-bbf6-4c89-b03d-d6625ff4f127</webElementGuid>
+      <webElementGuid>b4843f23-de94-41e4-ac2d-15106df77b7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>2abd96ac-2361-4a84-acdb-12fb25b58eb3</webElementGuid>
+      <webElementGuid>076ab090-1511-4a09-9b66-62dcbe1f1e1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +99,14 @@
             ' or . = '
                 Registrar empleado
             ')]</value>
-      <webElementGuid>5bb3b8e1-dfeb-4e1f-9a1b-a8a0fe424924</webElementGuid>
+      <webElementGuid>c438ef6c-dd9d-4118-b2e1-3d0f420bb3ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>306bd77d-bd18-4367-a17a-01507a6a0f79</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
