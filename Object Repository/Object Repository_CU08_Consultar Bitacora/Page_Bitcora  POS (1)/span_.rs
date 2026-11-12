@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>90f7b47f-28ce-4277-b0b1-31eb68187674</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.border-b.align-top:nth-child(1) td:nth-child(5) span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (position() = 1)]//*[(name() = 'td') and (position() = 5)]//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;12/11/2026 04:50:09 PM Samuel Solis auth.login_exitoso usuarios #1 — 201.141.53.225&quot;i] >> span >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8e1d0721-4834-4d30-aac5-87cc63beb6f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-slate-300</value>
+      <webElementGuid>2c6d9720-cbf5-40fb-8f88-19207a80c40e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>—</value>
+      <webElementGuid>f726cd25-61e4-4211-8e6e-2eec90d18e57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f8de71a3ac5f0f40a80ed81bec718e8a</value>
+      <webElementGuid>39c7c33c-4089-4430-9d7b-ad8b7e7e67a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (position() = 1)]//*[(name() = 'td') and (position() = 5)]//span</value>
+      <webElementGuid>34d5bf95-9c00-4321-868c-f36e80760145</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (position() = 1)]//*[(name() = 'td') and (position() = 5)]//span</value>
+      <webElementGuid>369e7ea6-1093-4162-b624-7b2cba6e7022</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '—' or . = '—')]</value>
+      <webElementGuid>212c36be-b637-4466-8a09-dd90ff931370</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

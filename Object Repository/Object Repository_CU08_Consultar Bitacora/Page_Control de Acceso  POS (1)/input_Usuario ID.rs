@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Usuario ID</name>
+   <tag></tag>
+   <elementGuidId>dc03462b-628a-4d20-b90d-39be99aa0c9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#username</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'username']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Usuario ID&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>15940c6b-3905-4a3e-a60b-be772a2c9224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>1458c022-e362-4820-9dcd-e6ec46e0b26a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>2f7b37e4-b98f-4263-8d57-1ae24c59e6d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>bb7ae1d7-c98a-4edf-9a75-9c3192758c28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>dc886248-5e7c-4901-b727-89851ce1fdec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>50</value>
+      <webElementGuid>562249be-32c0-4493-9c83-1db456ac9ed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-5 w-full rounded-lg border border-slate-200 bg-slate-50 px-4 py-2.5
+                                  text-slate-800 outline-none transition
+                                  focus:border-fuego focus:bg-white focus:ring-2 focus:ring-fuego/30
+                                  </value>
+      <webElementGuid>d7e65484-710f-494e-9127-1dbf6361383d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3d2c3dd43d9fa890160f2bddb48eef38</value>
+      <webElementGuid>3228a4bb-c8b7-45b1-8ad5-10815d65bb03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'username']</value>
+      <webElementGuid>b464dce8-5456-40b1-be6d-294a1b8711a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'username']</value>
+      <webElementGuid>13ed5567-8a23-42a3-9411-95064236874b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'username' and @name = 'username' and @type = 'text']</value>
+      <webElementGuid>23ceb0db-4666-47c9-a163-ff63f35c863e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

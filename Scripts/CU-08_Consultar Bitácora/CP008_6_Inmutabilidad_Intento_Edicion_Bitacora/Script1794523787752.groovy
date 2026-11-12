@@ -22,28 +22,28 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Control de Acceso  POS/input_Contrasea'), 
+WebUI.setEncryptedText(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Control de Acceso  POS (1)/input_Contrasea'), 
     '/5S6MFFLcE4mlsixtc6/Tg==')
 
-WebUI.setText(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Control de Acceso  POS/input_Usuario ID'), 'admin')
+WebUI.setText(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Control de Acceso  POS (1)/input_Usuario ID'), 'admin')
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Control de Acceso  POS/button_Iniciar Sesin'))
+WebUI.click(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Control de Acceso  POS (1)/button_Iniciar Sesin'))
 
 WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/a_Bitcora'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/td_12_11_2026 04_50_09 PM'))
+WebUI.click(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/td_12_11_2026 04_50_09 PM'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/td_Samuel Solis'))
+WebUI.click(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/td_Samuel Solis'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/span_auth.login_exitoso'))
+WebUI.click(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/span_auth.login_exitoso'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/td_usuarios 1'))
+WebUI.click(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/td_usuarios 1'))
 
-WebUI.doubleClick(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/td_usuarios 1'))
+WebUI.doubleClick(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/td_usuarios 1'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/span_'))
+WebUI.click(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/span_'))
 
-WebUI.doubleClick(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/span_'))
+WebUI.doubleClick(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/span_'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Bitcora  POS/main_Bitcora de auditora'))
+WebUI.click(findTestObject('Object Repository_CU08_Consultar Bitacora/Page_Bitcora  POS (1)/main_Bitcora de auditora'))
 
