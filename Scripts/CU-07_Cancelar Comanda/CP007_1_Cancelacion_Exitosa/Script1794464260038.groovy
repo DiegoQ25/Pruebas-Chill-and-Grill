@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Punto d
 
 WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/h2_Historial de Comandas'))
 
+WebUI.delay(0)
+
 WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/button_Cancelar'))
 
 WebUI.setText(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/input_Mesero tiro la comida'), 
