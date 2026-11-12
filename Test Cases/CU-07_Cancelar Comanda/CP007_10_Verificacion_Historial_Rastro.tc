@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP007_10_Verificacion_Historial_Rastro</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Carrillo González Pedro Maximiliano</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Carrillo González Pedro Maximiliano</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>51a0a0ae-92e2-47f9-9e4e-0627a8394df8</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>51a0a0ae-92e2-47f9-9e4e-0627a8394df8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a2e8203-d737-4698-8fc7-c4b32e5d2279</testCaseGuid>
+</TestCaseEntity>
