@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Confirmar contrasea</name>
+   <tag></tag>
+   <elementGuidId>2b0ac3f7-e6f9-4aca-b55a-38fc14470aa7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'password_confirmation']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#password_confirmation</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Confirmar contraseña&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>bbdd576b-9983-4b7e-baf7-9e4462e128d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password_confirmation</value>
+      <webElementGuid>0af55022-5b0f-4d10-95ea-f2efd033162c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password_confirmation</value>
+      <webElementGuid>1ff80039-9ce6-4767-85f3-7f77d14827ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>bd8dfba7-75ac-404c-b54a-ef3f22fd85f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-password</value>
+      <webElementGuid>62bd2998-9ac1-4e4b-bfae-7b96f1a9548d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-1 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
+      <webElementGuid>47d6c4da-0ee0-48ca-ba12-947705e2fadb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bedc1b7fdc58dd7b5ff6a7f6dd3ca656</value>
+      <webElementGuid>f6868967-4ef3-4002-a633-04735b14c3fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'password_confirmation']</value>
+      <webElementGuid>31a6ab8b-5b88-4211-8ff2-a29fe0187134</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'password_confirmation']</value>
+      <webElementGuid>e5d32b50-cce4-492f-b62b-a7313036601f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'password_confirmation' and @name = 'password_confirmation' and @type = 'password']</value>
+      <webElementGuid>6c06644c-e869-4f24-8ac4-98f315376b90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nombre completo</name>
+   <tag></tag>
+   <elementGuidId>1c88279a-9a54-4ae7-ab76-b4b7ee68a80c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'nombre_completo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nombre_completo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Nombre completo&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e73bf54f-271f-47ea-8873-a5f46238b7b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nombre_completo</value>
+      <webElementGuid>74878c50-33e2-41f8-8f50-3a6e20dd108a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>nombre_completo</value>
+      <webElementGuid>37299f3a-269e-49b6-8113-554e56c781d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>92956dbc-5579-4286-9b90-03622f275894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>100</value>
+      <webElementGuid>914d21cb-c517-4182-bde9-18c1df2ce525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
+      <webElementGuid>3a3e4341-73e8-4b5a-b576-e33b2773c87d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d8167e2606b9b9f05411d82a013f8b6a</value>
+      <webElementGuid>bdaf3150-766e-4f6a-bb52-1ff5e2c41b4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'nombre_completo']</value>
+      <webElementGuid>0ce4ac48-9f18-4405-abd7-8f9679e7bfe5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'nombre_completo']</value>
+      <webElementGuid>d6d2c8f0-f973-46a9-9e2d-bd7d6724c55b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'nombre_completo' and @name = 'nombre_completo' and @type = 'text']</value>
+      <webElementGuid>5f71e389-db24-48a5-8c2d-95a05d45b246</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
