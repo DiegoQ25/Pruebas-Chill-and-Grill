@@ -22,23 +22,15 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
 
-WebUI.setText(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Control de Acceso  POS/input_Usuario ID'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Control de Acceso  POS/input_Contrasea'), 
     '/5S6MFFLcE4mlsixtc6/Tg==')
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Control de Acceso  POS/button_Iniciar Sesin'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Punto de Venta  POS/a_Panel Admin'))
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/h2_Historial de Comandas'))
 
 WebUI.delay(0)
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/button_Cancelar'))
 
-WebUI.setText(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/input_Mesero tiro la comida'), 
     'Cliente se retiró')
 
-WebUI.click(findTestObject('Object Repository_CU07_Cancelar Comanda/Page_Reportes Generales  POS/button_S, aplicar cancelacin'))
 
