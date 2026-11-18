@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ccb98b7e-bbac-4fe0-8cee-439b98fa85d4</webElementGuid>
+      <webElementGuid>eeb85c84-3f48-49dc-80a9-b7858875aa87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>precio</value>
-      <webElementGuid>d146d5c7-1e1a-4e11-bd52-f8d748f4f6c1</webElementGuid>
+      <webElementGuid>e3fe0bb3-e072-44c5-aa73-cccedf399bb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>precio</value>
-      <webElementGuid>03de353c-bbcd-48e4-869c-46b111c1bd6b</webElementGuid>
+      <webElementGuid>b052cd39-82e2-4b30-850f-9c881bbfe740</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b49f6a88-1f8d-471f-857f-4c10364ba061</webElementGuid>
+      <webElementGuid>bd201bfe-e884-42be-9621-5493d854991d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>decimal</value>
-      <webElementGuid>8c01471b-5559-43c6-b476-f04e2fb5edbc</webElementGuid>
+      <webElementGuid>8f13c50c-1709-4bc3-917b-aa9cd1993d54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full rounded-lg border border-slate-200 py-2.5 pr-4 pl-8 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>1a2f9bd6-fe32-4285-8f01-e311041b7fa2</webElementGuid>
+      <webElementGuid>c20728c8-b5ab-483e-8b46-b24c4c335f95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-c6b21dc753c6aa3170ba2e3e30afd9df</value>
-      <webElementGuid>2b68345b-28d4-4811-b1f1-961a0ab37cd3</webElementGuid>
+      <webElementGuid>6397dfb8-5e1b-4b6b-85c6-c589cf4585bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'precio']</value>
-      <webElementGuid>797b045c-ab21-4583-8925-fe76a9773f4f</webElementGuid>
+      <webElementGuid>eb47284a-156c-491b-960d-d5d50a2feed7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'precio']</value>
-      <webElementGuid>a657d0cc-ae27-418b-ba09-7ab863c46e0d</webElementGuid>
+      <webElementGuid>1672a36f-d1d2-42d4-b65b-cac644397ff2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'precio' and @name = 'precio' and @type = 'text']</value>
-      <webElementGuid>00e71713-2fef-427e-bdc2-e0829769d593</webElementGuid>
+      <webElementGuid>ab10fbd8-ff17-4153-b7fe-a9b5942a3f4f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

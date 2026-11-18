@@ -97,7 +97,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>5486360e-1daa-4242-afab-5fcddd1a8645</webElementGuid>
+      <webElementGuid>b980f9c8-4219-473c-8053-49f2089f92a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <name>id</name>
       <type>Main</type>
       <value>id_categoria</value>
-      <webElementGuid>fd1c2689-3ac7-4cd6-a0c5-8a26b0068a59</webElementGuid>
+      <webElementGuid>d5ecf817-f85f-4af8-a999-e06073ea0e22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -113,7 +113,7 @@
       <name>name</name>
       <type>Main</type>
       <value>id_categoria</value>
-      <webElementGuid>d618088e-8a9f-4c2a-a48b-0fd7d0ede363</webElementGuid>
+      <webElementGuid>55abbc4e-db2f-457f-8397-596023daecf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>ff3af6b7-074e-456c-b796-19a270001900</webElementGuid>
+      <webElementGuid>352ec337-ef29-45da-94ac-b48e67ba5e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -161,7 +161,7 @@
                     -
                 
                     </value>
-      <webElementGuid>e2d74e82-189b-4d86-9ab8-34b226f842b9</webElementGuid>
+      <webElementGuid>8d664ed6-e0f7-4cf3-9b8b-1d7e2e5493ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -169,7 +169,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9b978060485416576ffcb06be484ba3c</value>
-      <webElementGuid>8d027fa0-f3b1-47ee-8b4e-23677fd27262</webElementGuid>
+      <webElementGuid>d03cee66-81c3-4f45-8f1c-f72b1aa18f08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -177,7 +177,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'id_categoria']</value>
-      <webElementGuid>02be301b-7bed-42c5-9fdf-951b680ab8b9</webElementGuid>
+      <webElementGuid>dd2d7dfa-9f35-49e8-b65c-7ec08833ee48</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -185,7 +185,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'id_categoria']</value>
-      <webElementGuid>38caee63-0eb8-4515-a03c-41de61efe178</webElementGuid>
+      <webElementGuid>5c7aede9-47ef-4ff1-b870-0fa8e1cfb066</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -257,6 +257,6 @@
                     -
                 
                     ')]</value>
-      <webElementGuid>2e77ddb7-c186-4a46-a3a7-a6d4a0e5e388</webElementGuid>
+      <webElementGuid>7015d31b-e746-4cfa-a372-0b443bf95527</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

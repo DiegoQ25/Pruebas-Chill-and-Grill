@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8c099251-e194-42c8-a90a-034a7bd660fd</webElementGuid>
+      <webElementGuid>c9007eff-3d29-479d-a1d6-67ee7911f8da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nombre</value>
-      <webElementGuid>a7022a05-5d9f-4a76-910e-4f1e7d1f127a</webElementGuid>
+      <webElementGuid>c4751717-9483-46ce-b7b4-a435934b10da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>nombre</value>
-      <webElementGuid>d5096fc6-6195-449f-8632-ce61ae690154</webElementGuid>
+      <webElementGuid>17c14a5f-4ba9-4f3d-a8c9-09a95c80cff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9566380c-261d-4be5-8358-8e1d3ccb8b7d</webElementGuid>
+      <webElementGuid>03647cf9-618b-49ae-953a-eb2ea8d17df4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>60d805cd-d61d-4eaa-872e-d66cb3ccc34a</webElementGuid>
+      <webElementGuid>106f2a78-3407-4a95-8ace-2b90d74c9660</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>b68f319d-cf1b-426a-88f9-47b3012f30e4</webElementGuid>
+      <webElementGuid>1d9b9d8e-29e5-4c41-a708-ff113294ec7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-af33c0e3896e94b36249a6018429d64a</value>
-      <webElementGuid>577c9171-27cd-44be-8c2c-3b9143ea9daa</webElementGuid>
+      <webElementGuid>348b0193-faeb-46d0-811b-16703c5f7713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'nombre']</value>
-      <webElementGuid>25ea60b0-be14-4960-bfe7-d9b52bb3f43f</webElementGuid>
+      <webElementGuid>7090a2c9-9e98-484b-b366-43d9b1bfa27c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'nombre']</value>
-      <webElementGuid>a93a7562-bb5a-4bd4-857e-35c4ea66c8f9</webElementGuid>
+      <webElementGuid>98844b65-d71b-4308-bd53-4e6c0419eb92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'nombre' and @name = 'nombre' and @type = 'text']</value>
-      <webElementGuid>385a38d6-2765-4d66-b203-7ef4f990ff9b</webElementGuid>
+      <webElementGuid>fa28e3dc-249a-4d10-b87f-04f9db7f7dc5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

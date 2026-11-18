@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f5a3d8c1-5da0-4250-9a9e-dbfbb5996c0c</webElementGuid>
+      <webElementGuid>d8bec711-3317-4f10-a91a-d2500777b6f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/platillos</value>
-      <webElementGuid>196058e9-ba0d-483f-b62b-406a905153e4</webElementGuid>
+      <webElementGuid>bd95d502-d50a-41c3-b1ea-303447306802</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
-      <webElementGuid>7651453b-3fbf-45e0-b72a-b4fc830e0e8f</webElementGuid>
+      <webElementGuid>83038a16-d1f0-47b0-90b1-bf35b3818cfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                     Catálogo del Menú
                 </value>
-      <webElementGuid>e7d46e22-7eaf-4895-8b75-8a136cf44717</webElementGuid>
+      <webElementGuid>e91e8287-0f77-4725-8bab-43a3f2e2f8c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-34cf475b42333165b2d87a3c23fcc6c0</value>
-      <webElementGuid>f4e0ce9d-7a93-47e9-873c-374ff282bb88</webElementGuid>
+      <webElementGuid>2e678331-5940-4eb8-a198-cbb65b2da985</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[(name() = 'a') and (position() = 4)]</value>
-      <webElementGuid>b60694a7-b03a-48f3-a4c2-3398f7bf2829</webElementGuid>
+      <webElementGuid>ace2941e-98cf-4089-8872-e85adf0e6757</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[(name() = 'a') and (position() = 4)]</value>
-      <webElementGuid>df3826a4-69f7-4eaf-b969-310371be00f0</webElementGuid>
+      <webElementGuid>4ee6aa58-5c0c-426c-b0fe-4b50ceb4bbbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
                 ' or . = '
                     Catálogo del Menú
                 ')]</value>
-      <webElementGuid>8aac3e49-7137-4de7-9130-65fabb0923b3</webElementGuid>
+      <webElementGuid>02ab98f9-86ae-4d48-a618-e1c264ec6db2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

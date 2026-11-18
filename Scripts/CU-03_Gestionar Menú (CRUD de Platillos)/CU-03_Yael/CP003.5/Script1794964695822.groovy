@@ -50,7 +50,6 @@ WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Reposit
 WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/input_Nombre'), 
     nombrePlatillo)
 
-// ---------- Formulario de nuevo platillo ----------
 TestObject selectCategoria = findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/select_Categora')
 
 // Leer las opciones reales del select y elegir una al azar (ignora la opción vacía)

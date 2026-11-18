@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>91279730-e313-455c-aa60-cea949e89140</webElementGuid>
+      <webElementGuid>7f5b4227-adf9-45b6-a887-6443d0b1caaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>5a24af2f-fc74-4a92-9d23-554c7d674103</webElementGuid>
+      <webElementGuid>a67cd897-c7c9-4717-9d20-5191227f2c4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-fuego px-5 py-2.5 font-bold text-white transition hover:bg-parrilla</value>
-      <webElementGuid>5b32e6d1-3a2a-44cf-a43e-f3e43e3255d2</webElementGuid>
+      <webElementGuid>c8a07943-51b7-42d3-a4d3-804b3f09cfed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                 Registrar platillo
             </value>
-      <webElementGuid>830dcdfd-2162-4fec-9924-625cd7430ed9</webElementGuid>
+      <webElementGuid>f19c8bc6-d8fe-4147-80a7-e87b2d1d2864</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-3b13ce359022e876669f7ee78b8ea119</value>
-      <webElementGuid>1ad70e37-33fa-45fb-bae4-3346cb614bf3</webElementGuid>
+      <webElementGuid>297d4cc0-32ad-416b-b5cd-6548e3126298</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>ec0a0d15-543a-4de1-bd7f-a6b90fe25279</webElementGuid>
+      <webElementGuid>895c8b4c-a08c-4bb0-be92-8117640be5d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>cc46815c-37df-436c-b638-fde798d39974</webElementGuid>
+      <webElementGuid>32744a9d-fcc1-4669-adb5-da9dbbffb4e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
             ' or . = '
                 Registrar platillo
             ')]</value>
-      <webElementGuid>62583220-6aee-4de1-b5db-7a09a57dc850</webElementGuid>
+      <webElementGuid>8eab714c-676b-4fd6-b928-6342b55b6735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
