@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alta exitosa (Campos válidos)</description>
+   <name>CP009.1</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Yael Gutierrez Gonzalez</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>dbfad5c6-7f8f-4918-a08f-fa05a50b94b8</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Yael Gutierrez Gonzalez</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>dbfad5c6-7f8f-4918-a08f-fa05a50b94b8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fce80673-7c86-408f-bfd9-4562e07e64a7</testCaseGuid>
+</TestCaseEntity>

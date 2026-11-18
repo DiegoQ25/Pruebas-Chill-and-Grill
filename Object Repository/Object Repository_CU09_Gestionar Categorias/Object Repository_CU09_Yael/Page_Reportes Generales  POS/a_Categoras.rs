@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Categoras</name>
+   <tag></tag>
+   <elementGuidId>f30063ca-efeb-450f-aa92-b600cc2b1a54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'a') and (position() = 5)]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/categorias' and (text() = '
+                    Categorías
+                ' or . = '
+                    Categorías
+                ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-child(5)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Categorías&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0ba5ea74-475e-4725-b404-6a1898a7a79c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://grill-and-chill-production-1766.up.railway.app/admin/categorias</value>
+      <webElementGuid>ac520112-904d-4fa9-8698-90b270810728</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
+      <webElementGuid>ba1cc1b1-16b3-4d3e-93e6-28ba5e42d5c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Categorías
+                </value>
+      <webElementGuid>8b2e0369-518d-4e6f-9d5f-31ab8de75f3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-583307cad37e10233570c720901ca09d</value>
+      <webElementGuid>bb4a00bb-86cc-44c5-bc2d-b9a5f11a9c3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'a') and (position() = 5)]</value>
+      <webElementGuid>cb2d68fe-b179-4dae-86d6-e54020fb9b5b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'a') and (position() = 5)]</value>
+      <webElementGuid>c5433973-a2a1-4a3c-83d1-42e9015e9433</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/categorias' and (text() = '
+                    Categorías
+                ' or . = '
+                    Categorías
+                ')]</value>
+      <webElementGuid>ade41dc9-37f6-4103-9d0f-8cc41bf31486</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
