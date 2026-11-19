@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Salir (10)</name>
+   <tag></tag>
+   <elementGuidId>65dcaff5-4f49-4537-9a11-0a7317068448</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[type=&quot;submit&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Salir&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ee0f47f8-3e38-4034-ae41-0b4826bd0ac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>6a4ab826-99d5-4fda-b8e0-01b4fea5af6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rounded-md bg-red-600 px-3 py-1.5 text-sm font-bold text-white transition hover:bg-red-700</value>
+      <webElementGuid>d98b2bfa-1bec-41ce-b904-7ee095a192a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        Salir
+                    </value>
+      <webElementGuid>1d99a5bb-50a1-47b3-ae72-1feb1c4032a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9079020a2e38f5631afdd3ace81c44b3</value>
+      <webElementGuid>6adab7a4-dbb5-49e0-bfcf-11a80ea533c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@type = 'submit']</value>
+      <webElementGuid>403641ca-f77d-4912-84c6-a384d5113c8c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@type = 'submit']</value>
+      <webElementGuid>05eee2c2-7b44-4b7b-bd9b-831cbf7435a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = '
+                        Salir
+                    ' or . = '
+                        Salir
+                    ')]</value>
+      <webElementGuid>fdfef06d-d05e-4cd9-bb26-222c0628bf02</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

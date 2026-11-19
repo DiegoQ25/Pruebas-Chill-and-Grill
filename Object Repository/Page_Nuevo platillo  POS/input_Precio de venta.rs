@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Precio de venta</name>
+   <tag></tag>
+   <elementGuidId>690c828d-8e7d-4a99-b07a-ad0f3af2ee60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'precio']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#precio</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Precio de venta&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>16bcb1c2-e596-4a27-9a2a-1fe781812f63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>precio</value>
+      <webElementGuid>1920e980-b005-4ba9-9ec2-a3c03cbe322b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>precio</value>
+      <webElementGuid>1edeaac8-bede-4bb9-8894-d4b9b07d5c5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>49232262-4166-489a-bf44-d723d9802866</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>inputmode</name>
+      <type>Main</type>
+      <value>decimal</value>
+      <webElementGuid>d41e50d3-2a63-4da4-9beb-472508fd1328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full rounded-lg border border-slate-200 py-2.5 pr-4 pl-8 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
+      <webElementGuid>dcdf7afc-0eb1-4170-baf7-4d155052a041</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c6b21dc753c6aa3170ba2e3e30afd9df</value>
+      <webElementGuid>8c68a0fc-2a40-447c-963f-441abc5fa00f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'precio']</value>
+      <webElementGuid>21e79aa7-c17b-4221-b853-52f1d7aa496b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'precio']</value>
+      <webElementGuid>34acbfd2-5006-48cc-aef1-d6221f81bec5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'precio' and @name = 'precio' and @type = 'text']</value>
+      <webElementGuid>4d406019-349e-407e-9ffb-e68ae6b29aa1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

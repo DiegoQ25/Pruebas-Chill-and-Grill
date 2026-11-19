@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Abrir una cuenta nueva (1)</name>
+   <tag></tag>
+   <elementGuidId>8a03a95f-c2ee-4bb2-b0c5-9fd81de7fb78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xl ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-full.text-xl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;+&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6132d38c-d7bd-4e5e-8ff1-deb7a381b62f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5539087f-f9c1-4554-9b5e-6075be73fdb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@click</name>
+      <type>Main</type>
+      <value>abriendo = true</value>
+      <webElementGuid>fb7b6048-f9a4-43c0-807c-5bb9d341f22a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dusk</name>
+      <type>Main</type>
+      <value>abrir-cuenta</value>
+      <webElementGuid>05d6ff00-afec-4174-a00a-7035ed9ca694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Abrir una cuenta nueva</value>
+      <webElementGuid>33bfc909-6d1e-4b39-8444-86f0546611b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-8 w-8 items-center justify-center rounded-full bg-green-600 text-xl leading-none font-bold text-white transition hover:bg-green-700</value>
+      <webElementGuid>a5b1b42d-91e0-4e6b-9de3-37122342348e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    +
+                </value>
+      <webElementGuid>7cdc6c85-82cd-4164-a51a-4b5ddf62b39e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-261b3091dabfb4b89ac3bba0d5247911</value>
+      <webElementGuid>ba996142-592a-4b9c-aa35-c7dbbf0af8bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xl ')]</value>
+      <webElementGuid>bedd3d36-a364-4bc5-87ab-12de5844982c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xl ')]</value>
+      <webElementGuid>24501693-7bdf-4325-b888-2bc467932cbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Abrir una cuenta nueva' and (text() = '
+                    +
+                ' or . = '
+                    +
+                ')]</value>
+      <webElementGuid>32bcf0ae-8477-493c-80ae-540b606f7bc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

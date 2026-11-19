@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Abrir una cuenta nueva</name>
+   <tag></tag>
+   <elementGuidId>bce72930-db92-43ff-a21f-b6fc2418df30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = 'Abrir una cuenta nueva']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[title=&quot;Abrir\ una\ cuenta\ nueva&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;+&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>65ba46a7-2239-41b4-9fbf-5fe6abe0be5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>08f679e3-24bd-4d02-bdf0-1d285d0b060d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@click</name>
+      <type>Main</type>
+      <value>abriendo = true</value>
+      <webElementGuid>b1ace1aa-f478-40e6-aee2-de0d3f7a8532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dusk</name>
+      <type>Main</type>
+      <value>abrir-cuenta</value>
+      <webElementGuid>31fe97da-e126-48f2-adde-543544a28261</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Abrir una cuenta nueva</value>
+      <webElementGuid>2da25a25-4330-42c7-8d2b-84d72edb1cf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-8 w-8 items-center justify-center rounded-full bg-green-600 text-xl leading-none font-bold text-white transition hover:bg-green-700</value>
+      <webElementGuid>931e075f-2c6f-4b8b-8a4a-c84fe3d73cf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    +
+                </value>
+      <webElementGuid>fcf5e0f0-b92c-43ee-b07c-cfbc16fe3c1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-63dc571893c54d2247bab7471faa1a65</value>
+      <webElementGuid>d461f24b-ba13-4fc2-aafd-8eba8dc5fb67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@title = 'Abrir una cuenta nueva']</value>
+      <webElementGuid>374eb7b4-3af8-4350-a90b-472f5d772bb6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@title = 'Abrir una cuenta nueva']</value>
+      <webElementGuid>4c4c1e55-6a1a-465a-8455-28c02a85f86a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Abrir una cuenta nueva' and (text() = '
+                    +
+                ' or . = '
+                    +
+                ')]</value>
+      <webElementGuid>06db4dd0-c556-40cd-b48b-eee7214673cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

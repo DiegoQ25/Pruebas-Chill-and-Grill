@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Apertura de cuenta exitosa (Con Mesa seleccionada)</description>
+   <name>CP004.1</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Naian Otañez</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>731deef5-3f7f-4f92-97b7-23c9da55aded</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Naian Otañez</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>731deef5-3f7f-4f92-97b7-23c9da55aded</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08548077-bca4-4c16-b440-a6706d4abfca</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Quitar Volcn de Picaa</name>
+   <tag></tag>
+   <elementGuidId>0eccc23d-0320-4285-8885-0c92247ab531</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = 'Quitar Volcán de Picaña']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[title=&quot;Quitar\ Volcán\ de\ Picaña&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;×&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>92b891c2-4d50-4df3-870e-6cc280e8ba40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>24dadbb7-6da7-4619-a413-57d6e2441f9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@click</name>
+      <type>Main</type>
+      <value>quitar(linea.id_detalle)</value>
+      <webElementGuid>6cd39114-66ff-4d7f-92a9-d0a8532fa508</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>:title</name>
+      <type>Main</type>
+      <value>'Quitar ' + linea.nombre</value>
+      <webElementGuid>9c54de21-cd94-47f6-8838-db9d9eb78a1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-lg leading-none font-bold text-red-500 transition hover:text-red-700</value>
+      <webElementGuid>05d6d66a-2be3-4b2c-b01e-52544ad7ecf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Quitar Volcán de Picaña</value>
+      <webElementGuid>cb0c29d6-be0d-469b-89ca-af79c49f8e70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                    ×
+                                </value>
+      <webElementGuid>f901399f-73b2-4389-a855-54e270490d2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a2d0868d6cf13fca402fc8f5f688b661</value>
+      <webElementGuid>228d757d-6053-4c8e-aeb9-54d47e0c44f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@title = 'Quitar Volcán de Picaña']</value>
+      <webElementGuid>46789373-dcc5-47ff-beae-87b162435330</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@title = 'Quitar Volcán de Picaña']</value>
+      <webElementGuid>6f9724ca-0921-4b0a-b676-2747f4a662d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Quitar Volcán de Picaña' and (text() = '
+                                    ×
+                                ' or . = '
+                                    ×
+                                ')]</value>
+      <webElementGuid>d875cf7d-260d-41eb-b21d-7c12b7ece1bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

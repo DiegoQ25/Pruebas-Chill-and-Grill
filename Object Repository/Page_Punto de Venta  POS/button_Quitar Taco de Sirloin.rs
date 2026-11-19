@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Quitar Taco de Sirloin</name>
+   <tag></tag>
+   <elementGuidId>c26d24f5-edd4-406e-a6e2-ac6d601a59a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = 'Quitar Taco de Sirloin']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[title=&quot;Quitar\ Taco\ de\ Sirloin&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;×&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f1f50934-848b-42c6-b202-d5763da70412</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f3748d2d-a610-4c48-9ad7-8d85e541f3a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@click</name>
+      <type>Main</type>
+      <value>quitar(linea.id_detalle)</value>
+      <webElementGuid>92a83694-b854-455e-b111-6398ab0048e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>:title</name>
+      <type>Main</type>
+      <value>'Quitar ' + linea.nombre</value>
+      <webElementGuid>fb2b2f0c-875e-4589-9986-9b40b158a909</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-lg leading-none font-bold text-red-500 transition hover:text-red-700</value>
+      <webElementGuid>ace6343a-8703-432b-b538-4b8f4363f4d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Quitar Taco de Sirloin</value>
+      <webElementGuid>1595ef00-0160-4c0a-8413-6279e4cce9ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                    ×
+                                </value>
+      <webElementGuid>ca8495a6-2a39-472d-98ed-1665b161b2ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-fe1f1ff8f1f73213dc29d0edb7443085</value>
+      <webElementGuid>edf2720c-2392-4691-8bcb-f46fbc70044e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@title = 'Quitar Taco de Sirloin']</value>
+      <webElementGuid>bb29c2ce-9751-4795-9fa9-4c7a6e8e60fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@title = 'Quitar Taco de Sirloin']</value>
+      <webElementGuid>ef2e9fc0-07bf-4b24-acdd-169b4c4d11ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Quitar Taco de Sirloin' and (text() = '
+                                    ×
+                                ' or . = '
+                                    ×
+                                ')]</value>
+      <webElementGuid>88eb1648-87fe-47dc-bb91-c5bf161c0450</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

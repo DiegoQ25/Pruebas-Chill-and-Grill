@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Evitar registro duplicado por doble clic rapido (RN-10)</description>
+   <name>CP004.10</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Naian Otañez</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>731deef5-3f7f-4f92-97b7-23c9da55aded</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Naian Otañez</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>731deef5-3f7f-4f92-97b7-23c9da55aded</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5bd05a53-3683-443f-8153-3f4cde18fdaa</testCaseGuid>
+</TestCaseEntity>
