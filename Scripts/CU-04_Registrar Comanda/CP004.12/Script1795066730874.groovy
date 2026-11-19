@@ -19,6 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(null)
+//si
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
 
