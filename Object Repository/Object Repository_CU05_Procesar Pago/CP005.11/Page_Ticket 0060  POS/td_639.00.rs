@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_639.00</name>
+   <tag></tag>
+   <elementGuidId>e91846f0-1bf0-4fcf-93de-94933d925a6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.font-bold.text-base .text-right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-base ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-right ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;$639.00&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a44a5bb0-da2b-4069-91d2-903e41d9f81c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-right</value>
+      <webElementGuid>7282de0b-0065-4d41-beec-4a5e7ba767ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$639.00</value>
+      <webElementGuid>4f0282f7-4a21-4cc4-92e8-11b3512977b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ae4c4310578eae337f02651b3ec9bcb3</value>
+      <webElementGuid>2ac68860-b08f-4f85-9926-7189bfee4805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tr[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-base ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-right ')]</value>
+      <webElementGuid>14ec525a-a82d-4ab4-97d4-305208ccdb61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//tr[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-base ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-right ')]</value>
+      <webElementGuid>462df830-3bb5-4b72-abde-0cef869378b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '$639.00' or . = '$639.00')]</value>
+      <webElementGuid>ba66241c-23ee-43cc-9b9d-c8585e65283a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
