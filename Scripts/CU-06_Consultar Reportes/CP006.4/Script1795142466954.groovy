@@ -18,3 +18,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(null)
+
+WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
+
+WebUI.setText(findTestObject('Object Repository_CU06_Consultar Reportes/CP006.4/Page_Control de Acceso  POS/input_Usuario ID'), 
+    'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository_CU06_Consultar Reportes/CP006.4/Page_Control de Acceso  POS/input_Contrasea'), 
+    '/5S6MFFLcE4mlsixtc6/Tg==')
+
+WebUI.setText(findTestObject('Object Repository_CU06_Consultar Reportes/CP006.4/Page_Reportes Generales  POS/input_Desde la fecha'), 
+    '2026-11-14')
+
+WebUI.setText(findTestObject('Object Repository_CU06_Consultar Reportes/CP006.4/Page_Reportes Generales  POS/input_Hasta la fecha'), 
+    '2026-11-15')
+
+WebUI.click(findTestObject('Object Repository_CU06_Consultar Reportes/CP006.4/Page_Reportes Generales  POS/button_Buscar Ventas'))
+
+WebUI.click(findTestObject('Object Repository_CU06_Consultar Reportes/CP006.4/Page_Reportes Generales  POS/p_Sin ventas en el rango seleccionado'))
+

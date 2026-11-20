@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP006.1</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Abrahamgc</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>09f75033-108f-4af8-8fbe-dde32dc2f9b4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>168c3161-8ab7-4c5d-89d2-ef1b9177ef94</testCaseGuid>
+</TestCaseEntity>

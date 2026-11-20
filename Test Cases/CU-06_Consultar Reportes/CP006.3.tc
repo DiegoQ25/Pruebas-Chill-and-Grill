@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtrado con fecha inicial posteorior a la final</description>
+   <name>CP006.3</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Abrahamgc</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>09f75033-108f-4af8-8fbe-dde32dc2f9b4</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Abrahamgc</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>09f75033-108f-4af8-8fbe-dde32dc2f9b4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f4d196c-f035-4383-a8ac-919e097d8e3f</testCaseGuid>
+</TestCaseEntity>
