@@ -6,6 +6,10 @@
    <elementGuidId>408f51e1-d1de-40f4-8dbf-1dedd7ea7a55</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>a:nth-child(6)</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/usuarios' and (text() = '
                     Gestión de Empleados
@@ -15,11 +19,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and (name() = 'a') and (position() = 6)]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a.font-semibold:nth-child(6)</value>
+         <value>//*[(name() = 'a') and (position() = 6)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4390a312-5f60-4926-a1c1-16d4fd0cab04</webElementGuid>
+      <webElementGuid>cc1a3b02-6e38-4341-8072-8876ec2d5ff4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/usuarios</value>
-      <webElementGuid>900bd6de-a08f-455c-ba7d-733d98816ac7</webElementGuid>
+      <webElementGuid>d12aeb6b-50e6-478a-95fb-3abc48d415df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
-      <webElementGuid>912c74f4-eff4-4b87-936f-3a469d1b0341</webElementGuid>
+      <webElementGuid>304b208b-a8ac-4b35-a6b1-88ced902a419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,31 +63,31 @@
       <value>
                     Gestión de Empleados
                 </value>
-      <webElementGuid>3b964559-542b-4438-bc5b-f9bb4c113d17</webElementGuid>
+      <webElementGuid>4fee1d52-e2e0-4fca-b20a-202b5e746a8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-e306162f16ed44aa334cba3879ac5545</value>
-      <webElementGuid>00a94e39-b832-4f28-8e06-d4282dbab22e</webElementGuid>
+      <value>md5.v1-26549ccf2a07a7f13ec7282108e7c321</value>
+      <webElementGuid>84bcf0f4-6ea1-42c5-bf8d-0493e00157e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and (name() = 'a') and (position() = 6)]</value>
-      <webElementGuid>2a3ae487-5f3a-40f3-8a9a-5c3e4fdbfb22</webElementGuid>
+      <value>//*[(name() = 'a') and (position() = 6)]</value>
+      <webElementGuid>3db74eda-2a2e-49a1-bfd7-8c0805a72c8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and (name() = 'a') and (position() = 6)]</value>
-      <webElementGuid>3dd166ac-b904-41cd-a98b-556a5b6fd980</webElementGuid>
+      <value>//*[(name() = 'a') and (position() = 6)]</value>
+      <webElementGuid>52bc7e59-d12d-4295-a22d-25b51c8e9893</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,14 +99,14 @@
                 ' or . = '
                     Gestión de Empleados
                 ')]</value>
-      <webElementGuid>cc54a8aa-0bc0-4f58-a7ba-4fdfee2c3157</webElementGuid>
+      <webElementGuid>a88b24ea-652b-4199-ace7-9c475a38bedd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[(name() = 'a') and (position() = 6)]</value>
-      <webElementGuid>4ada5bda-f50c-47be-8125-e37013009036</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and (name() = 'a') and (position() = 6)]</value>
+      <webElementGuid>3dd166ac-b904-41cd-a98b-556a5b6fd980</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

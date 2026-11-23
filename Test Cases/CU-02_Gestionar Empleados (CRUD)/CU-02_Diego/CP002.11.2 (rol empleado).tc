@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Lectura exitosa (Filtrado del listado por Rol)</description>
+   <name>CP002.11.2 (rol empleado)</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Echeverria Quijano Diego Yael</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>630c93a1-fe69-420e-98cf-acd1f5adaf26</testCaseGuid>
+</TestCaseEntity>

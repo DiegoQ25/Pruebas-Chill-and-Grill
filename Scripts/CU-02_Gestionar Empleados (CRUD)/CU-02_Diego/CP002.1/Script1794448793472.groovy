@@ -18,15 +18,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// 1. IMPORTAR UTILIDADES PARA ALEATORIEDAD Y LOGS
+import com.kms.katalon.core.util.KeywordUtil
+import java.util.Random
+
+// 2. GENERAR NOMBRE REALISTA, USUARIO Y CONTRASEÑA
+def nombres = [
+	'Diego', 'Carlos', 'Valeria', 'Fernando', 'Camila',
+	'Mateo', 'Sofia', 'Andres', 'Lucia', 'Gabriel',
+	'Daniela', 'Ricardo', 'Mariana', 'Javier', 'Elena',
+	'Sergio', 'Natalia', 'Alejandro', 'Paula', 'Eduardo'
+]
+
+def apellidos = [
+	'Quijano', 'Mendoza', 'Ramirez', 'Castillo', 'Morales',
+	'Herrera', 'Vargas', 'Salazar', 'Navarro', 'Delgado',
+	'Ortega', 'Fuentes', 'Paredes', 'Rojas', 'Guzman',
+	'Torres', 'Flores', 'Cruz', 'Reyes', 'Medina'
+]
+
+Random rand = new Random()
+String nombrePila = nombres[rand.nextInt(nombres.size())]
+String apellido = apellidos[rand.nextInt(apellidos.size())]
+
+String nombreCompleto = "${nombrePila} ${apellido}"              // Ej: Diego Quijano
+String usuario = "${nombrePila}${apellido.substring(0, 1)}"      // Ej: DiegoQ
+String password = "${nombrePila.toLowerCase()}123"               // Ej: diego123
+
+// --- INICIO DE TU FLUJO ORIGINAL ---
 WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS (1)/input_Usuario ID'), 
-    'admin')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS (1)/input_Usuario ID'),
+	'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS (1)/input_Contrasea'), 
-    '/5S6MFFLcE4mlsixtc6/Tg==')
+WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS (1)/input_Contrasea'),
+	'/5S6MFFLcE4mlsixtc6/Tg==')
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS (1)/button_Iniciar Sesin'))
 
@@ -34,16 +62,21 @@ WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Re
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Gestin de Empleados  POS (1)/a_Nuevo empleado'))
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Nombre completo'), 
-    'Selena Quintanilla')
+// 3. INGRESAR LOS DATOS GENERADOS
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Nombre completo'),
+	nombreCompleto)
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Usuario'), 'SelenaQ')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Usuario'),
+	usuario)
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Contrasea'), 
-    'dGiN0va5NxZiMnBqBt4NIg==')
+// Se usa setText en lugar de setEncryptedText porque la contraseña se genera en texto plano
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Contrasea'),
+	password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Confirmar contrasea'), 
-    'dGiN0va5NxZiMnBqBt4NIg==')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Confirmar contrasea'),
+	password)
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/button_Registrar empleado'))
 
+// 4. IMPRIMIR EN CONSOLA PARA VERIFICAR QUÉ SE CREÓ
+KeywordUtil.logInfo("EMPLEADO CREADO -> Nombre: ${nombreCompleto} | Usuario: ${usuario} | Clave: ${password}")

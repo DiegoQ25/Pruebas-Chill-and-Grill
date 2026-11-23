@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Rol</name>
+   <tag></tag>
+   <elementGuidId>e78ccf73-9db7-4d6b-8aff-a315df5fee72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#rol</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'rol' and @name = 'rol' and (text() = '
+                Todos
+                                    Administrador
+                                    Empleado
+                            ' or . = '
+                Todos
+                                    Administrador
+                                    Empleado
+                            ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'rol']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Rol&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>78a6d8bb-7128-4a22-bc5c-bba2597ce7f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>rol</value>
+      <webElementGuid>8a370540-4d3b-436f-b1f9-c35a918930f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>rol</value>
+      <webElementGuid>5b8141af-e3ef-4632-a1be-8e4fc9c62bc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
+      <webElementGuid>6c203ec8-322f-4c4b-895c-9e932eb74f59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                Todos
+                                    Administrador
+                                    Empleado
+                            </value>
+      <webElementGuid>e917a0fd-e6e2-49dc-b01c-4446f1fa30bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4f317904ed55cbb07c27f5801fb6c762</value>
+      <webElementGuid>dcd0ba3f-f2dc-4365-b803-aa52311ddb7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'rol']</value>
+      <webElementGuid>4fe9aa37-633d-4fee-9e27-b50dcc393f7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'rol']</value>
+      <webElementGuid>9d0fe58b-e37c-4a63-aef2-b3e4d2b25b02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'rol' and @name = 'rol' and (text() = '
+                Todos
+                                    Administrador
+                                    Empleado
+                            ' or . = '
+                Todos
+                                    Administrador
+                                    Empleado
+                            ')]</value>
+      <webElementGuid>e893960b-64a3-463d-aa42-de043b45c17c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

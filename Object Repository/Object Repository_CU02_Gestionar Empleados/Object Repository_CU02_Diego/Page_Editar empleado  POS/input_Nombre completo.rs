@@ -6,12 +6,16 @@
    <elementGuidId>bc4e7cf9-42c9-46ee-a018-ceef4e6d124a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'nombre_completo']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#nombre_completo</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'nombre_completo' and @name = 'nombre_completo' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'nombre_completo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fb345065-e17d-477c-a8bd-ee15148b5f8a</webElementGuid>
+      <webElementGuid>f018771a-8f20-4e1f-98cb-9e5c0335488a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nombre_completo</value>
-      <webElementGuid>1af49782-c474-4ec0-9de2-bfb9d64808e7</webElementGuid>
+      <webElementGuid>5c07f99c-689e-4f38-bdbc-88614888c453</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>nombre_completo</value>
-      <webElementGuid>a849266f-37d5-48dc-83de-9dc5769c8a5d</webElementGuid>
+      <webElementGuid>5f4156bb-c324-4815-9696-393b5ca838b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>67b2b3db-1aae-4c14-a9eb-4bb966ec6291</webElementGuid>
+      <webElementGuid>a4298c8f-48f4-43ab-8b80-c7a0e1154fd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,23 +65,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>dcc56c8f-5f33-453c-b839-600cbb1a731c</webElementGuid>
+      <webElementGuid>458ac13d-c1f8-4bf3-977d-3504e1986988</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>David Guzman</value>
-      <webElementGuid>114ee193-2410-4201-b0c1-456510e4eb98</webElementGuid>
+      <value>Juan Narvarte</value>
+      <webElementGuid>ce1655e3-19d5-46e5-b041-95b773a62814</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>c8c0fa4d-a4f9-4df7-9254-60c577cb0092</webElementGuid>
+      <value>mb-1 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
+      <webElementGuid>dafc0deb-560e-4984-b88a-ed5085be674a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-d8167e2606b9b9f05411d82a013f8b6a</value>
-      <webElementGuid>2c1a38c0-12b5-44c1-9e89-fc78422674bb</webElementGuid>
+      <webElementGuid>7c8d602d-a4fe-4abb-9be3-2da2794e0445</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'nombre_completo']</value>
-      <webElementGuid>01c6eb43-19af-4eee-90d0-f2de97e2576a</webElementGuid>
+      <webElementGuid>81a7b2e2-f441-453a-b380-515a45d64d3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'nombre_completo']</value>
-      <webElementGuid>6515fa8f-2209-41d3-8ff8-20b6478ce351</webElementGuid>
+      <webElementGuid>36c71d92-9788-4a77-826f-e5b19ba4cdfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'nombre_completo' and @name = 'nombre_completo' and @type = 'text']</value>
-      <webElementGuid>3b41b3a1-4fd6-45d2-85f0-e2dadb3988a3</webElementGuid>
+      <webElementGuid>090f44da-6aba-4f77-a7ae-484b01c47afa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

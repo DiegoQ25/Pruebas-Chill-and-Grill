@@ -18,25 +18,53 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// 1. IMPORTAR UTILIDADES
+import com.kms.katalon.core.util.KeywordUtil
+import java.util.Random
+
+// 2. GENERAR NUEVO NOMBRE ALEATORIO REALISTA
+def nombres = [
+	'Diego', 'Carlos', 'Valeria', 'Fernando', 'Camila',
+	'Mateo', 'Sofia', 'Andres', 'Lucia', 'Gabriel',
+	'Daniela', 'Ricardo', 'Mariana', 'Javier', 'Elena',
+	'Sergio', 'Natalia', 'Alejandro', 'Paula', 'Eduardo'
+]
+
+def apellidos = [
+	'Quijano', 'Mendoza', 'Ramirez', 'Castillo', 'Morales',
+	'Herrera', 'Vargas', 'Salazar', 'Navarro', 'Delgado',
+	'Ortega', 'Fuentes', 'Paredes', 'Rojas', 'Guzman',
+	'Torres', 'Flores', 'Cruz', 'Reyes', 'Medina'
+]
+
+Random rand = new Random()
+String nuevoNombre = "${nombres[rand.nextInt(nombres.size())]} ${apellidos[rand.nextInt(apellidos.size())]}"
+
+// --- INICIO DEL FLUJO ---
 WebUI.openBrowser(null)
 
-WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
+WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Usuario ID'), 
-    'admin')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Usuario ID'),
+	'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
-    '/5S6MFFLcE4mlsixtc6/Tg==')
+WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Contrasea'),
+	'/5S6MFFLcE4mlsixtc6/Tg==')
 
-WebUI.sendKeys(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Contrasea'),
+	Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Reportes Generales  POS/a_Gestin de Empleados'))
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Gestin de Empleados  POS/a_Editar'))
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Editar empleado  POS/input_Nombre completo'), 
-    'Marie Saldaña')
+// 3. GUARDAR EL NOMBRE ANTERIOR PARA EL LOG Y REEMPLAZARLO POR EL ALEATORIO
+TestObject campoNombre = findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Editar empleado  POS/input_Nombre completo')
+String nombreAnterior = WebUI.getAttribute(campoNombre, 'value')
+
+WebUI.setText(campoNombre, nuevoNombre)
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Editar empleado  POS/button_Guardar cambios'))
 
+// 4. IMPRIMIR EN CONSOLA EL CAMBIO REALIZADO
+KeywordUtil.logInfo("PRUEBA CP002.12 (Edición de Nombre) -> Anterior: '${nombreAnterior}' | Nuevo: '${nuevoNombre}'")

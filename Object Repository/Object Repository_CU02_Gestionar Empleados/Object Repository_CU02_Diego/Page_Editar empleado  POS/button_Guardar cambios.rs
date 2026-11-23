@@ -6,12 +6,20 @@
    <elementGuidId>46ec1224-51e5-4b2d-b3af-06d75d597deb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
+         <key>CSS</key>
+         <value>button.rounded-lg[type=&quot;submit&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.rounded-lg</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = '
+                Guardar cambios
+            ' or . = '
+                Guardar cambios
+            ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e0bcf6f9-a162-4878-b5ca-9c22505fb9af</webElementGuid>
+      <webElementGuid>1ec31071-fe49-46e2-bed8-6fd36db01bbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>8467f4f7-bb31-4c07-b8ae-2f41d3c82782</webElementGuid>
+      <webElementGuid>6301f215-859d-4d07-8b03-58a2ae610678</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-fuego px-5 py-2.5 font-bold text-white transition hover:bg-parrilla</value>
-      <webElementGuid>108e2180-4dcd-43a7-9a3e-777725391b6b</webElementGuid>
+      <webElementGuid>6b6b0ab6-8cb9-4b1c-bce2-48bcdef3bae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,31 +63,31 @@
       <value>
                 Guardar cambios
             </value>
-      <webElementGuid>4e4e5807-38c7-4962-b0c0-8f32810a719d</webElementGuid>
+      <webElementGuid>99941970-a05b-45df-95f8-026bd17a60ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-3b13ce359022e876669f7ee78b8ea119</value>
-      <webElementGuid>528ddbc7-0528-4d44-a8ea-7cdfc76e25ca</webElementGuid>
+      <value>md5.v1-614bd65d36b6192c06a58be094b1d8f9</value>
+      <webElementGuid>7ede314c-a788-4e18-bd88-6c7ecd6c8d6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>ffe327c8-e94a-4c09-8aaa-a8b013291a79</webElementGuid>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>8b1ffb51-937d-46cb-89bb-a96e48c1501f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>0d39c5c8-ed70-4854-bda3-b67b2991b576</webElementGuid>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>02a31fa1-8987-47b7-8f38-e62374797129</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +99,14 @@
             ' or . = '
                 Guardar cambios
             ')]</value>
-      <webElementGuid>e91ae60c-78fb-48de-a13b-cd24a91f2e6a</webElementGuid>
+      <webElementGuid>d25e5422-0f6a-48e9-b316-6ef4089e3f7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
+      <webElementGuid>74907756-624d-4182-93ef-386a7e2833af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

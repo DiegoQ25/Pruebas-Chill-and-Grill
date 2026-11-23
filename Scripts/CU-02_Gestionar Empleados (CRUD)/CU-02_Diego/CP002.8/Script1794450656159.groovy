@@ -18,15 +18,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// 1. IMPORTAR UTILIDADES
+import com.kms.katalon.core.util.KeywordUtil
+import java.util.Random
+
+// 2. GENERAR NOMBRE, USUARIO Y CONTRASEÑA CORTA (< 8 CARACTERES)
+def nombres = [
+	'Diego', 'Carlos', 'Valeria', 'Fernando', 'Camila',
+	'Mateo', 'Sofia', 'Andres', 'Lucia', 'Gabriel',
+	'Daniela', 'Ricardo', 'Mariana', 'Javier', 'Elena',
+	'Sergio', 'Natalia', 'Alejandro', 'Paula', 'Eduardo'
+]
+
+def apellidos = [
+	'Quijano', 'Mendoza', 'Ramirez', 'Castillo', 'Morales',
+	'Herrera', 'Vargas', 'Salazar', 'Navarro', 'Delgado',
+	'Ortega', 'Fuentes', 'Paredes', 'Rojas', 'Guzman',
+	'Torres', 'Flores', 'Cruz', 'Reyes', 'Medina'
+]
+
+Random rand = new Random()
+String nombrePila = nombres[rand.nextInt(nombres.size())]
+String apellido = apellidos[rand.nextInt(apellidos.size())]
+
+String nombreCompleto = "${nombrePila} ${apellido}"                         // Ej: Diego Quijano
+String usuario = "${nombrePila}${apellido.substring(0, 1)}"                 // Ej: DiegoQ
+String passwordCorta = "${nombrePila.substring(0, 3).toLowerCase()}123"     // Ej: die123 (6 caracteres)
+
+// --- INICIO DEL FLUJO ---
 WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Usuario ID'), 
-    'admin')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Usuario ID'),
+	'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
-    '/5S6MFFLcE4mlsixtc6/Tg==')
+WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/input_Contrasea'),
+	'/5S6MFFLcE4mlsixtc6/Tg==')
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Control de Acceso  POS/button_Iniciar Sesin'))
 
@@ -34,17 +62,20 @@ WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Re
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Gestin de Empleados  POS/a_Nuevo empleado'))
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Nombre completo'), 
-    'Francisco Alvarado')
+// 3. LLENAR FORMULARIO CON CONTRASEÑA MENOR A 8 CARACTERES
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Nombre completo'),
+	nombreCompleto)
 
-WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Usuario'), 
-    'FranciscoA')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Usuario'),
+	usuario)
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Contrasea'), 
-    'G43ux7+M0SY=')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Contrasea'),
+	passwordCorta)
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Confirmar contrasea'), 
-    'G43ux7+M0SY=')
+WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/input_Confirmar contrasea'),
+	passwordCorta)
 
 WebUI.click(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS/button_Registrar empleado'))
 
+// 4. IMPRIMIR EN CONSOLA
+KeywordUtil.logInfo("PRUEBA CP002.8 (Contraseña < 8 caracteres) -> Nombre: ${nombreCompleto} | Usuario: ${usuario} | Clave: ${passwordCorta}")

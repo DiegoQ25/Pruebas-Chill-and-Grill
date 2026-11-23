@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Lectura exitosa (Filtrado del listado por Nombre)</description>
+   <name>CP002.10 .1(aleatorio)</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Echeverria Quijano Diego Yael</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>1fd52d76-0d7f-42ba-b350-faea961624d1</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>077fa290-5858-4a24-a74e-31ac4cbba429</testCaseGuid>
+</TestCaseEntity>
