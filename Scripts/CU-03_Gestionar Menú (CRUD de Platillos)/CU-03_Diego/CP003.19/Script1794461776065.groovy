@@ -18,25 +18,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// 1. IMPORTAR UTILIDADES
+import com.kms.katalon.core.util.KeywordUtil
+import java.util.Random
+import java.util.Locale
+
+// 2. GENERAR PRECIO NEGATIVO ALEATORIO (INCLUYENDO -0)
+Random rand = new Random()
+String precioNegativo
+
+if (rand.nextInt(5) == 0) {
+	// 20% de probabilidad de probar exactamente -0
+	precioNegativo = "-0"
+} else {
+	// 80% de probabilidad de probar un número negativo entre -1.00 y -200.50
+	int pesos = 1 + rand.nextInt(200)
+	def centavosOpciones = [0, 50]
+	int centavos = centavosOpciones[rand.nextInt(centavosOpciones.size())]
+	precioNegativo = String.format(Locale.US, "-%d.%02d", pesos, centavos) // Ej: -25.00
+}
+
+// --- INICIO DEL FLUJO ---
 WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
 
-WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Usuario ID'), 
-    'admin')
+WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Usuario ID'),
+	'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
-    '/5S6MFFLcE4mlsixtc6/Tg==')
+WebUI.setEncryptedText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'),
+	'/5S6MFFLcE4mlsixtc6/Tg==')
 
-WebUI.sendKeys(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'),
+	Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Reportes Generales  POS/a_Catlogo del Men'))
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Catlogo del Men  POS/a_Editar'))
 
-WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/input_Precio de venta'), 
-    '-25.00')
+// 3. INGRESAR EL PRECIO NEGATIVO
+WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/input_Precio de venta'),
+	precioNegativo)
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/button_Guardar cambios'))
 
+// 4. IMPRIMIR EN CONSOLA
+KeywordUtil.logInfo("PRUEBA CP003.19 (Precio negativo) -> Precio ingresado: ${precioNegativo}")
