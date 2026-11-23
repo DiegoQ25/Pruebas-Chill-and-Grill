@@ -18,3 +18,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(null)
+
+WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
+
+WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Control de Acceso  POS/input_Usuario ID'), 
+    'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Control de Acceso  POS/input_Contrasea'), 
+    '/5S6MFFLcE4mlsixtc6/Tg==')
+
+WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Control de Acceso  POS/button_Iniciar Sesin'))
+
+WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Reportes Generales  POS/a_Catlogo del Men'))
+
