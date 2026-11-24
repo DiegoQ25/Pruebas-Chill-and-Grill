@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edición exitosa (Cambio de Rol)</description>
+   <name>CP002.13</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Saul Job Garcia Hernandez</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Saul Job Garcia Hernandez</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>cacaba02-4bda-4c95-a6b7-615f5f95f2d4</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>cacaba02-4bda-4c95-a6b7-615f5f95f2d4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bbf2ade0-8b93-4354-8685-73e53172aa94</testCaseGuid>
+</TestCaseEntity>
