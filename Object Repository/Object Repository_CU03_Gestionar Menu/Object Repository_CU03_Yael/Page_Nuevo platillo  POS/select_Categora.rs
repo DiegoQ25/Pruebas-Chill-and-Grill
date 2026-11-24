@@ -6,6 +6,10 @@
    <elementGuidId>ed1027cf-0983-414a-b5de-b1f89d5fa441</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#id_categoria</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'id_categoria' and @name = 'id_categoria' and (text() = '
             Selecciona…
@@ -27,18 +31,6 @@
                             
                     Postres
                 
-                            
-                    Sopas
-                
-                            
-                    ++++++++++
-                
-                            
-                    .
-                
-                            
-                    -
-                
                     ' or . = '
             Selecciona…
                             
@@ -59,27 +51,11 @@
                             
                     Postres
                 
-                            
-                    Sopas
-                
-                            
-                    ++++++++++
-                
-                            
-                    .
-                
-                            
-                    -
-                
                     ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id = 'id_categoria']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#id_categoria</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -97,7 +73,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>b980f9c8-4219-473c-8053-49f2089f92a3</webElementGuid>
+      <webElementGuid>b3fc2607-7f9f-480c-953d-2d8372075cd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +81,7 @@
       <name>id</name>
       <type>Main</type>
       <value>id_categoria</value>
-      <webElementGuid>d5ecf817-f85f-4af8-a999-e06073ea0e22</webElementGuid>
+      <webElementGuid>1a3f7d3a-607c-44fe-8cf1-1cddf6f3ac64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -113,7 +89,7 @@
       <name>name</name>
       <type>Main</type>
       <value>id_categoria</value>
-      <webElementGuid>55abbc4e-db2f-457f-8397-596023daecf3</webElementGuid>
+      <webElementGuid>3d770457-7b25-4768-bd54-67ba2170e9d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -121,7 +97,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>352ec337-ef29-45da-94ac-b48e67ba5e4e</webElementGuid>
+      <webElementGuid>4391e3c6-301d-4247-9aa8-b2c157a5a3d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -148,20 +124,8 @@
                             
                     Postres
                 
-                            
-                    Sopas
-                
-                            
-                    ++++++++++
-                
-                            
-                    .
-                
-                            
-                    -
-                
                     </value>
-      <webElementGuid>8d664ed6-e0f7-4cf3-9b8b-1d7e2e5493ef</webElementGuid>
+      <webElementGuid>cdc57468-ebd9-4495-8828-9ba989da2d66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -169,7 +133,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9b978060485416576ffcb06be484ba3c</value>
-      <webElementGuid>d03cee66-81c3-4f45-8f1c-f72b1aa18f08</webElementGuid>
+      <webElementGuid>6324c578-8f7f-4b0e-8c50-db6ca66a68b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -177,7 +141,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'id_categoria']</value>
-      <webElementGuid>dd2d7dfa-9f35-49e8-b65c-7ec08833ee48</webElementGuid>
+      <webElementGuid>2338f3a1-49bc-40d0-8e31-e9351f06d4e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -185,7 +149,55 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'id_categoria']</value>
-      <webElementGuid>5c7aede9-47ef-4ff1-b870-0fa8e1cfb066</webElementGuid>
+      <webElementGuid>f95ca7c0-1029-4b78-a306-dcfdf5057442</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'id_categoria' and @name = 'id_categoria' and (text() = '
+            Selecciona…
+                            
+                    Tacos Grill
+                
+                            
+                    Cortes Especiales
+                
+                            
+                    Bebidas
+                
+                            
+                    Entradas y Botanas
+                
+                            
+                    Guarniciones
+                
+                            
+                    Postres
+                
+                    ' or . = '
+            Selecciona…
+                            
+                    Tacos Grill
+                
+                            
+                    Cortes Especiales
+                
+                            
+                    Bebidas
+                
+                            
+                    Entradas y Botanas
+                
+                            
+                    Guarniciones
+                
+                            
+                    Postres
+                
+                    ')]</value>
+      <webElementGuid>233f0d97-336e-4a6b-a1d2-01de6e940169</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

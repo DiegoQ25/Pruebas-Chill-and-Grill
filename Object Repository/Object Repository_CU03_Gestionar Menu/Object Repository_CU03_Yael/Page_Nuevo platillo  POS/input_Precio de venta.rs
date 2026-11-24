@@ -6,16 +6,16 @@
    <elementGuidId>a27f6c68-e52b-4469-8ff1-1d289fbc5dac</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#precio</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'precio' and @name = 'precio' and @type = 'text']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id = 'precio']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#precio</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eeb85c84-3f48-49dc-80a9-b7858875aa87</webElementGuid>
+      <webElementGuid>2fec1831-6a9e-479d-8739-dea12700b252</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>precio</value>
-      <webElementGuid>e3fe0bb3-e072-44c5-aa73-cccedf399bb1</webElementGuid>
+      <webElementGuid>ff78b528-ade5-4248-8632-dac2839c489d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>precio</value>
-      <webElementGuid>b052cd39-82e2-4b30-850f-9c881bbfe740</webElementGuid>
+      <webElementGuid>375c5852-66cb-4d09-a473-5236081ca681</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>bd201bfe-e884-42be-9621-5493d854991d</webElementGuid>
+      <webElementGuid>d7bcf6f7-027f-421f-8670-fd28d9ab86fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>decimal</value>
-      <webElementGuid>8f13c50c-1709-4bc3-917b-aa9cd1993d54</webElementGuid>
+      <webElementGuid>e12e9aa8-7682-425f-87fe-c9385da6f7c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full rounded-lg border border-slate-200 py-2.5 pr-4 pl-8 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>c20728c8-b5ab-483e-8b46-b24c4c335f95</webElementGuid>
+      <webElementGuid>e3aa541c-1741-4c21-855f-678dac18e53c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-c6b21dc753c6aa3170ba2e3e30afd9df</value>
-      <webElementGuid>6397dfb8-5e1b-4b6b-85c6-c589cf4585bd</webElementGuid>
+      <webElementGuid>7b772661-3dc5-4c59-93de-e8057e71af38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'precio']</value>
-      <webElementGuid>eb47284a-156c-491b-960d-d5d50a2feed7</webElementGuid>
+      <webElementGuid>14cc5c8e-d615-499a-bdd7-2b39c2ce69d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'precio']</value>
-      <webElementGuid>1672a36f-d1d2-42d4-b65b-cac644397ff2</webElementGuid>
+      <webElementGuid>ab3830a3-36bd-43b9-82dc-17c4c7a0452a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'precio' and @name = 'precio' and @type = 'text']</value>
-      <webElementGuid>ab10fbd8-ff17-4153-b7fe-a9b5942a3f4f</webElementGuid>
+      <webElementGuid>b61d3227-73c5-453a-aaf0-be8d1e5fca08</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

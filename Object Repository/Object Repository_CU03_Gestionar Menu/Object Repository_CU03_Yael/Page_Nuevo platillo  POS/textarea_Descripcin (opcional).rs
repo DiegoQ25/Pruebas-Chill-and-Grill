@@ -6,16 +6,16 @@
    <elementGuidId>aa97413d-1f57-4067-bed3-616f0d06cd61</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#descripcion</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'descripcion' and @name = 'descripcion']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id = 'descripcion']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#descripcion</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>c3dfe66f-f392-409f-ae4d-a3d89698188d</webElementGuid>
+      <webElementGuid>98bd44fa-95a9-4ede-9b0d-fcaebf973d28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>descripcion</value>
-      <webElementGuid>67297e10-7432-4a2a-934b-90b88cdc7407</webElementGuid>
+      <webElementGuid>17bd53b9-21e3-4246-9f17-c119cac11758</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>descripcion</value>
-      <webElementGuid>c035573c-0ce0-4211-b322-139cbec00412</webElementGuid>
+      <webElementGuid>e8a64c65-3bb8-404f-8dd0-0724c8bab9ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>211b2281-72ea-4ef5-b71a-d3804aeba5d2</webElementGuid>
+      <webElementGuid>ba6792cb-ce5d-4fa1-b5cd-37505850e02d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>1000</value>
-      <webElementGuid>ccea9a12-dbe0-4944-ae17-74691a3f48f3</webElementGuid>
+      <webElementGuid>7fcb8622-568c-49f8-8cd1-2a38ba0219f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-5 w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:border-fuego focus:ring-2 focus:ring-fuego/30 focus:outline-none</value>
-      <webElementGuid>e8a4a2c3-9795-42d1-9e5e-42307672be2c</webElementGuid>
+      <webElementGuid>0af99971-1121-4b60-a187-624c5ae4e5e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-916e1832d6bbe8de7eb775591185503f</value>
-      <webElementGuid>6ff352d5-9699-4cc0-95f7-59c85ceff5fc</webElementGuid>
+      <webElementGuid>d32ccc46-002a-4c47-b77d-c9664a2dcc55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'descripcion']</value>
-      <webElementGuid>a9e7f502-537b-4e85-b765-d2827e2ff4be</webElementGuid>
+      <webElementGuid>7109c392-8dc3-4fed-b9cf-a0e929b7aeef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'descripcion']</value>
-      <webElementGuid>0e7fdd87-aa59-4790-99d7-608a99ebbfbf</webElementGuid>
+      <webElementGuid>cacc57b5-4bd7-4fff-b756-a9d52b4ff609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'descripcion' and @name = 'descripcion']</value>
-      <webElementGuid>405356c4-de99-4f6e-bd37-9de18f1899a3</webElementGuid>
+      <webElementGuid>6b639b8f-79da-479e-8780-396b63614e2b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(null)
 
-WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
+WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
 
 WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Control de Acceso  POS/input_Usuario ID'), 
     'admin')
@@ -32,21 +32,10 @@ WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Reposit
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Reportes Generales  POS/a_Catlogo del Men'))
 
-WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Catlogo del Men  POS/a_Nuevo platillo'))
+WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Catlogo del Men  POS/a_Editar'))
 
-WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/input_Nombre'), 
-    'Sopita Azteca')
+WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Editar platillo  POS/input_Nombre'), 
+    'Agua con gas')
 
-WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/form_Nombre'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/select_Categora'), 
-    '8', false)
-
-WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/textarea_Descripcin (opcional)'), 
-    'Descripcion')
-
-WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/input_Precio de venta'), 
-    '120')
-
-WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Nuevo platillo  POS/button_Registrar platillo'))
+WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Yael/Page_Editar platillo  POS/button_Guardar cambios_1'))
 

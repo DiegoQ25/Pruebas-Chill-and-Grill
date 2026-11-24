@@ -6,6 +6,10 @@
    <elementGuidId>3a424d9b-b7e9-4616-9f91-49ed3537487d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.rounded-lg.bg-fuego</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/platillos/nuevo' and (text() = '
             + Nuevo platillo
@@ -16,10 +20,6 @@
       <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.rounded-lg.bg-fuego</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>816c1d43-8027-4712-b555-669323a6d985</webElementGuid>
+      <webElementGuid>2d049b20-a3f4-4c0d-8e1e-c03fc8a0b61e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/platillos/nuevo</value>
-      <webElementGuid>73d527fd-f480-4617-a22a-a1441b3c618c</webElementGuid>
+      <webElementGuid>f1eecf91-bd85-4dfd-bb9e-2c224d11c7ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-fuego px-4 py-2.5 font-bold text-white transition hover:bg-parrilla</value>
-      <webElementGuid>175f16a5-f09d-4820-9d3e-66107e19da3a</webElementGuid>
+      <webElementGuid>e458764d-cd40-4e2a-a6cc-051e7a15c94e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
             + Nuevo platillo
         </value>
-      <webElementGuid>d3ba8bc7-07a1-413d-9e61-e06cb969ba8c</webElementGuid>
+      <webElementGuid>688631ef-26c5-4582-b15f-2c0ad02a3d9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-f128b0e4ca0efdc90b13735eb665438a</value>
-      <webElementGuid>d34b1e02-80ba-4908-9b57-468443120cd4</webElementGuid>
+      <webElementGuid>58d97323-bcff-468c-8dcb-df906ae5ba3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
-      <webElementGuid>24864975-f579-4557-b377-22dda917f6fd</webElementGuid>
+      <webElementGuid>7e6df75f-c8df-4f05-87b0-3281ba81d5e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
-      <webElementGuid>ab90cbdc-3c36-4948-af3f-ee06d2fe825a</webElementGuid>
+      <webElementGuid>565966fe-df6c-47fd-8864-b574af7e21a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
         ' or . = '
             + Nuevo platillo
         ')]</value>
-      <webElementGuid>4452a9b1-47f3-428a-a0b7-b8c84e7ee074</webElementGuid>
+      <webElementGuid>2ed72398-1258-4cd5-833c-a98b78a96069</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
