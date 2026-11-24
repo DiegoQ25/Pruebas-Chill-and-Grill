@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Abrir cuenta</name>
    <tag></tag>
-   <elementGuidId>b55a654c-f21d-4260-b3df-34e023085fe4</elementGuidId>
+   <elementGuidId>dac0594c-642c-4708-9562-53393a801be4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ')]</value>
+         <key>CSS</key>
+         <value>[dusk=&quot;form-nueva-cuenta&quot;] button.rounded-lg.text-sm.font-bold.text-white</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.rounded-lg.text-sm.text-white</value>
+         <key>XPATH</key>
+         <value>//*[@dusk = 'form-nueva-cuenta']//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>40b8056d-3dc2-4552-b00a-7d2f64216c65</webElementGuid>
+      <webElementGuid>cb478376-25da-4ab4-a225-1074ef873d91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cef3f088-964c-4ddb-b700-d3b7d8ac2bb8</webElementGuid>
+      <webElementGuid>c763e1a2-52c5-4f85-9d6f-d7f9fae621ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>abrirCuenta()</value>
-      <webElementGuid>8cbb1ac2-f345-453c-85d2-bbff4580f1f1</webElementGuid>
+      <webElementGuid>6cb1c45f-96f9-4355-bc08-c7192f32e826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-green-600 px-3 py-2 text-sm font-bold text-white hover:bg-green-700</value>
-      <webElementGuid>f8407a6c-2114-47d6-9415-6d6186eed40d</webElementGuid>
+      <webElementGuid>bc438680-c870-412d-88e2-157d63b19dc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,31 +63,31 @@
       <value>
                         Abrir cuenta
                     </value>
-      <webElementGuid>4eb749d6-6931-4357-8a14-1ffdd0535530</webElementGuid>
+      <webElementGuid>ed4bc8ab-bfaa-4066-ab5d-17242b7252be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-4736aa3821bbd6ccd29146afec703388</value>
-      <webElementGuid>f68f2068-4775-4422-af50-1d387a6aa2c6</webElementGuid>
+      <value>md5.v1-d2536756eaa7c0b9cb14207d816f970b</value>
+      <webElementGuid>f88b0098-03eb-4619-9762-da0cc80babcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ')]</value>
-      <webElementGuid>3f56c4a1-cc52-4be6-991a-f0404f765993</webElementGuid>
+      <value>//*[@dusk = 'form-nueva-cuenta']//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ')]</value>
+      <webElementGuid>b366ead3-8b4e-4389-abe5-735bf33f9a73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ')]</value>
-      <webElementGuid>e2136dcf-beea-4e9f-b619-f45fb55906b7</webElementGuid>
+      <value>//*[@dusk = 'form-nueva-cuenta']//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ')]</value>
+      <webElementGuid>a92359f8-af23-4a43-8d18-87f5f62c682a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
                     ' or . = '
                         Abrir cuenta
                     ')]</value>
-      <webElementGuid>ce68334f-6db9-41ba-b0c2-9e51559ef6a5</webElementGuid>
+      <webElementGuid>b95aa1bd-0333-4dc7-9d95-03317ae3515c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
