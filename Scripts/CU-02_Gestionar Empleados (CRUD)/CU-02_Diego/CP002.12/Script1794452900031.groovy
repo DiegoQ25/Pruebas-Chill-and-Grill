@@ -18,24 +18,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// 1. IMPORTAR UTILIDADES
+// 1. IMPORTAR UTILIDADES PARA JSON, ALEATORIEDAD Y LOGS
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.configuration.RunConfiguration
+import groovy.json.JsonSlurper
+import java.io.File
 import java.util.Random
 
-// 2. GENERAR NUEVO NOMBRE ALEATORIO REALISTA
-def nombres = [
-	'Diego', 'Carlos', 'Valeria', 'Fernando', 'Camila',
-	'Mateo', 'Sofia', 'Andres', 'Lucia', 'Gabriel',
-	'Daniela', 'Ricardo', 'Mariana', 'Javier', 'Elena',
-	'Sergio', 'Natalia', 'Alejandro', 'Paula', 'Eduardo'
-]
+// 2. CARGAR NOMBRES Y APELLIDOS DESDE EL JSON
+String rutaJson = RunConfiguration.getProjectDir() + "/Data Files/datos_nombres.json"
+def datos = new JsonSlurper().parse(new File(rutaJson))
 
-def apellidos = [
-	'Quijano', 'Mendoza', 'Ramirez', 'Castillo', 'Morales',
-	'Herrera', 'Vargas', 'Salazar', 'Navarro', 'Delgado',
-	'Ortega', 'Fuentes', 'Paredes', 'Rojas', 'Guzman',
-	'Torres', 'Flores', 'Cruz', 'Reyes', 'Medina'
-]
+def nombres = datos.nombres
+def apellidos = datos.apellidos
 
 Random rand = new Random()
 String nuevoNombre = "${nombres[rand.nextInt(nombres.size())]} ${apellidos[rand.nextInt(apellidos.size())]}"

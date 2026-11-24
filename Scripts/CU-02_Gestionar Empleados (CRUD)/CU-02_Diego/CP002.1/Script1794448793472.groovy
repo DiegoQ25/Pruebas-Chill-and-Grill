@@ -18,24 +18,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// 1. IMPORTAR UTILIDADES PARA ALEATORIEDAD Y LOGS
+// 1. IMPORTAR UTILIDADES PARA JSON, ALEATORIEDAD Y LOGS
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.configuration.RunConfiguration
+import groovy.json.JsonSlurper
+import java.io.File
 import java.util.Random
 
-// 2. GENERAR NOMBRE REALISTA, USUARIO Y CONTRASEÑA
-def nombres = [
-	'Diego', 'Carlos', 'Valeria', 'Fernando', 'Camila',
-	'Mateo', 'Sofia', 'Andres', 'Lucia', 'Gabriel',
-	'Daniela', 'Ricardo', 'Mariana', 'Javier', 'Elena',
-	'Sergio', 'Natalia', 'Alejandro', 'Paula', 'Eduardo'
-]
+// 2. CARGAR NOMBRES Y APELLIDOS DESDE EL JSON
+String rutaJson = RunConfiguration.getProjectDir() + "/Data Files/datos_nombres.json"
+def datos = new JsonSlurper().parse(new File(rutaJson))
 
-def apellidos = [
-	'Quijano', 'Mendoza', 'Ramirez', 'Castillo', 'Morales',
-	'Herrera', 'Vargas', 'Salazar', 'Navarro', 'Delgado',
-	'Ortega', 'Fuentes', 'Paredes', 'Rojas', 'Guzman',
-	'Torres', 'Flores', 'Cruz', 'Reyes', 'Medina'
-]
+def nombres = datos.nombres
+def apellidos = datos.apellidos
 
 Random rand = new Random()
 String nombrePila = nombres[rand.nextInt(nombres.size())]
@@ -69,7 +64,6 @@ WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object 
 WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Usuario'),
 	usuario)
 
-// Se usa setText en lugar de setEncryptedText porque la contraseña se genera en texto plano
 WebUI.setText(findTestObject('Object Repository_CU02_Gestionar Empleados/Object Repository_CU02_Diego/Page_Nuevo empleado  POS (1)/input_Contrasea'),
 	password)
 

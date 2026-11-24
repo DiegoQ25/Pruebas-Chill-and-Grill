@@ -1,0 +1,14 @@
+{
+  "nombres": [
+    "Diego", "Carlos", "Valeria", "Fernando", "Camila",
+    "Mateo", "Sofia", "Andres", "Lucia", "Gabriel",
+    "Daniela", "Ricardo", "Mariana", "Javier", "Elena",
+    "Sergio", "Natalia", "Alejandro", "Paula", "Eduardo"
+  ],
+  "apellidos": [
+    "Quijano", "Mendoza", "Ramirez", "Castillo", "Morales",
+    "Herrera", "Vargas", "Salazar", "Navarro", "Delgado",
+    "Ortega", "Fuentes", "Paredes", "Rojas", "Guzman",
+    "Torres", "Flores", "Cruz", "Reyes", "Medina"
+  ]
+}
