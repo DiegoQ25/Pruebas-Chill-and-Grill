@@ -18,20 +18,40 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// 1. IMPORTAR UTILIDADES PARA SELECCIÓN ALEATORIA Y LOGS
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.By
+import org.openqa.selenium.WebElement
+import java.util.Random
+
+Random rand = new Random()
+
+// --- INICIO DEL FLUJO ---
 WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
 
-WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Usuario ID'), 
-    'admin')
+WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Usuario ID'),
+	'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
-    '/5S6MFFLcE4mlsixtc6/Tg==')
+WebUI.setEncryptedText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'),
+	'/5S6MFFLcE4mlsixtc6/Tg==')
 
-WebUI.sendKeys(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Control de Acceso  POS/input_Contrasea'),
+	Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Reportes Generales  POS/a_Catlogo del Men'))
 
-WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Catlogo del Men  POS/button_Activo'))
+// 2. BUSCAR SOLO LOS BOTONES "→ Activo" DISPONIBLES
+WebUI.waitForElementVisible(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Catlogo del Men  POS/button_Activo'), 5)
 
+List<WebElement> botonesActivo = DriverFactory.getWebDriver().findElements(By.xpath("//button[contains(normalize-space(), 'Activo')]"))
+
+if (botonesActivo.isEmpty()) {
+	KeywordUtil.markFailed("No hay platillos disponibles para cambiar a Activo.")
+} else {
+	int indice = rand.nextInt(botonesActivo.size())
+	botonesActivo.get(indice).click()
+	KeywordUtil.logInfo("PRUEBA CP003.22 (Pasar a Activo) -> Botón #${indice + 1} de ${botonesActivo.size()} disponibles.")
+}

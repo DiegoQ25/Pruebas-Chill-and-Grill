@@ -18,8 +18,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// 1. IMPORTAR UTILIDADES
+// 1. IMPORTAR UTILIDADES PARA SELECCIÓN ALEATORIA Y LOGS
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.By
+import org.openqa.selenium.WebElement
 import java.util.Random
 import java.util.Locale
 
@@ -54,13 +57,19 @@ WebUI.sendKeys(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repo
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Reportes Generales  POS/a_Catlogo del Men'))
 
-WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Catlogo del Men  POS/a_Editar'))
+// 3. SELECCIONAR UN PLATILLO ALEATORIO DE LA TABLA
+WebUI.waitForElementVisible(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Catlogo del Men  POS/a_Editar'), 5)
 
-// 3. INGRESAR EL PRECIO NEGATIVO
-WebUI.setText(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/input_Precio de venta'),
-	precioNegativo)
+List<WebElement> botonesEditar = DriverFactory.getWebDriver().findElements(By.xpath("//a[normalize-space()='Editar']"))
+int indicePlatillo = rand.nextInt(botonesEditar.size())
+botonesEditar.get(indicePlatillo).click()
+
+// 4. INGRESAR EL PRECIO NEGATIVO
+TestObject campoPrecio = findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/input_Precio de venta')
+WebUI.waitForElementVisible(campoPrecio, 5)
+WebUI.setText(campoPrecio, precioNegativo)
 
 WebUI.click(findTestObject('Object Repository_CU03_Gestionar Menu/Object Repository_CU03_Diego/Page_Editar platillo  POS/button_Guardar cambios'))
 
-// 4. IMPRIMIR EN CONSOLA
-KeywordUtil.logInfo("PRUEBA CP003.19 (Precio negativo) -> Precio ingresado: ${precioNegativo}")
+// 5. IMPRIMIR EN CONSOLA
+KeywordUtil.logInfo("PRUEBA CP003.19 (Precio negativo) -> Platillo #${indicePlatillo + 1} | Precio ingresado: ${precioNegativo}")
