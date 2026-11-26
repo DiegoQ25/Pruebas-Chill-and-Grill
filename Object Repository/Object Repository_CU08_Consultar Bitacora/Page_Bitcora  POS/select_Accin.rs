@@ -10,6 +10,44 @@
          <value>#accion</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'accion' and @name = 'accion' and (text() = '
+                Todas
+                                    auth.login_exitoso
+                                    auth.login_fallido
+                                    auth.logout
+                                    orden.a_cocina
+                                    orden.cancelada
+                                    orden.pagada
+                                    platillo.creado
+                                    platillo.estado_cambiado
+                                    platillo.precio_cambiado
+                                    usuario.actualizado
+                                    usuario.creado
+                                    usuario.desactivado
+                                    usuario.password_cambiado
+                                    usuario.reactivado
+                                    usuario.rol_cambiado
+                            ' or . = '
+                Todas
+                                    auth.login_exitoso
+                                    auth.login_fallido
+                                    auth.logout
+                                    orden.a_cocina
+                                    orden.cancelada
+                                    orden.pagada
+                                    platillo.creado
+                                    platillo.estado_cambiado
+                                    platillo.precio_cambiado
+                                    usuario.actualizado
+                                    usuario.creado
+                                    usuario.desactivado
+                                    usuario.password_cambiado
+                                    usuario.reactivado
+                                    usuario.rol_cambiado
+                            ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id = 'accion']</value>
       </entry>
@@ -29,7 +67,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>d7e5fbcb-8ca8-4f75-bfc3-d9b5513171ca</webElementGuid>
+      <webElementGuid>bcb2f65e-89e7-4555-93e8-04fe8ec0e944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +75,7 @@
       <name>id</name>
       <type>Main</type>
       <value>accion</value>
-      <webElementGuid>adf93d1c-fa96-42fa-9247-5d9c5d31b1d8</webElementGuid>
+      <webElementGuid>142db0d9-6ae8-4247-b93a-9e4228dadc4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +83,7 @@
       <name>name</name>
       <type>Main</type>
       <value>accion</value>
-      <webElementGuid>3239e91d-44b8-41ef-8a97-b0b05e54ce02</webElementGuid>
+      <webElementGuid>d2783f90-4e86-4525-8f87-eb607262b40a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +91,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
-      <webElementGuid>9fee9800-a40d-48bb-be8f-f5221392da57</webElementGuid>
+      <webElementGuid>69c8f072-16cb-435b-a25b-de8e546893f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +103,6 @@
                                     auth.login_exitoso
                                     auth.login_fallido
                                     auth.logout
-                                    categoria.eliminada
                                     orden.a_cocina
                                     orden.cancelada
                                     orden.pagada
@@ -79,7 +116,7 @@
                                     usuario.reactivado
                                     usuario.rol_cambiado
                             </value>
-      <webElementGuid>3b70d702-2ef9-4b7d-ac8a-80b689c36aca</webElementGuid>
+      <webElementGuid>a41442aa-c5b0-42a7-b051-0e4c1e5824aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +124,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-80f5a4ef9fc95effb068bcfd938d4893</value>
-      <webElementGuid>09a00ab4-71e6-4bbf-9946-e625ba84f099</webElementGuid>
+      <webElementGuid>5a26970f-c4b0-42b9-8674-dc1449b096b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +132,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'accion']</value>
-      <webElementGuid>4db0edc8-48d1-44de-9315-e7d928658739</webElementGuid>
+      <webElementGuid>9e573d16-5c48-4271-ae73-cd1af75e0638</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +140,49 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'accion']</value>
-      <webElementGuid>648408b4-26cb-4bae-8a05-0d0a451b68cf</webElementGuid>
+      <webElementGuid>41e0b6db-2f41-425e-98e1-2601beaa5fdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'accion' and @name = 'accion' and (text() = '
+                Todas
+                                    auth.login_exitoso
+                                    auth.login_fallido
+                                    auth.logout
+                                    orden.a_cocina
+                                    orden.cancelada
+                                    orden.pagada
+                                    platillo.creado
+                                    platillo.estado_cambiado
+                                    platillo.precio_cambiado
+                                    usuario.actualizado
+                                    usuario.creado
+                                    usuario.desactivado
+                                    usuario.password_cambiado
+                                    usuario.reactivado
+                                    usuario.rol_cambiado
+                            ' or . = '
+                Todas
+                                    auth.login_exitoso
+                                    auth.login_fallido
+                                    auth.logout
+                                    orden.a_cocina
+                                    orden.cancelada
+                                    orden.pagada
+                                    platillo.creado
+                                    platillo.estado_cambiado
+                                    platillo.precio_cambiado
+                                    usuario.actualizado
+                                    usuario.creado
+                                    usuario.desactivado
+                                    usuario.password_cambiado
+                                    usuario.reactivado
+                                    usuario.rol_cambiado
+                            ')]</value>
+      <webElementGuid>769b267d-d61c-4913-88c1-1e5491e26a5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
