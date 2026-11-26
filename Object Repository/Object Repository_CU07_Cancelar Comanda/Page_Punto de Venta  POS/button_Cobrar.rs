@@ -7,11 +7,19 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.grid button.rounded-lg.font-bold.text-white.transition:nth-child(2)</value>
+         <value>div.grid .rounded-lg.text-white.transition:nth-child(2)</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '
+                                Cobrar
+                            ' or . = '
+                                Cobrar
+                            ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (name() = 'button') and (position() = 2)]</value>
+         <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 2)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a24a8e02-1279-4510-b855-81213cda176e</webElementGuid>
+      <webElementGuid>0da17ff1-da4e-4d58-af1a-0101b2ef1160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>75fb0d72-4c29-4521-a07f-a8e7b45a92c3</webElementGuid>
+      <webElementGuid>927447e3-a727-4775-b833-27a7b94ad0da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>cobrar()</value>
-      <webElementGuid>fb074e73-399b-4da0-a88a-dc79a60784a3</webElementGuid>
+      <webElementGuid>9b281290-dd96-4167-b3a2-10f89aa45480</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +61,7 @@
       <name>:disabled</name>
       <type>Main</type>
       <value>!activa.lineas.length</value>
-      <webElementGuid>47c5d6cb-d8df-46b6-90ad-a42dcc1abc9c</webElementGuid>
+      <webElementGuid>ec98d275-8e06-4898-a652-44aaf65561e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +70,7 @@
       <type>Main</type>
       <value>!activa.lineas.length
                                         ? 'cursor-not-allowed opacity-40' : 'hover:bg-emerald-600'</value>
-      <webElementGuid>0e9e7e60-a837-4f46-b636-0a7da5616602</webElementGuid>
+      <webElementGuid>fa10fcc5-a455-45c6-98a1-8657eb45db51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-emerald-500 px-4 py-3 font-bold text-white transition hover:bg-emerald-600</value>
-      <webElementGuid>e306257c-12e3-445f-a128-5e31d5d81e18</webElementGuid>
+      <webElementGuid>334bdc38-2ba8-4f1d-a4b0-0db10e04acf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,31 +88,31 @@
       <value>
                                 Cobrar
                             </value>
-      <webElementGuid>441e5ef6-cbd5-4ec4-9cb0-00ed764fb3a9</webElementGuid>
+      <webElementGuid>254cc14c-a806-4b4b-9917-2c2ee8e3fbf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-c7f6406db1e88b0c0263dc845ce5dee4</value>
-      <webElementGuid>a08e5367-07f2-46af-be0a-007fe2deaed9</webElementGuid>
+      <value>md5.v1-537ddf61d4aa7768e2c2757fb3a44ab1</value>
+      <webElementGuid>add39b82-b01b-4c6c-b536-edf7b1749cf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (name() = 'button') and (position() = 2)]</value>
-      <webElementGuid>473a02ab-3cd6-4046-84d8-812156cce875</webElementGuid>
+      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 2)]</value>
+      <webElementGuid>2243b3c3-2f9e-4589-85e2-59c3fb46c7b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (name() = 'button') and (position() = 2)]</value>
-      <webElementGuid>4b9837b9-c82e-4be7-909e-b5dd98ab660d</webElementGuid>
+      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 2)]</value>
+      <webElementGuid>85b00774-3bc1-41f6-a1c8-f4fd5117d95d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +124,14 @@
                             ' or . = '
                                 Cobrar
                             ')]</value>
-      <webElementGuid>8d5e7c5f-86d1-40d8-b849-8d38dfb02064</webElementGuid>
+      <webElementGuid>51da3155-8972-4040-a456-e71ea9ef81a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (name() = 'button') and (position() = 2)]</value>
+      <webElementGuid>4b9837b9-c82e-4be7-909e-b5dd98ab660d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

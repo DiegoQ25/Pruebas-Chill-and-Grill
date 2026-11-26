@@ -10,6 +10,14 @@
          <value>a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/tickets/0022' and (text() = '
+            Ver ticket
+        ' or . = '
+            Ver ticket
+        ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a</value>
       </entry>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4033fa96-4518-4590-9d80-7e9840b275bf</webElementGuid>
+      <webElementGuid>ca9e42c0-4ccb-4d8b-bdcc-b29da9bef378</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +45,7 @@
       <name>:href</name>
       <type>Main</type>
       <value>'/tickets/' + folioEmitido</value>
-      <webElementGuid>70949821-a41c-4d8c-a845-176e3eead217</webElementGuid>
+      <webElementGuid>dc8520ba-4638-47e9-95f3-0dc578be239a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +53,15 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-md bg-green-600 px-3 py-1.5 font-bold text-white hover:bg-green-700</value>
-      <webElementGuid>395b4402-a1b3-4cb1-983d-a22771e36cbe</webElementGuid>
+      <webElementGuid>69a958ed-e279-4dfa-8709-355da0418743</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/tickets/0033</value>
-      <webElementGuid>21ca354e-10f5-48ab-b986-71441deca0c6</webElementGuid>
+      <value>/tickets/0022</value>
+      <webElementGuid>1189984e-93b5-4a57-848b-5427f20ec705</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +71,7 @@
       <value>
             Ver ticket
         </value>
-      <webElementGuid>6d26ae37-cfb2-4c65-96d2-d55606151860</webElementGuid>
+      <webElementGuid>7d456e73-8089-4f0f-9bec-dfaea9c3bf85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +79,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-24b1425192d3bc06740ee74d297fe288</value>
-      <webElementGuid>20da1698-7e6f-4399-8afb-f2f5a6a0c679</webElementGuid>
+      <webElementGuid>656c03eb-511c-493c-9dc9-0a6242e1af38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>231def3f-664c-4d9b-9a99-3e7db62ee412</webElementGuid>
+      <webElementGuid>c7e1fbd2-064f-48b4-bd6f-b5ac107937fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +95,19 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>28fda0a8-0f0b-4d0d-8620-d0264a7da3e4</webElementGuid>
+      <webElementGuid>c7d7ff49-ade3-4b63-aebd-a16348bca448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tickets/0022' and (text() = '
+            Ver ticket
+        ' or . = '
+            Ver ticket
+        ')]</value>
+      <webElementGuid>f5f80e0b-e3d1-4023-b4ea-18428beeb834</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
