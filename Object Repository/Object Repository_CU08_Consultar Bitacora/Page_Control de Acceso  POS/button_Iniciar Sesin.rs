@@ -10,10 +10,6 @@
          <value>button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'submit' and (text() = '
                         Iniciar Sesión
@@ -26,6 +22,10 @@
                             
                         
                     ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -43,7 +43,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e9e5f0f0-86d2-4881-b2c7-480711fce4ff</webElementGuid>
+      <webElementGuid>9f3a9e77-f86f-42a0-b6d1-a77452f09f14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>abd95433-352a-453b-b592-fbe9979c7636</webElementGuid>
+      <webElementGuid>a450b8ce-e687-4a49-80d7-88ed6b856422</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,10 +59,11 @@
       <name>class</name>
       <type>Main</type>
       <value>flex w-full items-center justify-center gap-2 rounded-lg
+                                   disabled:cursor-not-allowed disabled:opacity-50
                                    bg-carbon px-4 py-3 font-bold text-white transition
                                    hover:bg-carbon-hondo focus:outline-none focus:ring-2
                                    focus:ring-fuego focus:ring-offset-2</value>
-      <webElementGuid>f05b27b4-cace-43d8-881e-910bc6f313c1</webElementGuid>
+      <webElementGuid>05a93339-adca-4fc4-9622-0ed1db57f294</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,7 +76,7 @@
                             
                         
                     </value>
-      <webElementGuid>b12c64fb-9859-479d-9dfb-20c3fdbe8f36</webElementGuid>
+      <webElementGuid>7c8abec9-675e-4f38-b8f1-5d426346a82e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +84,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b1418d1705dbee547d13ab1f6371522e</value>
-      <webElementGuid>26f327cd-a0de-42cf-9d1a-a67e0c386e89</webElementGuid>
+      <webElementGuid>c63eddab-de26-4f00-8009-3d4c5dff9e30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +92,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>840c14e3-f0b8-4362-8544-3ae604479257</webElementGuid>
+      <webElementGuid>1bb3aa82-076a-4ced-a737-18b498f60562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>:disabled</name>
+      <type>Main</type>
+      <value>segundos > 0</value>
+      <webElementGuid>1f808988-84f1-4eff-ba52-6f12d03dacfd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +108,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>bbe50caf-1fd3-406d-8313-416fee8711f8</webElementGuid>
+      <webElementGuid>b6867719-1c32-45cc-900f-97f9a0e9ba68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +126,6 @@
                             
                         
                     ')]</value>
-      <webElementGuid>9931aba9-c75b-41c1-9c9e-e7d8b03db489</webElementGuid>
+      <webElementGuid>d6e77e87-220c-42b2-9c8a-bc383ab44638</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

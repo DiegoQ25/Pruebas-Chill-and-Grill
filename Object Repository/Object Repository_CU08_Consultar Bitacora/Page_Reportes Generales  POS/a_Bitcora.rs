@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.font-semibold.transition:nth-child(7)</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 7)]</value>
+         <value>a.block:nth-child(7)</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -20,6 +16,10 @@
                 ' or . = '
                     Bitácora
                 ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 7)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5391a29d-d0a6-4262-9a6d-68831149c9c2</webElementGuid>
+      <webElementGuid>8f5c33a3-1b86-4910-94ac-9e58f415944e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/bitacora</value>
-      <webElementGuid>73604017-753d-4203-8866-b62106a7f9db</webElementGuid>
+      <webElementGuid>32677798-05fe-428a-bda1-10de6327d976</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
-      <webElementGuid>31560ffb-37b3-4054-a656-50f86ee41ec4</webElementGuid>
+      <webElementGuid>206bbd42-964a-4806-a40d-d17e947bfa0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,31 +63,31 @@
       <value>
                     Bitácora
                 </value>
-      <webElementGuid>fa61c977-92bc-46ed-84ed-a15e4d55832c</webElementGuid>
+      <webElementGuid>921d7b8f-9bb2-492b-94c8-034320ecd62e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-756fdedec90f2629761a46a73517cd56</value>
-      <webElementGuid>a207bee9-2d79-47ee-93e2-1eb37d5494f3</webElementGuid>
+      <value>md5.v1-4e77ed27371667ea52f62ebef5791071</value>
+      <webElementGuid>1260ae64-99e1-4f06-992e-812a313a1772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 7)]</value>
-      <webElementGuid>9f8b3b69-ce79-488f-b25e-1968b90957f9</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 7)]</value>
+      <webElementGuid>fc483d74-510c-4598-bcff-1f3fcefc949b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 7)]</value>
-      <webElementGuid>cfa6c3cd-5429-4e4a-b819-14f0e64bea6e</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 7)]</value>
+      <webElementGuid>ba7bcd3a-118e-4e09-be40-80a74559ba65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,14 @@
                 ' or . = '
                     Bitácora
                 ')]</value>
-      <webElementGuid>314f8694-27f5-461f-91ce-eac5e029c331</webElementGuid>
+      <webElementGuid>eefdbb39-a9de-4943-a459-9ba5b7b4ba19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and (position() = 7)]</value>
+      <webElementGuid>cfa6c3cd-5429-4e4a-b819-14f0e64bea6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
