@@ -1,38 +1,34 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.llm.keyword.LlmKeywords as LLM
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
 
-WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
+// 1. Iniciar sesión como Empleado (Luci)
+WebUI.waitForElementVisible(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/input_Usuario ID'), 10)
+WebUI.setText(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/input_Usuario ID'), 'Luci')
+WebUI.setEncryptedText(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/input_Contrasea'), 'RePBp35xg5z7GlcnRouTRA==')
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/button_Iniciar Sesin'))
 
-WebUI.setText(findTestObject('Page_Control de Acceso  POS/input_Usuario ID (4)'), 'Luci')
+// 2. Abrir cuenta en Mesa 6 y agregar platillo
+WebUI.waitForElementVisible(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Abrir una cuenta nueva'), 10)
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Abrir una cuenta nueva'))
+WebUI.selectOptionByValue(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/select_Pblico General (mostrador)'), '6', false)
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Abrir cuenta'))
+WebUI.delay(1)
 
-WebUI.setEncryptedText(findTestObject('Page_Control de Acceso  POS/input_Contrasea (4)'), 'RePBp35xg5z7GlcnRouTRA==')
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/btn_Generico_Texto', [('texto') : 'picaña']))
+WebUI.delay(1)
+WebUI.verifyTextPresent('60.00', false)
 
-WebUI.click(findTestObject('Page_Control de Acceso  POS/button_Iniciar Sesin (3)'))
+// 3. Quitar/eliminar la línea del platillo
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/btn_Eliminar_Linea'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_Punto de Venta  POS/span_Mesa 1 (1)'))
+// 4. Aserciones: se retira el platillo y el total regresa a 0.00
+WebUI.verifyTextNotPresent('60.00', false)
+WebUI.verifyTextPresent('0.00', false)
 
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Taco de Sirloin'))
-
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Quitar Taco de Sirloin'))
-
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Salir (3)'))
-
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Salir'))
+WebUI.closeBrowser()

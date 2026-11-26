@@ -19,17 +19,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(null)
-//si
 
 WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
 
-WebUI.setText(findTestObject('Page_Control de Acceso  POS/input_Usuario ID (10)'), 'Luci')
+WebUI.setText(findTestObject('Page_Control de Acceso  POS/input_Usuario ID (16)'), 'Luci')
 
-WebUI.setEncryptedText(findTestObject('Page_Control de Acceso  POS/input_Contrasea (10)'), 'RePBp35xg5z7GlcnRouTRA==')
+WebUI.setEncryptedText(findTestObject('Page_Control de Acceso  POS/input_Contrasea (16)'), 'RePBp35xg5z7GlcnRouTRA==')
 
-WebUI.click(findTestObject('Page_Control de Acceso  POS/button_Iniciar Sesin (9)'))
+WebUI.click(findTestObject('Page_Control de Acceso  POS/button_Iniciar Sesin (15)'))
 
-WebUI.click(findTestObject('Page_Punto de Venta  POS/aside_CUENTAS ABIERTAS'))
+WebUI.click(findTestObject('Page_Punto de Venta  POS/div_CUENTAS ABIERTAS'))
 
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Salir (9)'))
+WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Salir (15)'))
 

@@ -1,42 +1,37 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.llm.keyword.LlmKeywords as LLM
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+// 1. Abrir navegador y entrar al sistema
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app/login')
 
-WebUI.navigateToUrl('https://grill-and-chill-production-1766.up.railway.app')
+// 2. Iniciar sesión como Empleado (Luci)
+WebUI.waitForElementVisible(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/input_Usuario ID'), 10)
+WebUI.setText(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/input_Usuario ID'), 'Luci')
+WebUI.setEncryptedText(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/input_Contrasea'), 
+    'RePBp35xg5z7GlcnRouTRA==')
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Control de Acceso  POS/button_Iniciar Sesin'))
 
-WebUI.setText(findTestObject('Page_Control de Acceso  POS/input_Usuario ID'), 'Luci')
+// 3. Abrir modal, seleccionar Mesa 2 y escribir el nombre del comensal
+WebUI.waitForElementVisible(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Abrir una cuenta nueva'), 10)
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Abrir una cuenta nueva'))
 
-WebUI.setEncryptedText(findTestObject('Page_Control de Acceso  POS/input_Contrasea'), 'RePBp35xg5z7GlcnRouTRA==')
+WebUI.waitForElementVisible(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/select_Pblico General (mostrador)'), 5)
+WebUI.selectOptionByValue(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/select_Pblico General (mostrador)'), 
+    '2', false)
 
-WebUI.sendKeys(findTestObject('Page_Control de Acceso  POS/input_Contrasea'), Keys.chord(Keys.ENTER))
+// IMPORTANTE: Cambia 'input_Nombre_comensal' por el nombre exacto con el que guardaste el objeto en tu carpeta
+WebUI.setText(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/Page_Punto de Venta  POS/input_Nombre_comensal'), 'Andrés Maldonado')
 
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Abrir una cuenta nueva'))
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Abrir cuenta'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Punto de Venta  POS/select_Pblico General (mostrador)'), '2', false)
+// 4. Aserciones (Validaciones del resultado esperado)
+WebUI.delay(1)
+WebUI.verifyTextPresent('Mesa 2', false)
+WebUI.verifyTextPresent('Andrés Maldonado', false)
+WebUI.verifyTextPresent('\\$\\s?0\\.00', true)
 
-WebUI.setText(findTestObject('Page_Punto de Venta  POS/input_Pedro'), 'Andrés Maldonado')
-
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Abrir una cuenta nueva'))
-
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Abrir cuenta'))
-
-WebUI.click(findTestObject('Page_Punto de Venta  POS/button_Salir'))
-
+// 5. Cerrar sesión y navegador
+WebUI.click(findTestObject('Object Repository_CU04_Registrar Comanda/Page_Punto de Venta  POS/button_Salir'))
+WebUI.closeBrowser()
