@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>830698c2-46ab-414b-9d31-c5cdae24a378</webElementGuid>
+      <webElementGuid>0c7e90e0-b96f-4bc5-8c6d-7b3964a1ee9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-sm text-slate-500</value>
-      <webElementGuid>327955df-09ec-4c3b-9764-1dfbaa9afbd9</webElementGuid>
+      <webElementGuid>5db18f36-f3d3-43cc-9e6d-ed9062f80e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <value>
             RNF-09 — registro de operaciones críticas. Solo lectura: no se puede editar ni borrar.
         </value>
-      <webElementGuid>b782ce96-3c68-4cfa-a076-fedd4e50973d</webElementGuid>
+      <webElementGuid>f8c7056b-29ba-415b-b92d-7bb65b54c454</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-4b4ac595571a18761db81a432a501154</value>
-      <webElementGuid>0f92c6cd-82bd-4672-9ae2-5685582ed8ba</webElementGuid>
+      <webElementGuid>1551d9ee-9ec8-4297-82ee-3201cc037dd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//main/*[(name() = 'div') and (position() = 1)]//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ')]</value>
-      <webElementGuid>f2c66c0d-be4f-47e8-8f9a-3989ed6da1dd</webElementGuid>
+      <webElementGuid>f82c83c0-35ad-44f1-9128-3f8cc0049139</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//main/*[(name() = 'div') and (position() = 1)]//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ')]</value>
-      <webElementGuid>4e5145ac-c9af-45f9-a768-f0d1eaf64a90</webElementGuid>
+      <webElementGuid>3b291ba8-454a-4751-aff1-d3283afb6293</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +91,6 @@
         ' or . = '
             RNF-09 — registro de operaciones críticas. Solo lectura: no se puede editar ni borrar.
         ')]</value>
-      <webElementGuid>4c54f990-d195-4689-9bb7-e3299feb897c</webElementGuid>
+      <webElementGuid>11f63d62-7aaa-4cf0-80c2-b99958785b15</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
