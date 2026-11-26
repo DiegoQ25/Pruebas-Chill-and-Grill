@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.rounded-lg</value>
+         <value>button.rounded-lg[type=&quot;submit&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
+         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>748d95ab-d897-497d-9932-d3f85ad40b04</webElementGuid>
+      <webElementGuid>77468bac-4079-45e5-8285-4e3117e8d0c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>58fe2e4c-d14b-4b76-a673-1f7330d2ae56</webElementGuid>
+      <webElementGuid>d1893c96-6d50-4638-bfb1-1c4252d8c2d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-carbon-hondo px-4 py-2 text-sm font-bold text-white</value>
-      <webElementGuid>d9901a2a-bc49-4f33-9a4b-5f8ebbed94a3</webElementGuid>
+      <webElementGuid>15cba066-d64b-4dd5-baf5-49cae0d10683</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,31 +57,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Filtrar</value>
-      <webElementGuid>0e61b6f1-68a8-48e4-9f37-f4778df558e9</webElementGuid>
+      <webElementGuid>de88f655-c0b2-464d-af27-fe9552643a28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-3b13ce359022e876669f7ee78b8ea119</value>
-      <webElementGuid>93ad07c5-05ac-46bf-af53-013954f1cb71</webElementGuid>
+      <value>md5.v1-614bd65d36b6192c06a58be094b1d8f9</value>
+      <webElementGuid>2e5f5f1a-ab6b-4872-b2e8-39ceda32feb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>7cf88701-c7ec-49e0-b9ca-fffc3567ce44</webElementGuid>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>e779ba13-6472-4de4-82e5-a51f557588be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
-      <webElementGuid>76947c25-8325-4354-92df-faccac1764db</webElementGuid>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>ebfa1f15-e77d-4319-988c-b9c75c26185a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,14 +89,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Filtrar' or . = 'Filtrar')]</value>
-      <webElementGuid>9c2e68f0-dd4b-41c8-9bb7-f216f88b738e</webElementGuid>
+      <webElementGuid>5e07e609-7f07-4c23-a967-e42c43f53613</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
-      <webElementGuid>5163a94d-916f-465a-919c-965bf76845e8</webElementGuid>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ')]</value>
+      <webElementGuid>76947c25-8325-4354-92df-faccac1764db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

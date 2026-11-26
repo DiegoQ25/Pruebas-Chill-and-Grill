@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.block:nth-child(7)</value>
+         <value>a:nth-child(7)</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -19,7 +19,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 7)]</value>
+         <value>//*[(name() = 'a') and (position() = 7)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>38864321-1409-4c4d-a8c4-0b84ff6b664f</webElementGuid>
+      <webElementGuid>f89a1bc2-85f7-4021-8ea0-b787fd9d9331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/bitacora</value>
-      <webElementGuid>85c1ad82-0ea9-4432-99f7-d608970aac63</webElementGuid>
+      <webElementGuid>4838e570-feb8-49ba-8fc8-8702a0f53b34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
-      <webElementGuid>bb7d7354-7758-48df-bf93-cc4209b4f14c</webElementGuid>
+      <webElementGuid>abdc457c-c27f-43b5-a5da-7b2c83f9ab1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,31 +63,31 @@
       <value>
                     Bitácora
                 </value>
-      <webElementGuid>48735a55-389c-4ad5-a2b6-af4ee2d46c0c</webElementGuid>
+      <webElementGuid>2fe60947-1a34-422f-8582-7d5775dae1e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-4e77ed27371667ea52f62ebef5791071</value>
-      <webElementGuid>d68cdb48-a97e-4565-b36b-ba7163c286e1</webElementGuid>
+      <value>md5.v1-405f7e6716fa5b9a5d0b15833a7c5677</value>
+      <webElementGuid>4e21e15e-0c28-42fe-b5cf-5125057a8bc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 7)]</value>
-      <webElementGuid>6417e2bf-1717-45dc-9c93-8b47fafe6f50</webElementGuid>
+      <value>//*[(name() = 'a') and (position() = 7)]</value>
+      <webElementGuid>7b916fa9-a34f-4bb1-ae1a-f8d13f2cc666</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 7)]</value>
-      <webElementGuid>4715cf88-1b9d-40e6-9fe2-8bf5b49d7c2e</webElementGuid>
+      <value>//*[(name() = 'a') and (position() = 7)]</value>
+      <webElementGuid>a297a68c-a2e0-40d6-894d-b9d232aa5a55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,15 @@
                 ' or . = '
                     Bitácora
                 ')]</value>
-      <webElementGuid>30050988-a619-4782-9c22-f1befe3c5dcf</webElementGuid>
+      <webElementGuid>816bdcea-bb54-4019-aa0f-9176e221cc17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ') and (name() = 'a') and (position() = 7)]</value>
+      <webElementGuid>4715cf88-1b9d-40e6-9fe2-8bf5b49d7c2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

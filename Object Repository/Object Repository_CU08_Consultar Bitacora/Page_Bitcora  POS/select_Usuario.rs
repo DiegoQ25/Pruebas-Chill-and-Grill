@@ -10,6 +10,86 @@
          <value>#usuario</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'usuario' and @name = 'usuario' and (text() = '
+                Todos
+                                    
+                        Carlos Mesero
+                    
+                                    
+                        Diego Delgado
+                    
+                                    
+                        Diego Paredes
+                    
+                                    
+                        Diego Vargas
+                    
+                                    
+                        Eduardo Castillo
+                    
+                                    
+                        Lucia Mendez
+                    
+                                    
+                        Lucia Morales
+                    
+                                    
+                        Miguel Pedraza
+                    
+                                    
+                        Samuel Solis
+                    
+                                    
+                        Selena Quintero
+                    
+                                    
+                        Sofia Navarro
+                    
+                                    
+                        Valeria Flores
+                    
+                            ' or . = '
+                Todos
+                                    
+                        Carlos Mesero
+                    
+                                    
+                        Diego Delgado
+                    
+                                    
+                        Diego Paredes
+                    
+                                    
+                        Diego Vargas
+                    
+                                    
+                        Eduardo Castillo
+                    
+                                    
+                        Lucia Mendez
+                    
+                                    
+                        Lucia Morales
+                    
+                                    
+                        Miguel Pedraza
+                    
+                                    
+                        Samuel Solis
+                    
+                                    
+                        Selena Quintero
+                    
+                                    
+                        Sofia Navarro
+                    
+                                    
+                        Valeria Flores
+                    
+                            ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id = 'usuario']</value>
       </entry>
@@ -29,7 +109,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>0c84aeb7-cb00-4ac6-a782-e064681dc1ee</webElementGuid>
+      <webElementGuid>f10d3d8e-a03e-4540-8444-212055387070</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +117,7 @@
       <name>id</name>
       <type>Main</type>
       <value>usuario</value>
-      <webElementGuid>ced05324-d6a5-4662-abaf-3ddf400cbe78</webElementGuid>
+      <webElementGuid>ce1399ea-a96f-4686-b83e-157df1df8e9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +125,7 @@
       <name>name</name>
       <type>Main</type>
       <value>usuario</value>
-      <webElementGuid>4d6584e9-c086-43c9-bb49-332ec26cda6d</webElementGuid>
+      <webElementGuid>01f8616b-ab27-4d28-aeb6-75ba513ea7a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +133,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
-      <webElementGuid>bb59cccf-cd2b-4130-bb3f-2bbe6039f18a</webElementGuid>
+      <webElementGuid>2272d584-9a35-44dd-ada4-555dc9d5d2b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,64 +143,43 @@
       <value>
                 Todos
                                     
-                        .
-                    
-                                    
-                        Abraham Garcia
-                    
-                                    
-                        Carlo Quintero
-                    
-                                    
                         Carlos Mesero
                     
                                     
-                        Empleado kesjYr
+                        Diego Delgado
                     
                                     
-                        Empleado uJMohT
+                        Diego Paredes
                     
                                     
-                        Enrique Segoviano
+                        Diego Vargas
                     
                                     
-                        Juan Carlos
+                        Eduardo Castillo
                     
                                     
-                        Lucía Montes
+                        Lucia Mendez
                     
                                     
-                        Maria del Rosario
-                    
-                                    
-                        Mariano Suarez
-                    
-                                    
-                        Marie Saldaña
+                        Lucia Morales
                     
                                     
                         Miguel Pedraza
                     
                                     
-                        Raul Cardenal
-                    
-                                    
-                        Raul Vazquez
-                    
-                                    
                         Samuel Solis
                     
                                     
-                        Saul
+                        Selena Quintero
                     
                                     
-                        Selena Gomez
+                        Sofia Navarro
                     
                                     
-                        Selena Quintanilla
+                        Valeria Flores
                     
                             </value>
-      <webElementGuid>6e53ab12-e5ba-4163-bf5f-8647f38f3b98</webElementGuid>
+      <webElementGuid>bf094706-6fb3-477e-8a0f-711bd29700ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -128,7 +187,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-94a322480183519535b13fa398f273cb</value>
-      <webElementGuid>a8e0c6eb-80c9-4eff-82a1-309cd25d3c71</webElementGuid>
+      <webElementGuid>6a864491-ce72-49c8-b7b6-cdbef88185f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -136,7 +195,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'usuario']</value>
-      <webElementGuid>1e841a6b-2f8b-4e52-bd13-234dffa5e216</webElementGuid>
+      <webElementGuid>044113a5-9038-4d31-905e-f7ccc581073e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +203,91 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'usuario']</value>
-      <webElementGuid>b67afcd9-f298-4b65-a511-97f11b4d1608</webElementGuid>
+      <webElementGuid>551f1403-5448-4441-808f-2c830e3d0589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'usuario' and @name = 'usuario' and (text() = '
+                Todos
+                                    
+                        Carlos Mesero
+                    
+                                    
+                        Diego Delgado
+                    
+                                    
+                        Diego Paredes
+                    
+                                    
+                        Diego Vargas
+                    
+                                    
+                        Eduardo Castillo
+                    
+                                    
+                        Lucia Mendez
+                    
+                                    
+                        Lucia Morales
+                    
+                                    
+                        Miguel Pedraza
+                    
+                                    
+                        Samuel Solis
+                    
+                                    
+                        Selena Quintero
+                    
+                                    
+                        Sofia Navarro
+                    
+                                    
+                        Valeria Flores
+                    
+                            ' or . = '
+                Todos
+                                    
+                        Carlos Mesero
+                    
+                                    
+                        Diego Delgado
+                    
+                                    
+                        Diego Paredes
+                    
+                                    
+                        Diego Vargas
+                    
+                                    
+                        Eduardo Castillo
+                    
+                                    
+                        Lucia Mendez
+                    
+                                    
+                        Lucia Morales
+                    
+                                    
+                        Miguel Pedraza
+                    
+                                    
+                        Samuel Solis
+                    
+                                    
+                        Selena Quintero
+                    
+                                    
+                        Sofia Navarro
+                    
+                                    
+                        Valeria Flores
+                    
+                            ')]</value>
+      <webElementGuid>a14e12fe-a8d0-44f6-a6c9-146c5c4b321e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
