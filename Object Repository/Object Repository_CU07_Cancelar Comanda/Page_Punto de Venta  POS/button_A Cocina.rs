@@ -10,6 +10,14 @@
          <value>.rounded-lg.bg-fuego</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '
+                                A Cocina
+                            ' or . = '
+                                A Cocina
+                            ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
       </entry>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6f3f7c42-3d50-4981-821b-60d2e2c8df72</webElementGuid>
+      <webElementGuid>fc25e6c4-49de-42b2-8df0-54dcc04800df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2db21d3c-50cb-4989-bec3-e7c996d322f2</webElementGuid>
+      <webElementGuid>4ede2db1-56cc-4fb7-a597-7e90895d993d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>aCocina()</value>
-      <webElementGuid>8d49e1f2-7a1b-4eb4-b22b-f18a8785507f</webElementGuid>
+      <webElementGuid>0a78f1c4-a227-4d79-8094-932b135d1f63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +61,7 @@
       <name>:disabled</name>
       <type>Main</type>
       <value>!activa.lineas.length || activa.estatus !== 'abierta'</value>
-      <webElementGuid>87c2b055-c5aa-4d1e-b47f-cdd626194068</webElementGuid>
+      <webElementGuid>ed2b08eb-50c5-4411-a5ff-1159ae488372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +70,7 @@
       <type>Main</type>
       <value>(!activa.lineas.length || activa.estatus !== 'abierta')
                                         ? 'cursor-not-allowed opacity-40' : 'hover:bg-parrilla'</value>
-      <webElementGuid>ef8d25de-6fcf-42e1-8c7f-c6162467c7ec</webElementGuid>
+      <webElementGuid>6a66b314-49ba-4837-872d-d5e9eaff1c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-fuego px-4 py-3 font-bold text-white transition hover:bg-parrilla</value>
-      <webElementGuid>e5520d40-7f75-4602-ae2c-8922175fc060</webElementGuid>
+      <webElementGuid>29ed6246-fcf0-4912-87ec-ff72197f872a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,7 +88,7 @@
       <value>
                                 A Cocina
                             </value>
-      <webElementGuid>71e01776-edfb-4e13-8cc8-cd309baecc21</webElementGuid>
+      <webElementGuid>df5e36a8-66a5-4a48-8c24-14a264334aac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,7 +96,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-f128b0e4ca0efdc90b13735eb665438a</value>
-      <webElementGuid>5abbcb3c-f838-425b-8b4c-2b6eeada4f17</webElementGuid>
+      <webElementGuid>65370d81-860b-4701-93f1-a47b715e1d04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,7 +104,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
-      <webElementGuid>6a12cfa1-7d5a-4f92-9daf-007e00304735</webElementGuid>
+      <webElementGuid>71aca9c4-bbd4-420d-b28d-05269441e4d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +112,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
-      <webElementGuid>7e280a69-3c43-4cd3-9274-9ee50e916834</webElementGuid>
+      <webElementGuid>1a06042a-164c-4abb-a32d-efa8b59cab5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +124,6 @@
                             ' or . = '
                                 A Cocina
                             ')]</value>
-      <webElementGuid>515fa309-57f3-4377-a91c-b8e0a88fe541</webElementGuid>
+      <webElementGuid>b02075ba-30ca-44d7-a8fa-0a41944e6311</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

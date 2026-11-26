@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>path</value>
-      <webElementGuid>38dd814f-e181-4414-836c-92bef91830a8</webElementGuid>
+      <webElementGuid>b3cdb456-d375-457c-8580-7cf8d90db840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>fill-rule</name>
       <type>Main</type>
       <value>evenodd</value>
-      <webElementGuid>2077425b-3e2e-4f57-ae1f-46c07236b612</webElementGuid>
+      <webElementGuid>ebf5b1fb-cfe7-4305-a6d8-49c8fb005a15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>d</name>
       <type>Main</type>
       <value>M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z</value>
-      <webElementGuid>60f7708e-4bf4-4471-aa78-706410e0d262</webElementGuid>
+      <webElementGuid>f438a6ed-6cb9-475e-bcac-b159cdfbf101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>clip-rule</name>
       <type>Main</type>
       <value>evenodd</value>
-      <webElementGuid>8ae9eee7-daa8-4ee2-bdb4-9c94ffe4c7be</webElementGuid>
+      <webElementGuid>4ee75fbc-5d54-48cb-a42e-043f9289e877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-fdeac81a9852599737461c3c5021ea16</value>
-      <webElementGuid>13be2ee8-560f-49ff-a890-c3e6996ba4d2</webElementGuid>
+      <webElementGuid>192849ec-ab7c-4a4e-b51d-4ed820b815fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@clip-rule = 'evenodd']</value>
-      <webElementGuid>520294f1-dad0-4cd8-961d-d22d0539fcff</webElementGuid>
+      <webElementGuid>aaf46b0d-4b74-4684-a7ce-83b7bb2bd630</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@clip-rule = 'evenodd']</value>
-      <webElementGuid>4a4e488e-e34a-4b3f-bd56-47163612655d</webElementGuid>
+      <webElementGuid>5d97b834-c48c-476d-b9ac-a0658f79e9ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

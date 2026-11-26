@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a9a5598d-22c9-4462-aa48-f579061002d4</webElementGuid>
+      <webElementGuid>d4a547b4-6113-4ead-8138-5ed1e24e3017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1a4c15f7-17ae-4e02-8c6c-3e8d1e66a44d</webElementGuid>
+      <webElementGuid>54ad512b-ee03-4d6e-b8d5-2fc082d6214d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>abriendo = true</value>
-      <webElementGuid>3c7a4a7e-dff6-4539-98d3-b1e4d06191af</webElementGuid>
+      <webElementGuid>ca53f263-83ee-4b69-b137-bc6ef37cbeae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>dusk</name>
       <type>Main</type>
       <value>abrir-cuenta</value>
-      <webElementGuid>6e94caac-fcbb-40c0-9ae0-60dd69256750</webElementGuid>
+      <webElementGuid>7b56cca8-9c21-4aef-938f-64ed42cdc6be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Abrir una cuenta nueva</value>
-      <webElementGuid>53e46004-e7b7-4c26-9769-b5149914de36</webElementGuid>
+      <webElementGuid>28849669-b766-4fad-9be3-462431e68c3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex h-8 w-8 items-center justify-center rounded-full bg-green-600 text-xl leading-none font-bold text-white transition hover:bg-green-700</value>
-      <webElementGuid>a4179453-8c81-40b5-bde5-2f519e58473a</webElementGuid>
+      <webElementGuid>0331d88e-d88c-4295-a95e-62c11ba6abe0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <value>
                     +
                 </value>
-      <webElementGuid>da9815a9-e0de-431d-a223-83b71276aad3</webElementGuid>
+      <webElementGuid>dec9258a-dee4-424f-9bc3-e72f7f334c6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-63dc571893c54d2247bab7471faa1a65</value>
-      <webElementGuid>49757705-0622-4f03-bfd6-09d6786ea875</webElementGuid>
+      <webElementGuid>3cedd627-338d-434d-9994-53ee75fcb344</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@title = 'Abrir una cuenta nueva']</value>
-      <webElementGuid>af999a0d-c387-40af-a8e8-fd2ce87fd570</webElementGuid>
+      <webElementGuid>1155f973-d292-4591-8d65-ee8f0c5f094f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@title = 'Abrir una cuenta nueva']</value>
-      <webElementGuid>e944afff-0a49-40b3-82f6-ebd16922d277</webElementGuid>
+      <webElementGuid>9e540d3d-ae4c-4c00-a23f-bba076192219</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
                 ' or . = '
                     +
                 ')]</value>
-      <webElementGuid>425663c3-c7e8-41af-89c9-fdb266213dba</webElementGuid>
+      <webElementGuid>ce3ab387-b7da-493a-8122-81a22b975434</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
