@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3197ef12-0843-4df2-938b-a35c2fa85121</webElementGuid>
+      <webElementGuid>8f61427a-1c9c-4757-8777-f99386eb6aa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5b4c54d2-f706-453f-af4d-719a00fd38b7</webElementGuid>
+      <webElementGuid>dd069f4f-50b3-425e-8922-9993bbc9635a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>confirmarCancelacion()</value>
-      <webElementGuid>de04f19c-ac09-446a-9717-29d1f1dbde0d</webElementGuid>
+      <webElementGuid>1b7fcc62-fc4c-4078-b6df-d0f0f0083edf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-red-600 px-3 py-2 text-sm font-bold text-white hover:bg-red-700</value>
-      <webElementGuid>e330b777-ab72-4a8a-805e-f6149d36d629</webElementGuid>
+      <webElementGuid>e262ad46-d865-44c3-b3af-d77826b36a83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <value>
                                 Sí, aplicar cancelación
                             </value>
-      <webElementGuid>e15a2d38-2f50-4d4c-b65c-20ad88cfa060</webElementGuid>
+      <webElementGuid>1d7cb323-9c81-441a-88ca-7b4db5f82a10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-97aaa8ddc82343089d795bb228979e9f</value>
-      <webElementGuid>6253dafa-6852-4d2f-9ec4-36bd8d9acadd</webElementGuid>
+      <webElementGuid>fe20104b-b5e7-4e00-9329-9cd266d34e52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[(name() = 'div') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (name() = 'button') and (position() = 1)]</value>
-      <webElementGuid>e423158f-6845-4daf-88bb-5b395b45c4d2</webElementGuid>
+      <webElementGuid>bed6c7a2-e76a-4ebf-9539-51d7036866a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[(name() = 'div') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (name() = 'button') and (position() = 1)]</value>
-      <webElementGuid>60e249b4-7f6d-457e-a9a4-51c1c2f85d78</webElementGuid>
+      <webElementGuid>b343ca0b-8f9c-4564-a766-b3718f2d73ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
                             ' or . = '
                                 Sí, aplicar cancelación
                             ')]</value>
-      <webElementGuid>2d273d98-2bdd-4f75-96d9-4326620903f7</webElementGuid>
+      <webElementGuid>d3c185c3-86a3-41aa-8c39-996b962a58e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

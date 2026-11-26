@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>80aad004-22bc-4cf4-8692-aced23a0b765</webElementGuid>
+      <webElementGuid>d8a9b09e-bfe6-4248-9cd0-ae0f6ae2ba34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>x-model</name>
       <type>Main</type>
       <value>motivo</value>
-      <webElementGuid>d4073e9c-0402-4827-9fc8-9e8320290556</webElementGuid>
+      <webElementGuid>6eb620d1-4825-422d-86b3-c6a12c36aa8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c56792e0-bce5-4b01-a0d7-4fe087f2574a</webElementGuid>
+      <webElementGuid>e02ab3f7-c326-4c4a-85c2-23bcef3407d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>255</value>
-      <webElementGuid>a845ffbb-79fd-4876-9f35-76110215db5c</webElementGuid>
+      <webElementGuid>4d483ffa-df5d-45fd-88c8-f5a097f7c82e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Mesero tiro la comida</value>
-      <webElementGuid>529de3fa-540b-43b9-b54d-609a0cda3079</webElementGuid>
+      <webElementGuid>0f278874-14bc-40e7-b2f8-a0d3346abb27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-3 w-full rounded-lg border border-red-200 px-3 py-2 text-sm</value>
-      <webElementGuid>e184e58e-5a27-4946-b391-62d8d0555e85</webElementGuid>
+      <webElementGuid>d73c4bfd-e5c7-4f8f-b245-0a6a61923138</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b27e866f12cdc2a0e8f8ff7a4e1d50c9</value>
-      <webElementGuid>7de9667c-a187-47be-b76e-ca29e66f7afe</webElementGuid>
+      <webElementGuid>b88d5c35-29d3-424e-8643-a714ae201fa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@placeholder = 'Mesero tiro la comida']</value>
-      <webElementGuid>d5613560-2bc0-41e6-9f44-d5b040c97cb6</webElementGuid>
+      <webElementGuid>c27ebdd2-922e-4f60-9164-85aad543b51b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@placeholder = 'Mesero tiro la comida']</value>
-      <webElementGuid>f205aa4b-2409-4ec8-9504-85be1bdf5889</webElementGuid>
+      <webElementGuid>5e7be465-66db-4dd2-be2d-e63fd4963fd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Mesero tiro la comida']</value>
-      <webElementGuid>d6dbb701-45c7-43f2-9d62-c7baa26536c6</webElementGuid>
+      <webElementGuid>12a0654e-6772-4862-8439-0f94ffe74bfe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
