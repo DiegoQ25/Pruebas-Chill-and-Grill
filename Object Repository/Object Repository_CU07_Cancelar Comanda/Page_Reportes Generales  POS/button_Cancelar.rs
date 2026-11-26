@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr.border-b.align-top:nth-child(2) .rounded-md</value>
+         <value>tr.border-b.align-top:nth-child(5) .rounded-md</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -19,14 +19,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;#0017 25/11/2026 10:28 PM Público General Samuel Solis Pagada $90.00 Cancelar&quot;i] >> internal:role=button</value>
+         <value>internal:role=row[name=&quot;#0016 25/11/2026 10:28 PM Público General Samuel Solis Pagada $829.00 Cancelar&quot;i] >> internal:role=button</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e7ec22b4-e094-47aa-84a7-b43376f78afb</webElementGuid>
+      <webElementGuid>cc8ce5f5-7ac8-40ef-97c1-c5e84fe5cf06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,23 +45,23 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2dc71874-4b35-4f33-94cb-fd62455709cd</webElementGuid>
+      <webElementGuid>f9ace63b-e5bb-4478-8302-608bc042a89d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>dusk</name>
       <type>Main</type>
-      <value>cancelar-orden-17</value>
-      <webElementGuid>ffbe3001-5f8b-42bf-9469-be93e00159d0</webElementGuid>
+      <value>cancelar-orden-16</value>
+      <webElementGuid>b0e1d582-37c2-42ba-b620-f2e9fad021c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>@click</name>
       <type>Main</type>
-      <value>cancelando = 17; motivo = ''</value>
-      <webElementGuid>7f00c6aa-aef1-49e1-aef4-3376312ecf16</webElementGuid>
+      <value>cancelando = 16; motivo = ''</value>
+      <webElementGuid>1545d173-9017-41c9-955b-be0d27a1be86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-md border border-red-300 px-2.5 py-1 text-xs font-bold text-red-600 hover:bg-red-50</value>
-      <webElementGuid>35522ca5-3be4-4964-954c-42fe133805b5</webElementGuid>
+      <webElementGuid>186b8be0-009c-4006-953a-bcf9726991a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,31 +79,31 @@
       <value>
                                         Cancelar
                                     </value>
-      <webElementGuid>30ee2011-489a-486a-895a-df1c06a2d17d</webElementGuid>
+      <webElementGuid>b428c4ba-1c5b-43c6-a632-1fa26386f113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-34706f81057a237d2d9698fb518850a0</value>
-      <webElementGuid>bba5ae13-bad3-441c-9541-d73c4065edf0</webElementGuid>
+      <value>md5.v1-0a3a4c6211b94813a22e820d66517328</value>
+      <webElementGuid>ad349aff-a1a5-4d2e-9c62-c4ab432f00a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>0bc458c9-7bc8-4100-b278-63b5f2a3ad38</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>96fdac7f-f9bf-4073-8cba-d0658c3cd3de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>cc26964e-eb22-45d1-8f7f-a309d44e72a9</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>20d5f614-1b13-4a77-82b6-6a7541951d17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,15 @@
                                     ' or . = '
                                         Cancelar
                                     ')]</value>
-      <webElementGuid>c367335c-7c3d-4ee2-9f2e-8e7d61149d31</webElementGuid>
+      <webElementGuid>3282792a-9d37-4575-95fd-d393ef78ac13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>cc26964e-eb22-45d1-8f7f-a309d44e72a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
