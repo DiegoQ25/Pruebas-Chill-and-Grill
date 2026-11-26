@@ -10,16 +10,16 @@
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>.rounded-lg.bg-fuego</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'submit' and (text() = '
                 Crear categoría
             ' or . = '
                 Crear categoría
             ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.rounded-lg.bg-fuego</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2bc4ffd5-82be-4924-8860-0a2e594b32dd</webElementGuid>
+      <webElementGuid>366a1aa3-0663-45ce-94eb-e48b19db416f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>3fac7440-c6b3-44f2-a0e2-90c8ed842c50</webElementGuid>
+      <webElementGuid>2be21441-d9cb-4c0c-a0ab-5c3dee89cff5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full rounded-lg bg-fuego px-4 py-2.5 text-sm font-bold text-white transition hover:bg-parrilla</value>
-      <webElementGuid>67551b3f-7e37-4c4e-b993-57cb1f4dbf83</webElementGuid>
+      <webElementGuid>e5da27c1-10b9-41e1-93d2-bba7fc275574</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                 Crear categoría
             </value>
-      <webElementGuid>acf89958-3ac5-4b09-87d7-0f27717e1393</webElementGuid>
+      <webElementGuid>7b84173d-0f61-40d4-a57b-4e4e7e83ec0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-f128b0e4ca0efdc90b13735eb665438a</value>
-      <webElementGuid>ab4f8076-a84d-46fd-8621-b40a8011c264</webElementGuid>
+      <webElementGuid>57d4af47-1174-41a4-b37b-ea519bb2c027</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
-      <webElementGuid>f3c0cbd5-be67-4303-8e3f-2bafe012ab88</webElementGuid>
+      <webElementGuid>50946d08-046c-4266-a8bc-364163f75e8c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ')]</value>
-      <webElementGuid>0ca9570d-4fba-48c3-9d2d-412396c896f7</webElementGuid>
+      <webElementGuid>8407bde4-8231-4755-a512-bc41e28ed06a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
             ' or . = '
                 Crear categoría
             ')]</value>
-      <webElementGuid>611b01de-8797-48a4-baf7-2e1ca1671186</webElementGuid>
+      <webElementGuid>0fea9ddc-0ee9-47f0-a128-efd291ec8dd0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

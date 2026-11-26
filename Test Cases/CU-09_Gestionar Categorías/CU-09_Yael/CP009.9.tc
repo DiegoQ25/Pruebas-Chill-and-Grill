@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edición fallida (Nombre a otro duplicado)</description>
+   <name>CP009.9</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Yael Gutierrez Gonzalez</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>dbfad5c6-7f8f-4918-a08f-fa05a50b94b8</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Yael Gutierrez Gonzalez</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>dbfad5c6-7f8f-4918-a08f-fa05a50b94b8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0bce31ec-452a-4eb5-8888-978517a84536</testCaseGuid>
+</TestCaseEntity>
