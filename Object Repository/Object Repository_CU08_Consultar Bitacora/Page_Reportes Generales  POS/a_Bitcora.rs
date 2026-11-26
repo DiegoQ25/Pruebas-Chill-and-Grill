@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8f5530d2-2cc9-429e-8a47-adb0d8652fdc</webElementGuid>
+      <webElementGuid>652e5ce0-43b0-48c0-a624-eff7f4b6bee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://grill-and-chill-production-1766.up.railway.app/admin/bitacora</value>
-      <webElementGuid>509be6a9-a63a-4d57-80f4-b958b0248598</webElementGuid>
+      <webElementGuid>e91c4e38-689c-4514-95cd-a929416beacb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
-      <webElementGuid>fa96695c-eb1f-4f0a-9e5e-c7b6686638c2</webElementGuid>
+      <webElementGuid>028c2b48-f676-4340-a968-269a14c371d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                     Bitácora
                 </value>
-      <webElementGuid>8e6b5dd7-dd9f-4e52-bd00-77457a6ba255</webElementGuid>
+      <webElementGuid>30734d45-f8d4-4ed1-bdd4-7dcc0f470e8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-405f7e6716fa5b9a5d0b15833a7c5677</value>
-      <webElementGuid>322b2c20-016b-40a4-a7ff-77cfcc2c4f8a</webElementGuid>
+      <webElementGuid>2197192e-a7bc-4c31-91cd-3f390da80aa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[(name() = 'a') and (position() = 7)]</value>
-      <webElementGuid>d736220c-5435-4cea-bbac-aeba03248b36</webElementGuid>
+      <webElementGuid>c26152b9-d97f-4fe7-af56-0bb691af636f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[(name() = 'a') and (position() = 7)]</value>
-      <webElementGuid>dd41609d-30e4-4c17-8c35-6d384cd7afbb</webElementGuid>
+      <webElementGuid>cbc5b70b-3ea1-49f4-a297-707394f8100f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
                 ' or . = '
                     Bitácora
                 ')]</value>
-      <webElementGuid>6e41d13d-4ee1-44b6-9d81-07a68e462104</webElementGuid>
+      <webElementGuid>2a14ee22-3486-4e89-b695-9bb324525fef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

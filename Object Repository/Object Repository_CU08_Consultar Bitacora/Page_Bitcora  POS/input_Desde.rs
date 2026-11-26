@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>986f9343-c160-4dcc-ace4-c31e3fcacb00</webElementGuid>
+      <webElementGuid>f0a14fa3-d012-4e9a-b36f-a9ad3d6e5214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>desde</value>
-      <webElementGuid>b9ad018e-be1f-4640-9c1c-cbc83670427f</webElementGuid>
+      <webElementGuid>e0b99c18-46bb-494a-bd73-993017bf7880</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>desde</value>
-      <webElementGuid>cae8e927-528c-40db-a3e2-7d50194aa50a</webElementGuid>
+      <webElementGuid>8ee72ca9-07d5-407c-b360-bdc07fea451c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>1b840d62-e3af-4fb6-a5d7-8ff28420241a</webElementGuid>
+      <webElementGuid>3871cfd8-4565-4948-8302-173bbc0cfc1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
-      <webElementGuid>67a95a33-9afd-40d8-8ad1-9d727501dc43</webElementGuid>
+      <webElementGuid>c5a799b7-ac11-4271-8a8b-15a17830ed88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-81b9200c50bb0d4eedeb6aedcf2d27e5</value>
-      <webElementGuid>b2248699-2aee-477e-9134-61afd62bd7e1</webElementGuid>
+      <webElementGuid>b4157e78-494f-420d-9f30-f08d3734d11c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'desde']</value>
-      <webElementGuid>256e6582-18a0-4af5-a90f-0da879187bc4</webElementGuid>
+      <webElementGuid>54ccd47a-d2a7-4c94-8191-c0d254299827</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>min</name>
       <type>Main</type>
       <value>2020-01-01</value>
-      <webElementGuid>9bcbde60-745c-41a8-ac9e-673fa89c2d0e</webElementGuid>
+      <webElementGuid>d2400621-2f7d-44c1-b117-b05eb9431873</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>max</name>
       <type>Main</type>
       <value>2026-11-26</value>
-      <webElementGuid>0fcfd42a-de4e-4a91-ae4d-9e875d0e01eb</webElementGuid>
+      <webElementGuid>14e94beb-3011-48fc-9461-c3313d2170a8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'desde']</value>
-      <webElementGuid>9a1f34a4-8de6-488a-b83d-4eafffff2be6</webElementGuid>
+      <webElementGuid>26e8e882-7d19-4980-914c-3f8435e1c768</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'desde' and @name = 'desde' and @type = 'date']</value>
-      <webElementGuid>f50c56fc-db64-4d40-b77e-0ff113019ad1</webElementGuid>
+      <webElementGuid>5126e546-bdd8-4135-a47e-7737a723deeb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
