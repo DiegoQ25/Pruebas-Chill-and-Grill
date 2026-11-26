@@ -10,6 +10,14 @@
          <value>.rounded-xl.bg-fuego:nth-child(2)</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '
+                        Tacos Grill
+                    ' or . = '
+                        Tacos Grill
+                    ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ') and (position() = 2)]</value>
       </entry>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f34c26fd-6453-4d00-b32e-b7c6628580aa</webElementGuid>
+      <webElementGuid>65122ac8-6e2c-45d3-880f-0d52b06ad2e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d26a6459-7734-4d7c-908d-0be400b1a90e</webElementGuid>
+      <webElementGuid>a02085b3-f01c-46fb-9669-f86b5728a9ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>categoria = 1</value>
-      <webElementGuid>9652a398-1a81-43d3-ad5a-c5e81ee541c2</webElementGuid>
+      <webElementGuid>ba628e6c-a525-4ae3-9e28-b258efeee3db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +61,7 @@
       <name>:class</name>
       <type>Main</type>
       <value>String(categoria) === '1' ? 'ring-3 ring-fuego ring-offset-2' : ''</value>
-      <webElementGuid>d49b1d05-e768-4d2d-b87b-723c495cdf71</webElementGuid>
+      <webElementGuid>9ebf95b4-c686-4dac-adde-4ebcb77c9115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>h-20 rounded-xl bg-fuego px-4 text-left text-lg font-bold text-white transition hover:scale-[1.03]</value>
-      <webElementGuid>53ebaa0f-d729-4dd4-9675-fd8a3769c30c</webElementGuid>
+      <webElementGuid>7fb6129a-bef0-4e24-bb7d-c34dfde09b25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +79,7 @@
       <value>
                         Tacos Grill
                     </value>
-      <webElementGuid>7bb68bea-8781-455f-be9a-62b08b0fd6d4</webElementGuid>
+      <webElementGuid>a0b08359-b3c2-402c-9514-7c8b843d30c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a2faa45fd7c6964590ec3836e44614be</value>
-      <webElementGuid>0b002e95-99f3-4fec-877f-d95e066c3d6b</webElementGuid>
+      <webElementGuid>26baead8-8164-4251-8c41-019315bca2bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +95,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ') and (position() = 2)]</value>
-      <webElementGuid>fdcbc045-6e6a-4f7b-a93c-24caaf97945e</webElementGuid>
+      <webElementGuid>9c247dd8-39e9-490d-b522-37b53ad99e49</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +103,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-fuego ') and (position() = 2)]</value>
-      <webElementGuid>4beb79b6-179d-4cd7-99d3-135d93d1e433</webElementGuid>
+      <webElementGuid>b5860b8d-0916-4031-8906-7546e5130597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +115,6 @@
                     ' or . = '
                         Tacos Grill
                     ')]</value>
-      <webElementGuid>c2211618-0a67-4f43-9e82-5c6c92894bac</webElementGuid>
+      <webElementGuid>3a2606fc-cc40-4b06-bb46-7b5ab2251f6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

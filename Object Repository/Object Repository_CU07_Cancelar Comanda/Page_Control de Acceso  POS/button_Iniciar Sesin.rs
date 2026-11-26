@@ -43,7 +43,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4aeb437a-b81d-41fe-b359-501828445a2e</webElementGuid>
+      <webElementGuid>103b1022-3e6c-4839-8c77-d4cfdaae7bdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>8930ee23-4f80-47ef-bb75-7e5329614520</webElementGuid>
+      <webElementGuid>6200d076-0c02-4eeb-b658-890c864d92a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
                                    bg-carbon px-4 py-3 font-bold text-white transition
                                    hover:bg-carbon-hondo focus:outline-none focus:ring-2
                                    focus:ring-fuego focus:ring-offset-2</value>
-      <webElementGuid>639186e9-4b3b-41b2-a565-a7a2bea24896</webElementGuid>
+      <webElementGuid>545ac2f1-7f93-497e-96d2-e052661b3db6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
                             
                         
                     </value>
-      <webElementGuid>0f414445-e417-45d7-8646-c1b48a3cd3e3</webElementGuid>
+      <webElementGuid>2b73bcce-396e-4498-9f3c-dec9447ce63d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b1418d1705dbee547d13ab1f6371522e</value>
-      <webElementGuid>1b602d4b-9a1d-4a4e-8a5b-ab0f1b64ecc8</webElementGuid>
+      <webElementGuid>f8e8a44f-dd89-437d-b586-d67d172b144f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>a5370712-2756-484f-91ba-d899f6094762</webElementGuid>
+      <webElementGuid>a1e71a3b-4175-46b6-b5c1-26f2afa8ce0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>:disabled</name>
       <type>Main</type>
       <value>segundos > 0</value>
-      <webElementGuid>1e1045a0-c589-4e66-9d5f-a25d8b8df74b</webElementGuid>
+      <webElementGuid>34bf63ca-71d7-49e1-a0fb-743c5e8681d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>658cff02-1afb-4beb-82c6-ccb6953a072d</webElementGuid>
+      <webElementGuid>c945d95e-58a1-4e96-b53b-f71d95719da9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
                             
                         
                     ')]</value>
-      <webElementGuid>f121531d-b784-4e74-bf77-f84429da9154</webElementGuid>
+      <webElementGuid>55ed1730-f539-44b2-99ca-0cde449ffb00</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

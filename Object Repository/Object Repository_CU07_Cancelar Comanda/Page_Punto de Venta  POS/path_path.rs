@@ -10,11 +10,11 @@
          <value>[clip-rule=&quot;evenodd&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>//*[@clip-rule = 'evenodd']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>//*[@clip-rule = 'evenodd']</value>
       </entry>
    </selectorCollection>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>path</value>
-      <webElementGuid>3026dad2-e769-48e9-b0c2-ad3cb87bf10c</webElementGuid>
+      <webElementGuid>38dd814f-e181-4414-836c-92bef91830a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>fill-rule</name>
       <type>Main</type>
       <value>evenodd</value>
-      <webElementGuid>42aebe64-2a79-4f97-bb9f-98afa740ef42</webElementGuid>
+      <webElementGuid>2077425b-3e2e-4f57-ae1f-46c07236b612</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>d</name>
       <type>Main</type>
       <value>M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z</value>
-      <webElementGuid>97e06cef-2c79-4d27-92a0-e0502e033e98</webElementGuid>
+      <webElementGuid>60f7708e-4bf4-4471-aa78-706410e0d262</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>clip-rule</name>
       <type>Main</type>
       <value>evenodd</value>
-      <webElementGuid>4d795fa2-413e-4ec5-92bb-6ef44b8e2591</webElementGuid>
+      <webElementGuid>8ae9eee7-daa8-4ee2-bdb4-9c94ffe4c7be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-fdeac81a9852599737461c3c5021ea16</value>
-      <webElementGuid>624dc1cd-b585-4397-b171-f9057cee5823</webElementGuid>
+      <webElementGuid>13be2ee8-560f-49ff-a890-c3e6996ba4d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@clip-rule = 'evenodd']</value>
-      <webElementGuid>a8a1c474-0300-4f35-9b8d-c734308f5e4d</webElementGuid>
+      <webElementGuid>520294f1-dad0-4cd8-961d-d22d0539fcff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@clip-rule = 'evenodd']</value>
-      <webElementGuid>406174ba-0d28-4cc0-978c-f85abc883a4c</webElementGuid>
+      <webElementGuid>4a4e488e-e34a-4b3f-bd56-47163612655d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.rounded-full.text-xl</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xl ')]</value>
+         <value>[title=&quot;Abrir\ una\ cuenta\ nueva&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -21,12 +17,16 @@
                     +
                 ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = 'Abrir una cuenta nueva']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;+&quot;s]</value>
+         <value>internal:role=button[name=&quot;+&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dd626270-4b40-4cea-9d68-ab083057be21</webElementGuid>
+      <webElementGuid>a9a5598d-22c9-4462-aa48-f579061002d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a1f993f8-3df8-4d92-9d74-0e2702f248f8</webElementGuid>
+      <webElementGuid>1a4c15f7-17ae-4e02-8c6c-3e8d1e66a44d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@click</name>
       <type>Main</type>
       <value>abriendo = true</value>
-      <webElementGuid>2f69f953-93c3-4fbd-b822-05be89eea406</webElementGuid>
+      <webElementGuid>3c7a4a7e-dff6-4539-98d3-b1e4d06191af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>dusk</name>
       <type>Main</type>
       <value>abrir-cuenta</value>
-      <webElementGuid>ab49f412-7650-44ee-a487-6b80afc8cd64</webElementGuid>
+      <webElementGuid>6e94caac-fcbb-40c0-9ae0-60dd69256750</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Abrir una cuenta nueva</value>
-      <webElementGuid>2ad1ccdf-1c3d-4a26-80d0-def5d6415a6e</webElementGuid>
+      <webElementGuid>53e46004-e7b7-4c26-9769-b5149914de36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex h-8 w-8 items-center justify-center rounded-full bg-green-600 text-xl leading-none font-bold text-white transition hover:bg-green-700</value>
-      <webElementGuid>dce6c373-2bbf-44a6-b9a0-dcd80f96bc70</webElementGuid>
+      <webElementGuid>a4179453-8c81-40b5-bde5-2f519e58473a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,31 +87,31 @@
       <value>
                     +
                 </value>
-      <webElementGuid>ef3b3377-5682-468d-9843-03649d6a9c78</webElementGuid>
+      <webElementGuid>da9815a9-e0de-431d-a223-83b71276aad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-261b3091dabfb4b89ac3bba0d5247911</value>
-      <webElementGuid>7103a457-5918-4d41-8a1a-277ef0df2536</webElementGuid>
+      <value>md5.v1-63dc571893c54d2247bab7471faa1a65</value>
+      <webElementGuid>49757705-0622-4f03-bfd6-09d6786ea875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xl ')]</value>
-      <webElementGuid>bcbed78f-f14e-4049-bc42-9b09788b3c47</webElementGuid>
+      <value>//*[@title = 'Abrir una cuenta nueva']</value>
+      <webElementGuid>af999a0d-c387-40af-a8e8-fd2ce87fd570</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xl ')]</value>
-      <webElementGuid>20fcd4d1-91e1-4fed-9d07-f2239c7d83b9</webElementGuid>
+      <value>//*[@title = 'Abrir una cuenta nueva']</value>
+      <webElementGuid>e944afff-0a49-40b3-82f6-ebd16922d277</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,14 +123,14 @@
                 ' or . = '
                     +
                 ')]</value>
-      <webElementGuid>92bf1bc9-4257-4ac5-93c1-7d8699126ee6</webElementGuid>
+      <webElementGuid>425663c3-c7e8-41af-89c9-fdb266213dba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@title = 'Abrir una cuenta nueva']</value>
-      <webElementGuid>f965cf01-4e52-43a8-b937-ee71128d877e</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xl ')]</value>
+      <webElementGuid>20fcd4d1-91e1-4fed-9d07-f2239c7d83b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
