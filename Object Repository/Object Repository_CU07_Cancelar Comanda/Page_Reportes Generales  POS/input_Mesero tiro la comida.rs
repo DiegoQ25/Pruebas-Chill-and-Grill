@@ -10,12 +10,12 @@
          <value>[name=&quot;motivo&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@name = 'motivo']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'motivo' and @type = 'text' and @placeholder = 'Mesero tiro la comida']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@name = 'motivo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a61e4fb7-cdb5-4ce3-a90e-e4d8a143a34b</webElementGuid>
+      <webElementGuid>ff9b2cac-daa5-47fd-a7f1-07d7ea86ba60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>name</name>
       <type>Main</type>
       <value>motivo</value>
-      <webElementGuid>b4fb6701-0a0e-4914-831c-026f445566cd</webElementGuid>
+      <webElementGuid>a3e56ec9-8efe-4790-959d-a004d44812bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>x-model</name>
       <type>Main</type>
       <value>motivo</value>
-      <webElementGuid>ca6250e3-3bcb-4b02-a951-d7fe6c042489</webElementGuid>
+      <webElementGuid>dceb99b0-1eb4-4298-84ba-7b48e9e834ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>014f7a1d-f2f0-4848-bf52-35839b5d5920</webElementGuid>
+      <webElementGuid>06d46374-2aba-418c-88cd-1cd3afa3242c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>255</value>
-      <webElementGuid>04131a77-3b0f-4058-b9a6-1a981c0d0ede</webElementGuid>
+      <webElementGuid>3ecadb28-6419-4592-b56a-ce3c0b05d853</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Mesero tiro la comida</value>
-      <webElementGuid>5c4e0ce7-2772-4b41-93de-d689c30badd2</webElementGuid>
+      <webElementGuid>39f5b249-2860-4cf1-ab95-ef9f257e23f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-5 w-full rounded-lg border border-slate-300 px-4 py-2.5</value>
-      <webElementGuid>6ef1cfba-26ec-4902-b859-f627d4880301</webElementGuid>
+      <webElementGuid>cc3da90b-5fca-4d69-9ca9-e5cb1a3c443f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-ae1274a9dde0e4f676cd271cd6f78808</value>
-      <webElementGuid>398bb2c5-0506-44f9-9107-eb091dc959b2</webElementGuid>
+      <webElementGuid>231155ed-7761-402a-9047-110739c33833</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@name = 'motivo']</value>
-      <webElementGuid>8bf4e37e-6933-4210-9184-1f057b4a497f</webElementGuid>
+      <webElementGuid>9f3b0c68-3c13-4a0a-8c01-032c1ff1fd95</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@name = 'motivo']</value>
-      <webElementGuid>987eb4e0-37c5-4ab4-a052-bffbbbcc9f80</webElementGuid>
+      <webElementGuid>660212cc-984f-42d9-a318-7efeb1a7e53f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'motivo' and @type = 'text' and @placeholder = 'Mesero tiro la comida']</value>
-      <webElementGuid>3aca0ca7-9d7a-47bd-9e97-7677ef84920d</webElementGuid>
+      <webElementGuid>7a959122-0eb1-415d-b3dd-b84b0ece943d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

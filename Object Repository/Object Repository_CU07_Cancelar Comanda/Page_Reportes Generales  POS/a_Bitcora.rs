@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Bitcora</name>
+   <tag></tag>
+   <elementGuidId>979ffb5c-eb5d-43cd-b68f-adf6f9fb8d62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-child(7)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'a') and (position() = 7)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Bitácora&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0a49ff6a-2c81-4667-970d-9a5d93dc36c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://grill-and-chill-production-1766.up.railway.app/admin/bitacora</value>
+      <webElementGuid>1e338623-e7b9-4051-ab66-5563c4a4c80a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block px-5 py-3 text-sm font-semibold transition hover:bg-white/5 hover:text-white</value>
+      <webElementGuid>645ef877-624c-4b1d-b40f-895633047597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Bitácora
+                </value>
+      <webElementGuid>9d0a590c-0f0e-48ad-9aaf-15024a6c9f07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-405f7e6716fa5b9a5d0b15833a7c5677</value>
+      <webElementGuid>a75d4c46-92fa-45a9-a5e8-954a487122fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'a') and (position() = 7)]</value>
+      <webElementGuid>b669db6f-e84c-40db-bfdd-96ba17e8397a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'a') and (position() = 7)]</value>
+      <webElementGuid>e42112d1-c7dd-499c-bcd1-0027604415a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://grill-and-chill-production-1766.up.railway.app/admin/bitacora' and (text() = '
+                    Bitácora
+                ' or . = '
+                    Bitácora
+                ')]</value>
+      <webElementGuid>dcebf487-9402-4451-a27f-3c9ce61b6b27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

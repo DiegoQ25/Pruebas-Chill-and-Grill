@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr.border-b.align-top:nth-child(3) .rounded-md</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+         <value>.rounded-md</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -21,12 +17,16 @@
                                         Cancelar
                                     ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;#0030 12/11/2026 01:20 AM Mesa 6 Lucía Montes Pagada $20.00 Cancelar&quot;i] >> internal:role=button</value>
+         <value>internal:role=button[name=&quot;Cancelar&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6ec55e76-6d8b-45ee-9f01-9ea28a3687cc</webElementGuid>
+      <webElementGuid>bbce9d0f-e524-49c3-a69c-49ebbfd2f8b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,23 +45,23 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0643ac37-6487-4734-b3ff-088220495c1c</webElementGuid>
+      <webElementGuid>b8a7f977-7a8e-45db-b918-e301756e27a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>dusk</name>
       <type>Main</type>
-      <value>cancelar-orden-30</value>
-      <webElementGuid>bdc4bde6-84f2-4b87-a8e4-08d99940eb65</webElementGuid>
+      <value>cancelar-orden-14</value>
+      <webElementGuid>06f9b39f-e889-4d4a-ac88-25bc6d731c61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>@click</name>
       <type>Main</type>
-      <value>cancelando = 30; motivo = ''</value>
-      <webElementGuid>894d0dbd-dff4-48e5-9709-37fa2802ad67</webElementGuid>
+      <value>cancelando = 14; motivo = ''</value>
+      <webElementGuid>4543bdf4-b111-4c67-96e7-ffe4da36834d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-md border border-red-300 px-2.5 py-1 text-xs font-bold text-red-600 hover:bg-red-50</value>
-      <webElementGuid>9557aea4-498e-4c0a-b1cb-ad8b1f8356b5</webElementGuid>
+      <webElementGuid>69c206b2-d4e6-454e-be3b-0f923c5368c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,31 +79,31 @@
       <value>
                                         Cancelar
                                     </value>
-      <webElementGuid>ee7ce17c-1807-418d-95ce-b281f44c16fe</webElementGuid>
+      <webElementGuid>e1fc5c49-ff21-45f7-8dd4-291e5ee9b248</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-afdce01e4a869470aba3881bf23719dd</value>
-      <webElementGuid>39a5f708-d15a-4668-98cc-df17269edaec</webElementGuid>
+      <value>md5.v1-71f8a8fedf9c2dc5193275dfde8d7c8a</value>
+      <webElementGuid>acbd3225-89fc-4752-bffb-6f84f3f3ccbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>7835323d-8fff-4800-83e1-80a3ff3436f0</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>fc634807-0485-4b5f-8159-2cfc499d4cb5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
-      <webElementGuid>aaf655cc-9726-4dd7-9ceb-01feeb8d2d3d</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>80e42607-5242-4fe9-be4e-cfcf75ce36fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,15 @@
                                     ' or . = '
                                         Cancelar
                                     ')]</value>
-      <webElementGuid>6bbd6118-5829-4c11-ae13-919453a31762</webElementGuid>
+      <webElementGuid>fb85df70-f69d-4a73-be05-cc7d99236923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ')]</value>
+      <webElementGuid>aaf655cc-9726-4dd7-9ceb-01feeb8d2d3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

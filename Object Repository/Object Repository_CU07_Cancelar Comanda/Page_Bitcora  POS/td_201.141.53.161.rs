@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_201.141.53.161</name>
+   <tag></tag>
+   <elementGuidId>c1170771-73e6-4493-8d88-8ad7e4c93075</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.border-b.align-top:nth-child(1) td.font-mono.text-xs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-mono ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xs ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;201.141.53.161&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3983beff-c7b8-45ef-8208-c9c1aac0c54f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-4 py-3 font-mono text-xs text-slate-400</value>
+      <webElementGuid>827866a3-1ca4-4fa8-a0e7-ca45444fa670</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>201.141.53.161</value>
+      <webElementGuid>140d9a31-40e3-4a94-8851-e6e0e09c301c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7fccd3f60e3be24f4934225853daa613</value>
+      <webElementGuid>edf04338-3d17-46ee-b414-b3dca643ecb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-mono ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xs ')]</value>
+      <webElementGuid>c95e200f-de4d-4c58-bce0-b20fa1c3ac0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-mono ') and contains(concat(' ', normalize-space(@class), ' '), ' text-xs ')]</value>
+      <webElementGuid>f67d55da-0742-471d-8b99-ca5b298e4b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '201.141.53.161' or . = '201.141.53.161')]</value>
+      <webElementGuid>dcc7875f-e481-4073-9c98-78f832e74ff2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

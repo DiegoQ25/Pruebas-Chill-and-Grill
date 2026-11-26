@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.justify-center:nth-child(6) .rounded-lg[type=&quot;submit&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+         <value>.justify-center:nth-child(6) button.rounded-lg[type=&quot;submit&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -20,6 +16,10 @@
                     ' or . = '
                         Sí, aplicar cancelación
                     ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 6)]//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>72256037-823b-4557-a10a-c2cbec07b888</webElementGuid>
+      <webElementGuid>956416c3-ef91-4b66-b832-437f576ca7c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>2b1bb12d-55e3-4b81-b267-08a4bb601b74</webElementGuid>
+      <webElementGuid>fad0d160-b99d-4047-8c13-dea3cf506319</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg bg-red-600 px-4 py-2.5 font-bold text-white hover:bg-red-700</value>
-      <webElementGuid>1f1fd12d-151f-4330-b129-61bd9c949e17</webElementGuid>
+      <webElementGuid>c18a6b46-00cd-4cbf-9561-ac018b29591d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,31 +63,31 @@
       <value>
                         Sí, aplicar cancelación
                     </value>
-      <webElementGuid>728e15a1-ceed-4062-9f5c-68fffe6d1b46</webElementGuid>
+      <webElementGuid>c86b3d06-9fd5-451f-8f19-a7dd5e162a64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-08134d9fbabb867e225e5146358ce722</value>
-      <webElementGuid>20036b35-8ff9-4352-83c2-d3bba118c622</webElementGuid>
+      <value>md5.v1-0b51f177193bb3e47faf17d3322d4199</value>
+      <webElementGuid>fecb22e8-ca58-454f-a35f-6b352d336acf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
-      <webElementGuid>ecdd3392-4156-447e-8b92-0181c4dfcdb0</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 6)]//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>41a1e459-3ef7-4adc-bea0-f4888bc28c60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
-      <webElementGuid>d708d749-c62d-4957-bc70-a34f0e660611</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 6)]//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>e56f0637-8f1f-4d4a-b5e5-d69bfa5ab320</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,14 @@
                     ' or . = '
                         Sí, aplicar cancelación
                     ')]</value>
-      <webElementGuid>c8ee0db6-f2c1-4c52-a255-8958254035fc</webElementGuid>
+      <webElementGuid>89f70168-046a-44b7-a74e-0c263b104c2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and (@type = 'submit')]</value>
+      <webElementGuid>d708d749-c62d-4957-bc70-a34f0e660611</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,18 +7,38 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr.border-b.align-top:nth-child(4) td:nth-child(5)</value>
+         <value>tr.border-b:nth-child(2) td:nth-child(5)</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                                                                
+                                    Cancelada
+                                
+                                
+                                                                    
+                                        Motivo: Cliente se retiró
+                                    
+                                                            ' or . = '
+                                                                
+                                    Cancelada
+                                
+                                
+                                                                    
+                                        Motivo: Cliente se retiró
+                                    
+                                                            ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 4)]//*[(name() = 'td') and (position() = 5)]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 2)]//*[(name() = 'td') and (position() = 5)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Cancelada Motivo: Error al capturar orden y confirma la cancelación.&quot;i] >> nth=0</value>
+         <value>internal:role=cell[name=&quot;Cancelada Motivo: Cliente se retiró&quot;i] >> nth=1</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +49,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>6750c4ca-8a0d-4f7e-8c32-d535d63edc33</webElementGuid>
+      <webElementGuid>b85cff09-2bb1-49ee-a7ba-12a1857cfbfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>px-5 py-3</value>
-      <webElementGuid>044a7242-3c6e-4794-bf46-8fd6fe54b250</webElementGuid>
+      <webElementGuid>5b595cd9-1c97-4825-8817-7ea8498511f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,27 +70,59 @@
                                 
                                 
                                                                     
-                                        Motivo: Error al capturar orden y confirma la cancelación.
+                                        Motivo: Cliente se retiró
                                     
                                                             </value>
-      <webElementGuid>c073cf93-e766-417f-b7d6-b4e189f3c7e1</webElementGuid>
+      <webElementGuid>74378545-15d5-4f9b-b93e-de0375a3baec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-943a4e1d1d717bad5235b804a03d52d6</value>
-      <webElementGuid>19892b8b-8260-400e-9bf6-e213008b7bda</webElementGuid>
+      <value>md5.v1-bc74bab58746e3f6cd449594e4fe79c4</value>
+      <webElementGuid>dce731d5-9c65-48f0-ae18-b3f39bf92a4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' align-top ') and (name() = 'tr') and (position() = 4)]//*[(name() = 'td') and (position() = 5)]</value>
-      <webElementGuid>88abe097-b2e3-47dc-80ad-c13c314a009e</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 2)]//*[(name() = 'td') and (position() = 5)]</value>
+      <webElementGuid>a77f4c77-612d-4e1d-bdaa-02f63ab13bb5</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and (name() = 'tr') and (position() = 2)]//*[(name() = 'td') and (position() = 5)]</value>
+      <webElementGuid>a179233b-44f9-429f-8325-e7abe8fa4273</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                                                                
+                                    Cancelada
+                                
+                                
+                                                                    
+                                        Motivo: Cliente se retiró
+                                    
+                                                            ' or . = '
+                                                                
+                                    Cancelada
+                                
+                                
+                                                                    
+                                        Motivo: Cliente se retiró
+                                    
+                                                            ')]</value>
+      <webElementGuid>84d173f7-5af7-432b-8490-cf16e155a8c1</webElementGuid>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
