@@ -10,12 +10,12 @@
          <value>#hasta</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'hasta']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'hasta' and @name = 'hasta' and @type = 'date']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'hasta']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5d699806-07c6-4a57-b4c7-d3539fae170b</webElementGuid>
+      <webElementGuid>8b1b2217-d450-4463-a09b-40347c71e3f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hasta</value>
-      <webElementGuid>b1649229-a83b-4fcd-8298-4235b0bf1fe7</webElementGuid>
+      <webElementGuid>fe4aa9b4-a76f-4169-9d0b-d553fa095c91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>hasta</value>
-      <webElementGuid>2e3d9b36-3281-44b5-8b7c-5ec760b922de</webElementGuid>
+      <webElementGuid>fab44b5f-66e3-4ab3-b583-0d5f74ea1a7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>691bcbac-bbb7-4f63-b411-c8302a4144a2</webElementGuid>
+      <webElementGuid>e9b0c5b1-4c62-4597-ae38-46ba9f65f627</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
-      <webElementGuid>0ca9a19b-1a62-476f-997b-7f9b8a05674c</webElementGuid>
+      <webElementGuid>d32abcf5-f39f-4179-8d04-70b2d748ea60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9070b6ccd480ce7c7bee7585df6aa0d5</value>
-      <webElementGuid>6ccd18b3-6df3-48bb-9b41-b3d15587854e</webElementGuid>
+      <webElementGuid>a881d573-730f-4df5-abdf-7b6c151bc408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'hasta']</value>
-      <webElementGuid>90490b57-a37e-4e3f-89e4-da4b1d22e033</webElementGuid>
+      <webElementGuid>69ef89c8-ee49-446a-97f5-a509908b3d2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>2020-01-01</value>
+      <webElementGuid>09677ce9-1e92-44f3-b61a-11a783848f2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>2026-11-26</value>
+      <webElementGuid>6bad3c8d-36d1-466f-bdff-50cde4b912c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'hasta']</value>
-      <webElementGuid>a51a14c4-cd2b-46ec-b332-f8e6b248ccfb</webElementGuid>
+      <webElementGuid>d53c5079-1799-485f-b700-4fe55f2aa99f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'hasta' and @name = 'hasta' and @type = 'date']</value>
-      <webElementGuid>c8b88bf9-3fff-456c-a28f-6a68c12fabcb</webElementGuid>
+      <webElementGuid>f53a718d-30f6-4ef6-bf75-29232d6cf276</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

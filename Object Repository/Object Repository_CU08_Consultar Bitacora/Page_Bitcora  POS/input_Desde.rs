@@ -10,12 +10,12 @@
          <value>#desde</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'desde']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'desde' and @name = 'desde' and @type = 'date']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'desde']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3de9d6e5-d15c-458a-bb7b-ffa88066ad1a</webElementGuid>
+      <webElementGuid>986f9343-c160-4dcc-ace4-c31e3fcacb00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>desde</value>
-      <webElementGuid>323a778d-01a3-4e37-919f-dd01897662be</webElementGuid>
+      <webElementGuid>b9ad018e-be1f-4640-9c1c-cbc83670427f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>desde</value>
-      <webElementGuid>16eaf7a6-eec3-4cdd-bfa5-8c988c5caeb3</webElementGuid>
+      <webElementGuid>cae8e927-528c-40db-a3e2-7d50194aa50a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>5d7fb555-89b2-49db-a89f-a3f55083d5f2</webElementGuid>
+      <webElementGuid>1b840d62-e3af-4fb6-a5d7-8ff28420241a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-lg border border-slate-200 px-3 py-2 text-sm</value>
-      <webElementGuid>3ed556ca-0daa-400f-8d49-b48bc37dee25</webElementGuid>
+      <webElementGuid>67a95a33-9afd-40d8-8ad1-9d727501dc43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-81b9200c50bb0d4eedeb6aedcf2d27e5</value>
-      <webElementGuid>b3a1525d-a3d8-4f1f-a849-d6dd35bb2f25</webElementGuid>
+      <webElementGuid>b2248699-2aee-477e-9134-61afd62bd7e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'desde']</value>
-      <webElementGuid>ee9d9985-96f4-4af7-9758-6a2c4e50a83e</webElementGuid>
+      <webElementGuid>256e6582-18a0-4af5-a90f-0da879187bc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>2020-01-01</value>
+      <webElementGuid>9bcbde60-745c-41a8-ac9e-673fa89c2d0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>2026-11-26</value>
+      <webElementGuid>0fcfd42a-de4e-4a91-ae4d-9e875d0e01eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'desde']</value>
-      <webElementGuid>02af9ef7-6824-4769-9899-4e3ac4c05097</webElementGuid>
+      <webElementGuid>9a1f34a4-8de6-488a-b83d-4eafffff2be6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'desde' and @name = 'desde' and @type = 'date']</value>
-      <webElementGuid>e541eaf2-f78b-404e-b90d-916404854316</webElementGuid>
+      <webElementGuid>f50c56fc-db64-4d40-b77e-0ff113019ad1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
