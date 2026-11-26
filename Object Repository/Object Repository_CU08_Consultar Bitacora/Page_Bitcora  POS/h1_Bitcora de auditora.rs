@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Bitcora de auditora</name>
+   <tag></tag>
+   <elementGuidId>4281ff4f-5c2e-4763-8265-74b4656a3936</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Bitácora de auditoría&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>96e05306-1e89-47b3-b722-32ddd8c33a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-2xl font-bold</value>
+      <webElementGuid>4fb520c5-3adf-44f1-82b1-5bc6659d5b48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bitácora de auditoría</value>
+      <webElementGuid>3e90ad33-6e92-48a9-a7a1-3feb230a0793</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-fb3552d99c58948e2bb074c2caec7792</value>
+      <webElementGuid>4943ff13-1533-4655-b637-fab054470f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>d477419a-d28a-4f77-b9b9-33403c241caa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>b88083e7-6203-497b-b484-9184bfaad054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Bitácora de auditoría' or . = 'Bitácora de auditoría')]</value>
+      <webElementGuid>f9c17fc9-ca60-4180-9439-ba3ede6547ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
